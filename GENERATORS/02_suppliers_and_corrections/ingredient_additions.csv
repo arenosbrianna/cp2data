@@ -1,0 +1,5 @@
+ingredient_code,ingredient_name,category,storage_type,uom,shelf_life_days,is_perishable,supply_ur_product,supplier_name,order_unit,pack_size,pack_unit,pack_size_base,min_order_packs,basis
+RIC,Japanese Rice (plain),rice,ambient,g,365,False,Rice,HI-TOP,sack,25,kg,25000,1,"SUPPLY-UR 'Rice' 25 kg sack PHP 1,600 (row 21); owner's own portion note 150 g = PHP 9.60"
+MSO,Miso Paste,condiment,chilled,g,180,False,Miso,FUJI MART JAPANESE FOOD STORE,pack,1,kg,1000,1,SUPPLY-UR 'Miso' 1 kg pack PHP 150 (row 36); catalogue lists 1 kg miso
+MNG,Mango,fruit,chilled,g,5,True,Mango,KYOTO MART,kg,1,kg,1000,1,"SUPPLY-UR 'Mango' PHP 300/kg, 50% wastage (row 73)"
+GB,Ground Beef,beef,frozen,g,30,False,Ground Beef,UMA'I JAPANESE GROCERY,pack,1,kg,1000,1,SUPPLY-UR 'Ground Beef' PHP 385/kg (row 51); SUM-SALES25 has GB_050/GB_060 columns

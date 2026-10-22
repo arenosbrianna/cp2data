@@ -1,0 +1,447 @@
+item_id,item_name,category,before,after,synthetic_lines_added,rules
+1,(BSP) California,BAKED SUSHI PIE,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+2,(BSP)Cheesy beef,BAKED SUSHI PIE,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+3,(BSP)Creamy chicken,BAKED SUSHI PIE,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,E_named_ingredient
+4,(BSP)mixed seafood,BAKED SUSHI PIE,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+5,(DS)Coffee reg,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+6,(ST) Gyoza 4pcs,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+7,1pc Ebi Tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+8,2 pcs Gyoza,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+9,240g chicken,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+10,2pcs Kani tempura,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+11,30pcs Kani Tempura,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+12,3pcs Gyoza,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+13,3pcs Kani Tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+14,3pcs Kani tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+15,3pcs K√†ni Tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+16,3pcs ebi tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+17,4 in 1 baked,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),5,"A_copy_variant,B_sushi_rice"
+18,40pcs California maki,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),9,A_copy_variant
+19,48pcs CALIFORNIA MAKI PLATTERS,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,8,E_named_ingredient
+20,4pcs Agedashi,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+21,4pcs California Maki,Other,NO RECIPE,SYNTHETIC (copied from a variant),9,A_copy_variant
+22,4pcs Gyoza,ANNIVERSARY PROMO 2025,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+23,4pcs Tofu,ANNIVERSARY PROMO 2025,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+24,6pcs Tamago Sushi,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+25,Additional,GRAB FOOD,NO RECIPE,PLACEHOLDER_NO_BOM,0,
+26,BSP Creamy Salmon,BAKED SUSHI PIE,NO RECIPE,SYNTHETIC (copied from a variant),3,"A_copy_variant,B_sushi_rice"
+27,Baked Sushi] Salmon 50grams,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+28,Beef Curry,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+29,Beef Nachos Roll,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),4,A_new_recipe
+30,Brownies,MANAGEMENT,NO RECIPE,RESALE_NO_BOM,0,
+31,CALIFORNIA MAKI,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+32,Cake,MANAGEMENT,NO RECIPE,RESALE_NO_BOM,0,
+33,Cakes w/ Coffee,Dessert,NO RECIPE,RESALE_NO_BOM,0,
+34,Cali maki,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+35,California Baked Sushi,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+36,California baked,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+37,Caramel choco bliss,Dessert,NO RECIPE,RESALE_NO_BOM,0,
+38,Cheese,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+39,Cheesy cowboy roll,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+40,Cheesy torikatsu Burrito,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,E_named_ingredient
+41,Chicken Inasal burito,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),3,A_new_recipe
+42,Chicken Misono,ANNIVERSARY PROMO 2025,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+43,Chicken Misono (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+44,Chicken Misono 60 grams,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+45,Chicken Misono 90grams,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),7,"A_copy_variant,B_rice_bowl"
+46,Chicken Teppan (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+47,Chicken misono 120g,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+48,Chicken teppanyaki 120grams,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),7,A_copy_variant
+49,Chicken teppanyaki 60grams,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),7,A_copy_variant
+50,Chicken teriyaki,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+51,Classic Dark Choco,Dessert,NO RECIPE,RESALE_NO_BOM,0,
+52,Classic brownies,Dessert,NO RECIPE,RESALE_NO_BOM,0,
+53,Crazy Kani Roll,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+54,Creamy Chicken Baked,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,E_named_ingredient"
+55,Creamy chicken baked,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,E_named_ingredient"
+56,Crispy chicken,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,A_copy_variant
+57,Crunchy California Maki,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+58,Crunchy Ebi,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+59,Crunchy Salmon,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+60,Crunchy Veggie Roll,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),7,A_new_recipe
+61,Crunchy salmon aburi,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+62,Dynamite,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+63,Ebi Tempura,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+64,Ebi toji don,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+65,Egg,Other,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+66,Egg Fried Rice,Other,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+67,Extra Curry Sauce,Other,NO RECIPE,RESALE_NO_BOM,0,
+68,Extra Japanese Rice,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+69,Extra Milk,Other,NO RECIPE,RESALE_NO_BOM,0,
+70,Extra rice,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+71,Free 4pcs Cali maki,ANNIVERSARY PROMO,NO RECIPE,SYNTHETIC (copied from a variant),9,A_copy_variant
+72,Free SOLA,ANNIVERSARY PROMO 2025,NO RECIPE,RESALE_NO_BOM,0,
+73,Futo Maki,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+74,Gyosa 3pcs,Other,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+75,Iced tea bottomless,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+76,Iced tea regular,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+77,Kani 6pcs,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+78,Kani Burrito,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+79,Kani salad regular,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),1,A_copy_variant
+80,Karaage Ala carte,Other,NO RECIPE,SYNTHETIC (copied from a variant),2,A_copy_variant
+81,Karaagedon,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+82,Katsu Ramen,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+83,Katsu tuna,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+84,Katsu tuna set A,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+85,Katsudon,ANNIVERSARY PROMO 2025,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+86,Leche Plan,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+87,Leche flan,Dessert,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+88,Lemonade,Other,NO RECIPE,RESALE_NO_BOM,0,
+89,Lemonadeüçã,Other,NO RECIPE,RESALE_NO_BOM,0,
+90,M&M Yakitori & Kani tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+91,M&M beef misono w Ebi Tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+92,M&M beef misono/Kani tempura,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),7,"A_copy_variant,B_rice_bowl"
+93,M&M salmon/tuna sashimi w/ Kani tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+94,M&M sashimi/kani,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),9,"A_copy_variant,B_rice_bowl"
+95,MM Sashimi/ Kani,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),9,"A_copy_variant,B_rice_bowl"
+96,MM Tuna Misono & Ebi Tempura,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),10,"A_copy_variant,B_rice_bowl"
+97,MM Tuna Misono & Kani Tempura,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),9,"A_copy_variant,B_rice_bowl"
+98,MM Yakitori / Kani,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),7,"A_copy_variant,B_rice_bowl"
+99,Medium party platter,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+100,Miso Soup (Large),Other,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+101,Miso Soup (Small),Other,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+102,Miso soup small,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+103,Mix&Match yakitori & ebi tempura,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),8,"A_copy_variant,B_rice_bowl"
+104,Mixed seafood misono,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+105,Mixed sushi and sashimi,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+106,Moyashi,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+107,Nori Snack,MANAGEMENT,NO RECIPE,RESALE_NO_BOM,0,
+108,Nori Snack Pack,Other,NO RECIPE,RESALE_NO_BOM,0,
+109,Okonomiyaki,ANNIVERSARY PROMO 2025,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+110,Okonomiyaki (Cheesy Mushroom),MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+111,Okonomiyaki (reg)cheesy beef,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+112,Okonomiyaki (sharing)cheesy beef,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+113,Okonomiyaki (sharing)mixed seafood,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+114,Okonomiyaki Cheesy Beef (Reg),Pre Promo Offer,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+115,Okonomiyaki Garlic & Cheese,ANNIVERSARY PROMO 2025,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+116,Okonomiyaki Mushroomc & Cheese,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+117,Okonomiyaki Mushroomc & Cheese (Sharing),MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,A_copy_variant
+118,Okonomiyaki Promo Buttered Chicken,ANNIVERSARY PROMO 2025,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+119,Okonomiyaki buttered chicken,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+120,Okonomiyaki cheesy mushroom,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+121,Okonomiyaki garlic and cheese,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+122,Okonomiyaki mixed seafood reg,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+123,Oreo Dream Cake,Dessert,NO RECIPE,RESALE_NO_BOM,0,
+124,Phila Salmon,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+125,Philadelphia,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+126,Pork Misono,ANNIVERSARY PROMO 2025,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+127,Pork Teppan,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),7,A_copy_variant
+128,Pork misono,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+129,Ramen soup,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+130,Red Velvet Royale,Dessert,NO RECIPE,RESALE_NO_BOM,0,
+131,STARDEALS,STARDEALS,NO RECIPE,PLACEHOLDER_NO_BOM,0,
+132,Salmon Burito,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,B_sushi_rice"
+133,Salmon Maki,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+134,Salmon Sashimi,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),1,A_copy_variant
+135,Salmon Skin Roll,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+136,Salmon Spicy,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+137,Salmon baked,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),3,"A_copy_variant,B_sushi_rice"
+138,Salmon spicy,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+139,Seafood Fried Rice,Other,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+140,Seafood fried rice,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+141,Seafood fried rice & ebi tempura,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+142,Seafood fried rice with ebi tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+143,Shoyo beef ramen,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+144,Shoyo seafood ramen,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+145,Shoyu Mushroom Miso Ramen,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+146,Shoyu Seafood Ramen,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+147,Shoyu miso buttered chicken,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+148,Shoyu mushrooms miso ramen,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+149,Softdrinks,MANAGEMENT,NO RECIPE,RESALE_NO_BOM,0,
+150,Special Kani Salad,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+151,Spicy Ebi Tempura,GRAB FOOD,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+152,Spicy Roast pork Ramen,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+153,Sukiyaki Soup Reg,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+154,Sukiyakidon (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+155,Super supreme,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+156,TONKATSU roll,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+157,TONKATSU set A,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+158,Teriyaki Sauce,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+159,Tonkatsu Sauce,Other,NO RECIPE,RESALE_NO_BOM,0,
+160,Tonkatsu ala carte,Other,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+161,Tonkotsu Ramen,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+162,Tonkotsu ramen,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+163,Torikatsu,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+164,Torikatsu 60grams,MANAGEMENT,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+165,Torikatsu Burrito,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,E_named_ingredient"
+166,Torikatsu Curry,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+167,Torikatsu Ramen,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+168,Torikatsu curry,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+169,Torikatsu set A,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+170,Torikatsudon,ANNIVERSARY PROMO 2025,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+171,Torikatsudon 60 grams,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+172,Torikatsudon Set A,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+173,Tuna Aburi,MAKI ROLLS,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+174,Tuna Misono 100 grams,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+175,Tuna Sashimi,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+176,Tuna Teppan,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),2,A_copy_variant
+177,Tuna misono 60 grams,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+178,UPGRADE to seafood fried rice,Other,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+179,Upgrade to Mango Shake,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+180,Yakisoba for Sharing,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+181,Yakisoba reg,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+182,Yakisoba w/yakitori&Cali maki,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+183,Yakitori (4pcs),Other,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+184,Yellow Kimono Roll,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,A_copy_variant
+185,[ MR] Tonkatsu Roll,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+186,[ALC] Karaage Ala carte,Other,NO RECIPE,SYNTHETIC (copied from a variant),2,A_copy_variant
+187,[ATF]  Beef Teriyaki Noodles (Regular),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+188,[ATF] Beef Teriyaki Noodles (Sharing),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,E_named_ingredient
+189,[ATF] Ebi Tempura (12pcs ),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+190,[ATF] Ebi Tempura (3pcs ),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+191,[ATF] Ebi Tempura (6pcs),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+192,[ATF] Kani Tempura (12pcs),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+193,[ATF] Kani Tempura (3pcs),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+194,[ATF] Kani Tempura (6pcs),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+195,[ATF] Miso Soup (Large),ALL TIME FAVORITES,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+196,[ATF] Miso Soup (Small),ALL TIME FAVORITES,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+197,[ATF] Mixed Tempura (Regular),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+198,[ATF] Moyashi,ALL TIME FAVORITES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+199,[ATF] Salmon Teppanyaki/Teriyaki,ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+200,[ATF] Salmon Teppanyaki/Terriyaki,ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+201,[ATF] Squid Teppanyaki,ALL TIME FAVORITES,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+202,[ATF] Sukiyaki Soup (Regular),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+203,[ATF] Sukiyaki Soup (Sharing),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+204,[ATF] Tuna Teppanyaki/Teriyaki,ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+205,[ATF] Yakisoba (Regular),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+206,[ATF] Yakisoba (Sharing),ALL TIME FAVORITES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+207,[BSP] California,BAKED SUSHI PIE,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+208,[BSP] Cheesy Beef,BAKED SUSHI PIE,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+209,[BS] 4in1 Baked Sushi,BAKED SUSHI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+210,[BS] California Baked,BAKED SUSHI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+211,[BS] Cheesy Beef,BAKED SUSHI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+212,[BS] Cheesy Beef Baked,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,B_sushi_rice"
+213,[BS] Creamy Chicken,BAKED SUSHI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,E_named_ingredient
+214,[BS] Creamy Salmon,BAKED SUSHI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+215,[BS] Creamy Salmon Baked,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),3,"A_copy_variant,B_sushi_rice"
+216,[BS] Mixed Seafood,BAKED SUSHI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+217,[BS] Mixed Seafood Baked,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),1,A_copy_variant
+218,[Baked Sushi] California Baked,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+219,[Baked Sushi] California Baked 50g,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,B_sushi_rice"
+220,[Baked Sushi] Cheesy Beef,MANAGEMENT,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+221,[DB) Pork Teriyaki (Set B),DON BURI (PORK),NO RECIPE,SYNTHETIC (new recipe),12,"A_new_recipe,B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+222,[DB) Pork Terriyaki (Set B),DON BURI (PORK),NO RECIPE,SYNTHETIC (new recipe),12,"A_new_recipe,B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+223,[DB]  Pork  Teriyaki (Set A),DON BURI (PORK),NO RECIPE,SYNTHETIC (new recipe),10,"A_new_recipe,B_rice_bowl,C_miso_soup_side"
+224,[DB]  Pork  Terriyaki (Set A),DON BURI (PORK),NO RECIPE,SYNTHETIC (new recipe),10,"A_new_recipe,B_rice_bowl,C_miso_soup_side"
+225,[DB] Beef Curry (Set A),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+226,[DB] Beef Curry (Set B),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+227,[DB] Beef Teppan (A),GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),10,"A_copy_variant,B_rice_bowl,C_miso_soup_side"
+228,[DB] Beef Teppanyaki/Misono (Set A),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+229,[DB] Beef Teppanyaki/Misono (Set B),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+230,[DB] Beef Terriyaki (Set A),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+231,[DB] Beef Terriyaki (Set B),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+232,[DB] Chicken Teppanyaki/Misono (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+233,[DB] Chicken Teppanyaki/Misono (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+234,[DB] Chicken Terriyaki (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+235,[DB] Crispy Chicken w/ Egg (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+236,[DB] Crispy Chicken w/ Egg (Set B ),STARDEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+237,[DB] Crispy Chicken w/ Egg (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+238,[DB] Ebi Toji Don (Set A),DON BURI (SEAFOOD),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+239,[DB] Grilled Chicken Teriyaki (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+240,[DB] Grilled Chicken Teriyaki (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+241,[DB] Grilled Chicken Teriyaki (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+242,[DB] Grilled Chicken Terriyaki (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+243,[DB] Gyudon (Set A),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+244,[DB] Gyudon (Set B),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+245,[DB] Karaagedon (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+246,[DB] Karaagedon (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+247,[DB] Karaagedon (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+248,[DB] Katsu Curry (Regular) (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+249,[DB] Katsu Curry (Regular) (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+250,[DB] Katsu Curry (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+251,[DB] Katsu Curry (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,5,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+252,[DB] Katsu Omelette Curry (A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+253,[DB] Katsu Omelette Curry (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+254,[DB] Katsu Omelette Curry (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+255,[DB] Katsu Tuna (Set A),DON BURI (SEAFOOD),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+256,[DB] Katsu Tuna (Set B),DON BURI (SEAFOOD),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+257,[DB] Katsudon (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+258,[DB] Katsudon (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+259,[DB] Katsudon (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+260,[DB] Mixed Seafood Misono (Set A),DON BURI (SEAFOOD),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+261,[DB] Mixed Seafood Misono (Set B),DON BURI (SEAFOOD),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+262,[DB] Oyakudon (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+263,[DB] Oyakudon (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+264,[DB] Pork Teppanyaki/Misono (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+265,[DB] Pork Teppanyaki/Misono (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+266,[DB] Pork Teriyaki (A),GRAB FOOD,NO RECIPE,SYNTHETIC (new recipe),10,"A_new_recipe,B_rice_bowl,C_miso_soup_side"
+267,[DB] Shoyu Miso Buttered Chicken (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+268,[DB] Shoyu Miso Buttered Chicken (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+269,[DB] Shoyu Miso Buttered Pork (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+270,[DB] Shoyu Miso Buttered Pork (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+271,[DB] Sukiyakidon (Set A),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+272,[DB] Sukiyakidon (Set B),DON BURI (BEEF),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+273,[DB] Tonkatsu (Set A),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+274,[DB] Tonkatsu (Set B),DON BURI (PORK),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+275,[DB] Torikatsu (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+276,[DB] Torikatsu (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+277,[DB] Torikatsu Curry (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+278,[DB] Torikatsu Curry (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+279,[DB] Torikatsu Omelette Curry (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+280,[DB] Torikatsu Omelette Curry (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+281,[DB] Torikatsu Omelette Curry (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+282,[DB] Torikatsudon (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+283,[DB] Torikatsudon (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+284,[DB] Yakitori (A),GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+285,[DB] Yakitori (Set A),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+286,[DB] Yakitori (Set B),DON BURI (CHICKEN),MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,C_miso_soup_side,D_set_b_addons"
+287,[DS] Brewed Coffee,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+288,[DS] Coke/Sprite/Royal/Rootbeer,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+289,[DS] Cucumber Shake,DRINKS & SHAKES,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+290,[DS] Green Tea,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+291,[DS] Iced Coffee,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+292,[DS] Iced Tea (Regular),DRINKS & SHAKES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+293,[DS] Iced Tea (Sharing),DRINKS & SHAKES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+294,[DS] Iced coffee,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+295,[DS] Ichigo Matcha,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+296,[DS] MATCHA LATTE,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+297,[DS] Mango Juice,DRINKS & SHAKES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+298,[DS] Mango Shake,DRINKS & SHAKES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+299,[DS] Matcha Latte,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+300,[DS] Mineral Water,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+301,[DS] Mineral Water (Small),DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+302,[DS] Pineapple Juice,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+303,[DS] Red Iced Tea,DRINKS & SHAKES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+304,[DS] Red Iced Tea Shake,DRINKS & SHAKES,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+305,[DS] Sola,DRINKS & SHAKES,NO RECIPE,RESALE_NO_BOM,0,
+306,[D] Vanilla Ice Cream,DESSERTS,NO RECIPE,RESALE_NO_BOM,0,
+307,[EXTRA] Egg Fried Rice,Other,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+308,[EXTRA] Japanese Rice,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+309,[EXTRA] Mayo,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+310,[EXTRA] Nori Snack Pack,Other,NO RECIPE,RESALE_NO_BOM,0,
+311,[EXTRA] Ramen Noodles,Other,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+312,[EXTRA] Seafood Fried Rice,Other,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+313,[EXTRA] Tonkatsu Sauce,Other,NO RECIPE,RESALE_NO_BOM,0,
+314,[HS] Chirashi Don,HOUSE SPECIALTY,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+315,[HS] Mixed Maki Rolls,HOUSE SPECIALTY,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+316,[HS] Mixed Sashimi,HOUSE SPECIALTY,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+317,[HS] Mixed Sushi & Sashimi,HOUSE SPECIALTY,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+318,[M/M] Sashimi/ Ebi,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),8,A_copy_variant
+319,[MM] JR w/ Beef Misono & Ebi Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+320,[MM] JR w/ Beef Misono & Kani Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+321,[MM] JR w/ Tuna Misono & Ebi Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+322,[MM] JR w/ Tuna Misono & Kani Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+323,[MM] SF w/ Tonkatsu & Ebi Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+324,[MM] SF w/ Tonkatsu & Kani Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+325,[MM] SF w/ Torikatsu & Ebi Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+326,[MM] SF w/ Torikatsu &Kani Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+327,[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+328,[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+329,[MM] SF w/ Yakitori & Ebi Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+330,[MM] SF w/ Yakitori & Kani Tempura,MIX & MATCH,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+331,[MM] SFR w/ Salmon Tuna Sashimi & Ebi Tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+332,[MM] SFR w/ Tonkatsu & Kani Tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+333,[MM] SFR/Yakitori & Ebi Tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+334,[MM] Torikatsu/ Kani Tempura,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+335,[MR] California Maki,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+336,[MR] Cheesy Cowboy,MAKI ROLLS,NO RECIPE,SYNTHETIC (copied from a variant),2,"A_copy_variant,B_sushi_rice"
+337,[MR] Crazy Kani Roll,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+338,[MR] Crunchy California Maki,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+339,[MR] Crunchy Ebi,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+340,[MR] Crunchy Kani,MAKI ROLLS,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+341,[MR] Crunchy Salmon,MAKI ROLLS,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+342,[MR] Crunchy Salmon Aburi,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+343,[MR] Crunchy Veggie Salad,MAKI ROLLS,NO RECIPE,SYNTHETIC (new recipe),7,A_new_recipe
+344,[MR] Crunchy Veggie Salad Roll,GRAB FOOD,NO RECIPE,SYNTHETIC (new recipe),7,A_new_recipe
+345,[MR] Dynamite,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+346,[MR] Futo Maki,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+347,[MR] Katsu Tuna Roll,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+348,[MR] Nachos Beef Roll,MAKI ROLLS,NO RECIPE,SYNTHETIC (new recipe),4,A_new_recipe
+349,[MR] Phila Salmon,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+350,[MR] Philadelphia,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+351,[MR] Salmon Maki,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+352,[MR] Salmon Mango Roll,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+353,[MR] Salmon Skin Roll,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+354,[MR] Salmon Spicy,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+355,[MR] Spicy Ebi Tempura,MAKI ROLLS,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+356,[MR] Tamago Roll,MAKI ROLLS,NO RECIPE,SYNTHETIC (new recipe),3,A_new_recipe
+357,[MR] Tonkatsu Roll,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+358,[MR] Tuna Maki,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+359,[MR] Tuna Mango Roll,MAKI ROLLS,NO RECIPE,SYNTHETIC (copied from a variant),6,A_copy_variant
+360,[MR] Tuna Spicy Toro,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+361,[MR] Yellow Kimono,MAKI ROLLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+362,[PL] 40pcs California Maki Platter,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,8,E_named_ingredient
+363,[PL] 48pcs California Maki Platter,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+364,[PL] 64pcs California Maki Platter,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,8,E_named_ingredient
+365,[PL] 96pcs California Maki Platter,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,8,E_named_ingredient
+366,[PL] Large Party Tray,PLATTERS,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+367,[PL] Medium Party Tray,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+368,[PL] Mixed Sashimi Platter,PLATTERS,NO RECIPE,SYNTHETIC (copied from a variant),6,A_copy_variant
+369,[PL] Salmon Platter  (500g),PLATTERS,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+370,[PL] Seafood Platter Maki Rolls,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+371,[PL] Small Party Tray,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+372,[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+373,[PL] Super Supreme Mixed Maki,PLATTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+374,[PR] 4pcs Gyoza,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+375,[PR] 4pcs Tofu,ANNIVERSARY PROMO,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+376,[PR] Chicken Misono,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+377,[PR] Katsudon,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+378,[PR] Okonomiyaki Buttered Chicken,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+379,[PR] Okonomiyaki Garlic & Cheese,ANNIVERSARY PROMO,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+380,[PR] Pork Misono,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+381,[PR] Torikatsudon,ANNIVERSARY PROMO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_rice_bowl
+382,[RM] Curry Beef,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+383,[RM] Curry Beef Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+384,[RM] Gyoza Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+385,[RM] Katsu Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+386,[RM] Shoyu Beef Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+387,[RM] Shoyu Mushroom Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+388,[RM] Shoyu Seafood Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+389,[RM] Spicy Beef Tomato Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+390,[RM] Spicy Roast Pork Tomato Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+391,[RM] Spicy Roast pork Ramen,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant
+392,[RM] Tantanmen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+393,[RM] Tonkotsu Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+394,[RM] Torikatsu Ramen,RAMEN BOWLS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+395,[SB] Cheesy Beef Teriyaki Burrito,STARDEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+396,[SB] Cheesy Beef Terriyaki Burrito,SUSHI BURRITO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+397,[SB] Cheesy Torikatsu Burrito,SUSHI BURRITO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,E_named_ingredient
+398,[SB] Crazy Kani Burrito,SUSHI BURRITO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+399,[SB] Ebi Spicy Burrito,SUSHI BURRITO,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+400,[SB] Roasted Chicken (Inasal) Burrito,SUSHI BURRITO,NO RECIPE,SYNTHETIC (new recipe),3,A_new_recipe
+401,[SB] Sweet Spicy Salmon Burrito,SUSHI BURRITO,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+402,[SH] Kani (Crabstick),SASHIMI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+403,[SH] Salmon,GRAB FOOD,NO RECIPE,SYNTHETIC (copied from a variant),1,A_copy_variant
+404,[SH] Salmon (Sake),SASHIMI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+405,[SH] Tamago (Sweet Egg),SASHIMI,NO RECIPE,SYNTHETIC (new recipe),1,A_new_recipe
+406,[SH] Tuna (Maguro),SASHIMI,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+407,[SL] Crispy Salmon Salad,SALAD,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+408,[SL] Special Kani Salad (Regular),SALAD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+409,[SL] Special Kani Salad (Sharing),SALAD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+410,[SM] Sukiyaki w/ California Maki,SNACK MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+411,[SM] Yakisoba w/ 2PCS Ebi Tempura & Cali Maki,SNACK MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+412,[SM] Yakisoba w/ Gyoza & Cali Maki,SNACK MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+413,[SM] Yakisoba w/ Torikatsu & Cali Maki,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+414,[SM] Yakisoba w/ Torikatsu & Cali maki,SNACK MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+415,[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,SNACK MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,1,B_sushi_rice
+416,[ST] Agedashi (4pcs),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+417,[ST] Agedashi (8pcs),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+418,[ST] Gyoza (4pcs),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+419,[ST] Gyoza (8pcs),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+420,[ST] Gyoza 4pcs,GRAB FOOD,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+421,[ST] Kakiage (4pcs),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+422,[ST] Kakiage (8pcs),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+423,[ST] Okonomiyaki (Buttered Chicken) (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+424,[ST] Okonomiyaki (Buttered Chicken) (Sharing),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+425,[ST] Okonomiyaki (Cheesy Beef) (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+426,[ST] Okonomiyaki (Cheesy Beef) (Sharing),STARTERS,NO RECIPE,SYNTHETIC (copied from a variant),3,A_copy_variant
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),STARTERS,NO RECIPE,SYNTHETIC (new recipe),5,A_new_recipe
+428,[ST] Okonomiyaki (Mixed Seafood) (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+429,[ST] Okonomiyaki (Mixed Seafood) (Sharing),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+430,[ST] Okonomiyaki Buttered Chicken (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+431,[ST] Okonomiyaki Buttered Chicken (Sharing),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+432,[ST] Okonomiyaki Cheesy Beef (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+433,[ST] Okonomiyaki Cheesy Mushroom (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+434,[ST] Okonomiyaki Mixed Seafood (Regular),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+435,[ST] Okonomiyaki Mixed Seafood (Sharing),STARTERS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,0,
+436,[TM] Seafood Fried Rice w/ Ebi Tempura,TEMPURA MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+437,[TM] Seafood Fried Rice w/ Kani Tempura,TEMPURA MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+438,[TM] Seafood Fried Rice w/ Mixed Tempura,TEMPURA MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+439,[UPGRADE] to Ichigo Matcha,Other,NO RECIPE,RESALE_NO_BOM,0,
+440,[UPGRADE] to Seafood Fried Rice,Other,NO RECIPE,SYNTHETIC (new recipe),2,A_new_recipe
+441,[UPGRADE] to Soft Drinks,Other,NO RECIPE,RESALE_NO_BOM,0,
+442,"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",VALUE MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,B_sushi_rice,C_miso_soup_side"
+443,"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",VALUE MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,4,"B_rice_bowl,B_sushi_rice,C_miso_soup_side"
+444,"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",VALUE MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+445,[VM] Good for 3: Crispy chicken,VALUE MEALS,MENU2 / borrowed recipe,MENU2 / borrowed recipe,3,"B_rice_bowl,C_miso_soup_side"
+446,supreme,MANAGEMENT,NO RECIPE,SYNTHETIC (copied from a variant),4,A_copy_variant

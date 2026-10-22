@@ -1,0 +1,183 @@
+\set ON_ERROR_STOP on
+
+create schema if not exists stg;
+
+drop table if exists stg.calendar_ext, stg.storage_capacity, stg.ingredient_volume,
+                     stg.menu_items, stg.ingredients, stg.suppliers, stg.supplier_item_terms, stg.recipes,
+                     stg.sales, stg.sales_dropped, stg.inventory, stg.inventory_batches, stg.waste, stg.stockout_events;
+
+-- ============================================================ dimensions and reference
+-- -> dw.dim_date (column for column; the week column is iso_week; the calendar runs to the 2027-09-30 forecast horizon)
+create table stg.calendar_ext (
+    date            date,
+    day_of_week     text,
+    dow             smallint,
+    iso_week        smallint,
+    iso_year        smallint,
+    week_start_date date,
+    month           smallint,
+    quarter         smallint,
+    year            smallint,
+    is_weekend      boolean,
+    is_holiday      boolean,
+    is_payday       boolean,
+    is_ber_month    boolean,
+    is_open         boolean
+);
+
+-- -> dw.dim_storage (dedicated and shared-pool litres per storage type; datasets/storage_locations.csv, the client's per-unit litres, is the source record and is not loaded) and dw.dim_ingredient.litres_per_base_unit
+create table stg.storage_capacity (
+    storage_type text, capacity_dedicated_l numeric, shared_pool_l numeric, locations text, capacity_total_if_pool_taken_l numeric,
+    rule text, provenance text, baseline_stock_p95_l numeric, baseline_stock_max_l numeric, baseline_days_above_dedicated int
+);
+create table stg.ingredient_volume (
+    ingredient_id int, ingredient_code text, storage_type text, base_uom text, litres_per_base_unit numeric, provenance text
+);
+
+-- -> dw.dim_menu_item (category is matched to dw.dim_menu_category by name)
+create table stg.menu_items (
+    item_id            int,
+    item_name          text,
+    category           text,
+    list_price         numeric(10,2),
+    pos_sku            bigint,
+    is_complimentary   boolean,
+    is_active          boolean
+);
+
+-- -> dw.dim_ingredient (column for column)
+create table stg.ingredients (
+    ingredient_id      int,
+    ingredient_code    text,
+    ingredient_name    text,
+    category           text,
+    storage_type       text,
+    base_uom           text,
+    shelf_life_days    int,
+    is_perishable      boolean,
+    standard_unit_cost numeric(12,4)
+);
+
+-- -> dw.dim_supplier (column for column)
+create table stg.suppliers (
+    supplier_id            int,
+    supplier_name          text,
+    lead_time_days         numeric,
+    lead_time_sd_days      numeric,      -- CSV column; not loaded to dw (simulation parameter)
+    delivery_interval_days int
+);
+
+-- -> dw.supplier_item_terms (pack_size_base = usable base units per pack)
+create table stg.supplier_item_terms (
+    supplier_id     int,
+    ingredient_id   int,
+    order_unit      text,         -- order_unit, pack_size, pack_unit: client pack description; CSV columns kept for the pack checks in 03_transform.sql, not loaded to dw
+    pack_size       numeric,
+    pack_unit       text,
+    pack_size_base  numeric,
+    min_order_packs int
+);
+
+-- -> dw.bridge_recipe_bom (uom only checks the line against dw.dim_ingredient.base_uom)
+create table stg.recipes (
+    item_id       int,
+    ingredient_id int,
+    qty_base      numeric,
+    uom           text
+);
+
+-- ============================================================ facts
+-- -> dw.fact_sales (every validated line; duplicates and closure-day lines were removed upstream into cleaned/).
+--    is_revenue = false marks staff / complimentary lines. Category and SKU are the menu item's (dw.dim_menu_item), not repeated on the fact.
+create table stg.sales (
+    sale_id          bigint,
+    sale_date        date,
+    item_id          int,
+    channel          text,
+    quantity_sold    int,
+    unit_price       numeric(10,2),
+    gross_sales      numeric(12,2),
+    discount         numeric(12,2),
+    net_sales        numeric(12,2),
+    is_revenue       boolean
+);
+
+create table stg.sales_dropped (
+    sale_date     date,
+    item_id       int,
+    quantity_sold int
+);
+
+-- -> dw.fact_inventory_snapshot and dw.fact_inventory_transaction (four movement types). supplier_id is filled below.
+create table stg.inventory (
+    snapshot_date        date,
+    ingredient_id        int,
+    opening_qty          numeric,
+    qty_received         numeric,
+    qty_emergency        numeric,
+    qty_consumed         numeric,
+    qty_off_pos_use      numeric,       -- staff meals, bulk prep (inside qty_consumed)
+    closing_qty          numeric,
+    reorder_point        numeric,
+    order_qty            numeric,
+    on_order_qty         numeric,
+    stockout_flag        boolean,
+    emergency_cost_php   numeric(14,2),
+    qty_unmet            numeric,       -- ingredient need that could not be met (lost sales)
+    shortage_cost_php    numeric(14,2)  -- lost contribution margin + emergency premium
+);
+
+-- -> dw.fact_inventory_batch_snapshot (days to expiry = expiry_date - snapshot_date, not stored).
+create table stg.inventory_batches (
+    snapshot_date  date,
+    batch_id       bigint,
+    ingredient_id  int,
+    supplier_id    int,
+    received_date  date,
+    expiry_date    date,
+    qty_on_hand    numeric,
+    unit_cost      numeric(12,4)
+);
+
+-- -> dw.fact_waste. Supplier, dates and unit cost are properties of the batch and are filled below.
+create table stg.waste (
+    waste_id        bigint,
+    waste_date      date,
+    ingredient_id   int,
+    batch_id        bigint,
+    waste_qty       numeric,
+    waste_reason    text,                -- over_ordering / expiry (simulation rule, see the column comment in 01_schema.sql)
+    waste_value_php numeric(14,2)       -- stored (15 rows differ by 0.01 from qty x unit cost)
+);
+
+-- -> dw.fact_stockout_event
+create table stg.stockout_events (
+    event_date date, ingredient_id int, need_qty numeric, available_qty numeric, shortfall_qty numeric, outcome text,
+    emergency_qty numeric, emergency_cost_php numeric(14,2), unmet_qty numeric, shortage_cost_php numeric(14,2)
+);
+
+-- ============================================================ load the CSVs
+\copy stg.calendar_ext        from 'datasets/calendar_ext.csv'        with (format csv, header match)
+\copy stg.storage_capacity    from 'datasets/storage_capacity.csv'    with (format csv, header match)
+\copy stg.ingredient_volume   from 'datasets/ingredient_volume.csv'   with (format csv, header match)
+\copy stg.menu_items          from 'datasets/menu_items.csv'          with (format csv, header match)
+\copy stg.ingredients         from 'datasets/ingredients.csv'         with (format csv, header match)
+\copy stg.suppliers           from 'datasets/suppliers.csv'           with (format csv, header match)
+\copy stg.supplier_item_terms from 'datasets/supplier_item_terms.csv' with (format csv, header match)
+\copy stg.recipes             from 'datasets/recipes.csv'             with (format csv, header match)
+\copy stg.sales               from 'datasets/sales.csv'               with (format csv, header match)
+\copy stg.sales_dropped       from 'datasets/sales_dropped.csv'       with (format csv, header match)
+\copy stg.inventory           from 'datasets/inventory.csv'           with (format csv, header match)
+\copy stg.inventory_batches   from 'datasets/inventory_batches.csv'   with (format csv, header match)
+\copy stg.waste               from 'datasets/waste.csv'               with (format csv, header match)
+\copy stg.stockout_events     from 'datasets/stockout_events.csv'     with (format csv, header match)
+
+-- ============================================================ derived staging columns
+alter table stg.inventory add column supplier_id int;                                             
+update stg.inventory i set supplier_id = t.supplier_id from stg.supplier_item_terms t where t.ingredient_id = i.ingredient_id;
+
+alter table stg.waste add column supplier_id int, add column unit_cost numeric(12,4), add column received_date date,
+                      add column expiry_date date, add column expired_on_date date;
+update stg.waste w set supplier_id = b.supplier_id, unit_cost = b.unit_cost, received_date = b.received_date, expiry_date = b.expiry_date
+from (select distinct batch_id, supplier_id, unit_cost, received_date, expiry_date from stg.inventory_batches) b where b.batch_id = w.batch_id;
+update stg.waste set expired_on_date = case when waste_reason in ('spoilage', 'shrinkage') then waste_date else expiry_date + 1 end;      -- the ledger day: expired stock leaves the day after the last usable day, a loss inside the shelf life on its own day

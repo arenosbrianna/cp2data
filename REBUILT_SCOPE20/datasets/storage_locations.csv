@@ -1,0 +1,7 @@
+storage_location_id,temperature_state,storage_in_liters,counts_toward_raw_ingredient_capacity,primary_function
+FR1,chilled,250,False,"Beverages, Canned Sodas, Ice & Pitchers"
+FR2,chilled + frozen,225,True,"Produce, Mango Chiller & Supplemental Raw Meats"
+CH1,chilled,240,True,"Portioned Prep Station (Cucumbers, Crabsticks, Toppings, Wasabi)"
+CF1,frozen,250,True,Bulk Raw Uncut Meats (Plastic Wrapped)
+TF1,frozen,198,True,"Sectioned Portioned Frozen Meats (Fish, Pork, Beef)"
+DRY,ambient,500,True,"Bulk Rice, Flours, Sauces, Oils & Dry Goods"

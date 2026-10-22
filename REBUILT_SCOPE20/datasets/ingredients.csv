@@ -1,0 +1,55 @@
+ingredient_id,ingredient_code,ingredient_name,category,storage_type,base_uom,shelf_life_days,is_perishable,standard_unit_cost
+1,BB,Breading and Batter Mix,dry goods,ambient,serving,180,False,7.3985
+2,BAR,Baran (Sushi Grass Divider),packaging,ambient,pc,365,False,0.5
+3,BEL,Bell Pepper,vegetable,chilled,g,7,False,0.4286
+4,BSG,Benishoga (Pickled Ginger),condiment,chilled,serving,90,False,3.0
+5,CAB,Cabbage,vegetable,chilled,g,21,False,0.1692
+6,CAR,Carrot,vegetable,chilled,g,21,False,0.1893
+7,CF,Chicken Fillet,chicken,frozen,g,28,True,0.5571
+8,CHE,Cheese,dairy,chilled,pc,14,False,10.0
+9,CT,Chicken Thigh,chicken,frozen,g,28,True,0.35
+10,CUC,Cucumber,vegetable,chilled,g,5,True,0.5
+11,EBI,Nobashi Shrimp,seafood,frozen,pc,90,True,13.6842
+12,EBK,Ebiko (Fish Roe),seafood,frozen,g,30,True,1.8478
+13,EGG,Egg,egg,chilled,pc,21,False,11.3333
+14,ENOD,Egg Noodles,noodle,chilled,serving,14,False,15.0
+15,GP,Ground Pork,pork,frozen,g,28,True,0.4667
+16,ICT,Iced Tea,beverage,ambient,pc,180,False,15.0
+17,KAL,Kalamansi,fruit,chilled,g,14,False,0.1
+18,KNI,Kani (Crab Stick),seafood,frozen,pc,30,True,9.8039
+19,MAY,Japanese Mayonnaise,condiment,chilled,g,30,False,0.3789
+20,MUS,Mushroom,vegetable,chilled,g,14,False,1.7294
+21,MZN,Maruzen Ramen Soup Base,sauce,ambient,g,90,False,0.701
+22,NOD,Ramen Noodles,noodle,chilled,g,14,False,0.275
+23,NOR,Nori Sheet,dry goods,ambient,pc,180,False,8.2353
+24,OKO,Okonomiyaki Sauce,sauce,ambient,g,90,False,0.3016
+25,ONI,White Onion,vegetable,ambient,g,30,False,0.2
+26,PB,Pork Belly,pork,frozen,g,28,True,0.6
+27,PDT,Peeled Deveined Shrimp,seafood,frozen,pc,28,True,18.0556
+28,PL,Pork Loin,pork,frozen,g,28,True,0.3867
+29,SAL,Salmon,seafood,frozen,g,28,True,1.8182
+30,SB,Sukiyaki Beef,beef,frozen,g,28,True,0.6417
+31,SHO,Shoyu (Soy Sauce),sauce,ambient,g,180,False,0.6
+32,SOT,Sotanghon (Glass Noodles),noodle,ambient,serving,180,False,10.0
+33,SQD,Squid,seafood,frozen,g,28,True,0.3867
+34,SUS,Sushi Rice,rice,ambient,g,365,False,0.3956
+35,TAM,Tamago (Japanese Omelette),egg,chilled,g,3,True,0.2308
+36,TEP,Teppanyaki Sauce,sauce,ambient,g,90,False,0.2192
+37,TER,Teriyaki Sauce,sauce,ambient,serving,90,False,15.7682
+38,TOG,Togue (Bean Sprouts),vegetable,chilled,g,3,True,0.1
+39,TSS,Tempura Sauce,sauce,ambient,g,90,False,0.15
+40,TUF,Tofu,tofu,chilled,pc,5,True,6.25
+41,TUN,Tuna,seafood,frozen,g,28,True,0.4762
+42,WAS,Wasabi,condiment,chilled,g,30,False,0.5625
+43,RIC,Japanese Rice (plain),rice,ambient,g,365,False,0.064
+44,MSO,Miso Paste,condiment,chilled,g,180,False,0.1875
+45,MNG,Mango,fruit,chilled,g,5,True,0.6
+46,GB,Ground Beef,beef,frozen,g,28,True,0.6417
+47,GZW,Gyoza Wrapper,dry goods,frozen,pc,90,False,1.0
+48,PCH,Baguio Pechay,vegetable,chilled,g,5,True,0.1714
+49,GAR,Garlic,vegetable,ambient,g,60,False,0.2571
+50,GIN,Ginger (fresh),vegetable,chilled,g,21,False,0.2
+51,OYS,Oyster Sauce,sauce,ambient,pc,180,False,234.0
+52,SES,Sesame Oil,sauce,ambient,g,365,False,0.6913
+53,HON,Hondashi,dry goods,ambient,g,365,False,0.5625
+54,SLT,Salt,dry goods,ambient,g,730,False,0.03

@@ -1,0 +1,1 @@
+gf_listings.py (2026-10-22): GrabFood lines follow the real listing structure (85 % on GrabFood-category listings). Used by shape_monthly_trend_noisy.py, gen_lock2021.py and 08_scope_rebuild/enforce_covid_channel_mix.py. gf_rebalance.rebalance() takes listing_map/lprice. shape_monthly_trend_noisy.py also has the payday/holiday phase (PAY_LIFT, HOL_LIFT).

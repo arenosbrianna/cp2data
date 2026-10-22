@@ -1,0 +1,422 @@
+item_id,item_name,category,list_price,pos_sku,is_complimentary,is_active
+1,California Baked Sushi Pie,Baked Sushi Pie,235.0,10613,False,True
+2,Cheesy Beef Baked Sushi Pie,Baked Sushi Pie,245.0,10614,False,True
+3,Creamy Chicken Baked Sushi Pie,Baked Sushi Pie,235.0,10611,False,True
+4,Mixed Seafood Baked Sushi Pie,Baked Sushi Pie,285.0,10612,False,True
+5,Coffee (Regular),Drinks & Shakes,65.0,10598,False,True
+6,Gyoza (4 pcs),GrabFood,343.75,10702,False,True
+7,Ebi Tempura (1 pc),All Time Favorites,86.0,10410,False,True
+8,Gyoza (2 pcs),Management,0.0,10566,True,True
+9,Chicken (240 g),Management,0.0,99449,True,True
+10,Kani Tempura (2 pcs),Management,0.0,10624,True,True
+11,Kani Tempura (30 pcs),Management,0.0,10816,True,True
+12,Gyoza (3 pcs),Management,0.0,10557,True,True
+13,Kani Tempura (3 pcs),Management,0.0,10816,True,True
+14,Kani Tempura (3 pcs),GrabFood,311.25,10789,False,True
+15,Ebi Tempura (3 pcs),Management,0.0,10529,True,True
+16,4-in-1 Baked Sushi,Management,0.0,10716,True,True
+17,California Maki (40 pcs),Management,0.0,10606,True,True
+18,California Maki Platters (48 pcs),GrabFood,1466.25,10701,False,True
+19,Agedashi (4 pcs),Management,0.0,10897,True,True
+20,California Maki (4 pcs),Other / Add-ons,99.0,99450,False,True
+21,Gyoza (4 pcs),Starters,179.0,10749,False,True
+22,Tofu (4 pcs),Starters,149.0,10925,False,True
+23,Tamago Sushi (6 pcs),Management,0.0,10815,True,True
+24,Creamy Salmon Baked Sushi Pie,Baked Sushi Pie,275.0,10608,False,True
+25,Salmon Baked Sushi (50 g),Management,0.0,10571,True,True
+26,Beef Curry,Management,0.0,10765,True,True
+27,Nachos Beef Roll,Management,0.0,10764,True,True
+28,Classic Brownies,Management,0.0,10684,True,True
+29,California Maki,GrabFood,275.0,10175,False,True
+30,Cake,Management,0.0,10683,True,True
+31,Cakes w/ Coffee,Desserts,215.0,10675,False,True
+32,California Maki,Management,0.0,10263,True,True
+33,California Baked Sushi,Management,0.0,10546,True,True
+34,California Baked Sushi,GrabFood,800.0,10510,False,True
+35,Cheese,Other / Add-ons,50.0,10634,False,True
+36,Cheesy Cowboy Roll,Management,0.0,10260,True,True
+37,Cheesy Torikatsu Burrito,GrabFood,456.25,10637,False,True
+38,Chicken Inasal Burrito,Management,0.0,10636,True,True
+39,Chicken Misono,Don Buri (Chicken),159.0,10923,False,True
+40,Chicken Misono (Set A),GrabFood,412.5,10808,False,True
+41,Chicken Misono (60 g),Management,0.0,10551,True,True
+42,Chicken Misono (90 g),Management,0.0,10561,True,True
+43,Chicken Teppanyaki/Misono (Set A),GrabFood,412.5,10987,False,True
+44,Chicken Misono (120 g),Management,0.0,10242,True,True
+45,Chicken Teppanyaki (120 g),Management,0.0,10282,True,True
+46,Chicken Teppanyaki (60 g),Management,0.0,10282,True,True
+47,Chicken Teriyaki,Management,0.0,0,True,True
+48,Classic Dark Choco,Desserts,150.0,10667,False,True
+49,Classic Brownies,Desserts,115.0,10607,False,True
+50,Crazy Kani Roll,Management,0.0,10898,True,True
+51,Creamy Chicken Baked Sushi,Management,0.0,10610,True,True
+52,Creamy Chicken Baked Sushi,Management,0.0,99451,True,True
+53,Crispy Chicken,Management,0.0,10250,True,True
+54,Crunchy California Maki,Management,0.0,10648,True,True
+55,Crunchy Ebi Roll,GrabFood,400.0,10626,False,True
+56,Crunchy Salmon Roll,GrabFood,475.0,10878,False,True
+57,Crunchy Veggie Salad Roll,Management,0.0,10813,True,True
+58,Crunchy Salmon Roll,GrabFood,498.75,10467,False,True
+59,Dynamite Roll,Management,0.0,10414,True,True
+60,Ebi Tempura,GrabFood,81.25,99452,False,True
+61,Ebi Toji Don,GrabFood,481.25,99453,False,True
+62,Egg,Other / Add-ons,25.0,10490,False,True
+63,Egg Fried Rice,Other / Add-ons,73.0,10176,False,True
+64,Extra Curry Sauce,Other / Add-ons,30.0,10687,False,True
+65,Extra Japanese Rice,Other / Add-ons,58.0,10493,False,True
+66,Extra Milk,Other / Add-ons,25.0,10681,False,True
+67,Extra Rice,Management,0.0,10247,True,True
+68,Free 4 pcs California Maki,Maki Rolls,0.0,10664,True,True
+69,Free Sola,Drinks & Shakes,0.0,10989,True,True
+70,Futo Maki,Management,0.0,10762,True,True
+71,Gyoza (3 pcs),Other / Add-ons,180.0,10768,False,True
+72,Iced Tea Bottomless,Management,0.0,10537,True,True
+73,Iced Tea (Regular),Management,0.0,10259,True,True
+74,Kani (6 pcs),Management,0.0,10585,True,True
+75,Crazy Kani Burrito,Management,0.0,10528,True,True
+76,Special Kani Salad (Regular),Management,0.0,10277,True,True
+77,Karaage a la Carte,Other / Add-ons,235.0,10787,False,True
+78,Karaagedon,Management,0.0,10405,True,True
+79,Katsu Ramen,Management,0.0,10358,True,True
+80,Katsu Tuna,Management,0.0,10593,True,True
+81,Katsu Tuna (Set A),GrabFood,481.25,99454,False,True
+82,Katsudon,Don Buri (Pork),159.0,10633,False,True
+83,Leche Flan,Management,0.0,10723,True,True
+84,Leche Flan,Desserts,90.0,99455,False,True
+85,Lemonade,Other / Add-ons,88.0,99456,False,True
+86,Mix & Match Yakitori & Kani Tempura,Management,0.0,10281,True,True
+87,Mix & Match Beef Misono w/ Ebi Tempura,GrabFood,350.0,99457,False,True
+88,Mix & Match Beef Misono/Kani Tempura,GrabFood,350.0,99458,False,True
+89,Mix & Match Salmon/Tuna Sashimi w/ Kani Tempura,Management,0.0,10526,True,True
+90,Mix & Match Sashimi/Kani,GrabFood,431.25,99459,False,True
+91,Mix & Match Tuna Misono & Ebi Tempura,GrabFood,350.0,10767,False,True
+92,Mix & Match Tuna Misono & Kani Tempura,GrabFood,400.0,10767,False,True
+93,Mix & Match Yakitori/Kani,GrabFood,325.0,10515,False,True
+94,Medium Party Platter,Management,0.0,18769,True,True
+95,Miso Soup (Large),Other / Add-ons,70.0,10004,False,True
+96,Miso Soup (Small),Other / Add-ons,38.0,10494,False,True
+97,Miso Soup (Small),Management,0.0,10499,True,True
+98,Mix & Match Yakitori & Ebi Tempura,Management,0.0,10538,True,True
+99,Mixed Seafood Misono,GrabFood,518.75,99460,False,True
+100,Mixed Sushi & Sashimi,Management,0.0,0,True,True
+101,Moyashi,Other / Add-ons,110.0,10512,False,True
+102,Nori Snack Pack,Management,0.0,10899,True,True
+103,Nori Snack Pack,Other / Add-ons,45.0,10489,False,True
+104,Okonomiyaki,Starters,168.0,10634,False,True
+105,Okonomiyaki Cheesy Mushroom,Management,0.0,12654,True,True
+106,Okonomiyaki Cheesy Beef (Regular),Management,0.0,99461,True,True
+107,Okonomiyaki Cheesy Beef (Sharing),Management,0.0,99461,True,True
+108,Okonomiyaki Mixed Seafood (Sharing),Management,0.0,99462,True,True
+109,Okonomiyaki Cheesy Beef (Regular),Starters,249.0,10699,False,True
+110,Okonomiyaki Garlic & Cheese,Starters,209.0,10754,False,True
+111,Okonomiyaki Mushroom & Cheese,Management,0.0,10777,True,True
+112,Okonomiyaki Mushroom & Cheese (Sharing),Management,0.0,10777,True,True
+113,Okonomiyaki Promo Buttered Chicken,Starters,209.0,10746,False,True
+114,Okonomiyaki Buttered Chicken,Management,0.0,10777,True,True
+115,Okonomiyaki Cheesy Mushroom,Starters,209.0,10638,False,True
+116,Okonomiyaki Garlic & Cheese,Management,0.0,10630,True,True
+117,Okonomiyaki Mixed Seafood (Regular),GrabFood,462.5,99463,False,True
+118,Oreo Dream Cake,Desserts,150.0,10666,False,True
+119,Phila Salmon Roll,GrabFood,368.75,10625,False,True
+120,Philadelphia Roll,Maki Rolls,305.0,10539,False,True
+121,Pork Misono,Don Buri (Pork),159.0,10924,False,True
+122,Pork Teppanyaki,Management,0.0,10798,True,True
+123,Pork Misono,Management,0.0,10550,True,True
+124,Ramen Soup,Other / Add-ons,45.0,0,False,True
+125,Red Velvet Royale,Desserts,150.0,10668,False,True
+126,Stardeals,Stardeals,585.0,10620,False,True
+127,Sweet Spicy Salmon Burrito,Management,0.0,10814,True,True
+128,Salmon Maki,GrabFood,337.5,10552,False,True
+129,Salmon Sashimi,Management,0.0,10799,True,True
+130,Salmon Skin Roll,Management,0.0,10814,True,True
+131,Salmon Spicy Roll,GrabFood,475.0,10583,False,True
+132,Creamy Salmon Baked Sushi,Management,0.0,10601,True,True
+133,Salmon Spicy Roll,Management,0.0,10258,True,True
+134,Seafood Fried Rice,Other / Add-ons,88.0,10498,False,True
+135,Seafood Fried Rice,Management,0.0,10171,True,True
+136,Seafood Fried Rice & Ebi Tempura,Management,0.0,10185,True,True
+137,Seafood Fried Rice with Ebi Tempura,GrabFood,481.25,10474,False,True
+138,Shoyu Beef Ramen,Management,0.0,10531,True,True
+139,Shoyu Seafood Ramen,Management,0.0,10425,True,True
+140,Shoyu Mushroom Miso Ramen,GrabFood,462.5,10876,False,True
+141,Shoyu Seafood Ramen,Ramen Bowls,289.0,10875,False,True
+142,Shoyu Miso Buttered Chicken,Management,0.0,99464,True,True
+143,Shoyu Mushroom Miso Ramen,Management,0.0,10534,True,True
+144,Soft Drinks,Management,0.0,10812,True,True
+145,Special Kani Salad (Regular),GrabFood,462.5,13243,False,True
+146,Spicy Ebi Tempura,GrabFood,462.5,10604,False,True
+147,Spicy Roast Pork Tomato Ramen,Management,0.0,10680,True,True
+148,Sukiyaki Soup (Regular),GrabFood,461.25,10879,False,True
+149,Sukiyakidon (Set A),GrabFood,450.0,12123,False,True
+150,Super Supreme Mixed Maki,Management,0.0,0,True,True
+151,Tonkatsu Roll,Management,0.0,10623,True,True
+152,Tonkatsu (Set A),GrabFood,373.75,10527,False,True
+153,Teriyaki Sauce,Other / Add-ons,25.0,10010,False,True
+154,Tonkatsu Sauce,Other / Add-ons,28.0,10003,False,True
+155,Tonkatsu a la Carte,Other / Add-ons,240.0,10719,False,True
+156,Tonkotsu Ramen,GrabFood,531.25,11234,False,True
+157,Tonkotsu Ramen,Management,0.0,10536,True,True
+158,Torikatsu,Management,0.0,10294,True,True
+159,Torikatsu (60 g),Management,0.0,10698,True,True
+160,Torikatsu Burrito,Management,0.0,10558,True,True
+161,Torikatsu Curry,GrabFood,406.25,10603,False,True
+162,Torikatsu Ramen,Management,0.0,10595,True,True
+163,Torikatsu Curry,Management,0.0,10506,True,True
+164,Torikatsu (Set A),GrabFood,373.75,10544,False,True
+165,Torikatsudon,Don Buri (Chicken),159.0,10632,False,True
+166,Torikatsudon (60 g),Management,0.0,10522,True,True
+167,Torikatsudon (Set A),GrabFood,406.25,10560,False,True
+168,Tuna Aburi,Maki Rolls,345.0,10756,False,True
+169,Tuna Misono (100 g),Management,0.0,10549,True,True
+170,Tuna Sashimi,Management,0.0,10266,True,True
+171,Tuna Teppanyaki/Teriyaki,GrabFood,862.5,11239,False,True
+172,Tuna Misono (60 g),Management,0.0,10170,True,True
+173,Upgrade to Seafood Fried Rice,Other / Add-ons,40.0,10580,False,True
+174,Upgrade to Mango Shake,Other / Add-ons,85.0,99465,False,True
+175,Yakisoba (Sharing),Management,0.0,10559,True,True
+176,Yakisoba (Regular),Management,0.0,0,True,True
+177,Yakisoba w/ Yakitori & California Maki,GrabFood,568.75,99466,False,True
+178,Yakitori (4 pcs),Other / Add-ons,280.0,10187,False,True
+179,Yellow Kimono Roll,Management,0.0,10763,True,True
+180,Tonkatsu Roll,Maki Rolls,265.0,10660,False,True
+181,Beef Teriyaki Noodles (Regular),All Time Favorites,285.0,10457,False,True
+182,Beef Teriyaki Noodles (Sharing),All Time Favorites,430.0,10458,False,True
+183,Ebi Tempura (12 pcs),All Time Favorites,895.0,10451,False,True
+184,Ebi Tempura (3 pcs),All Time Favorites,260.0,10449,False,True
+185,Ebi Tempura (6 pcs),All Time Favorites,470.0,10450,False,True
+186,Kani Tempura (12 pcs),All Time Favorites,720.0,10454,False,True
+187,Kani Tempura (3 pcs),All Time Favorites,210.0,10452,False,True
+188,Kani Tempura (6 pcs),All Time Favorites,370.0,10453,False,True
+189,Miso Soup (Large),All Time Favorites,70.0,10004,False,True
+190,Miso Soup (Small),All Time Favorites,38.0,10494,False,True
+191,Mixed Tempura (Regular),All Time Favorites,465.0,10455,False,True
+192,Moyashi,All Time Favorites,95.0,10240,False,True
+193,Salmon Teppanyaki/Teriyaki,All Time Favorites,595.0,10241,False,True
+194,Squid Teppanyaki,All Time Favorites,365.0,10466,False,True
+195,Sukiyaki Soup (Regular),All Time Favorites,310.0,10459,False,True
+196,Sukiyaki Soup (Sharing),All Time Favorites,465.0,10460,False,True
+197,Tuna Teppanyaki/Teriyaki,All Time Favorites,555.0,10469,False,True
+198,Yakisoba (Regular),All Time Favorites,275.0,10461,False,True
+199,Yakisoba (Sharing),All Time Favorites,410.0,10462,False,True
+200,4-in-1 Baked Sushi,Baked Sushi,1315.0,10662,False,True
+201,California Baked Sushi,Baked Sushi,555.0,10396,False,True
+202,Cheesy Beef Baked Sushi,Baked Sushi,575.0,10397,False,True
+203,Cheesy Beef Baked Sushi,GrabFood,831.25,10635,False,True
+204,Creamy Chicken Baked Sushi,Baked Sushi,560.0,10400,False,True
+205,Creamy Salmon Baked Sushi,Baked Sushi,625.0,10398,False,True
+206,Creamy Salmon Baked Sushi,GrabFood,900.0,99467,False,True
+207,Mixed Seafood Baked Sushi,Baked Sushi,670.0,10399,False,True
+208,Mixed Seafood Baked Sushi,GrabFood,962.5,99468,False,True
+209,California Baked Sushi,Management,0.0,10574,True,True
+210,California Baked Sushi (50 g),Management,0.0,10574,True,True
+211,Cheesy Beef Baked Sushi,Management,0.0,10575,True,True
+212,Pork Teriyaki (Set B),Don Buri (Pork),355.0,10102,False,True
+213,Pork Teriyaki (Set A),Don Buri (Pork),275.0,10098,False,True
+214,Pork Teriyaki (Set A),Don Buri (Pork),275.0,10098,False,True
+215,Beef Curry (Set A),Don Buri (Beef),350.0,10152,False,True
+216,Beef Curry (Set B),Don Buri (Beef),385.0,10154,False,True
+217,Beef Teppanyaki/Misono (Set A),GrabFood,506.25,10724,False,True
+218,Beef Teppanyaki/Misono (Set A),Don Buri (Beef),350.0,10167,False,True
+219,Beef Teppanyaki/Misono (Set B),Don Buri (Beef),385.0,10168,False,True
+220,Beef Teriyaki (Set A),Don Buri (Beef),350.0,10157,False,True
+221,Beef Teriyaki (Set B),Don Buri (Beef),385.0,10158,False,True
+222,Chicken Teppanyaki/Misono (Set A),Don Buri (Chicken),275.0,10070,False,True
+223,Chicken Teppanyaki/Misono (Set B),Don Buri (Chicken),355.0,10071,False,True
+224,Chicken Teriyaki (Set B),Don Buri (Chicken),355.0,10069,False,True
+225,Crispy Chicken w/ Egg (Set A),Don Buri (Chicken),255.0,10225,False,True
+226,Crispy Chicken w/ Egg (Set B),Stardeals,0.0,10676,True,True
+227,Crispy Chicken w/ Egg (Set B),Don Buri (Chicken),315.0,10072,False,True
+228,Ebi Toji Don (Set A),Don Buri (Seafood),335.0,10121,False,True
+229,Grilled Chicken Teriyaki (Set A),GrabFood,412.5,10714,False,True
+230,Grilled Chicken Teriyaki (Set A),Don Buri (Chicken),275.0,10067,False,True
+231,Grilled Chicken Teriyaki (Set B),Don Buri (Chicken),355.0,10069,False,True
+232,Grilled Chicken Teriyaki (Set A),Don Buri (Chicken),275.0,10067,False,True
+233,Gyudon (Set A),Don Buri (Beef),340.0,10645,False,True
+234,Gyudon (Set B),Don Buri (Beef),370.0,10145,False,True
+235,Karaagedon (Set A),GrabFood,373.75,10665,False,True
+236,Karaagedon (Set A),Don Buri (Chicken),260.0,10044,False,True
+237,Karaagedon (Set B),Don Buri (Chicken),340.0,10052,False,True
+238,Katsu Curry (Regular) (Set A),Don Buri (Pork),275.0,10125,False,True
+239,Katsu Curry (Regular) (Set B),Don Buri (Pork),355.0,10127,False,True
+240,Katsu Curry (Set A),Don Buri (Pork),275.0,10125,False,True
+241,Katsu Curry (Set B),Don Buri (Pork),355.0,10127,False,True
+242,Katsu Omelette Curry (Set A),Don Buri (Pork),315.0,10652,False,True
+243,Katsu Omelette Curry (Set B),Don Buri (Pork),385.0,10130,False,True
+244,Katsu Tuna (Set A),Don Buri (Seafood),335.0,10114,False,True
+245,Katsu Tuna (Set B),Don Buri (Seafood),385.0,10119,False,True
+246,Katsudon (Set A),GrabFood,400.0,10661,False,True
+247,Katsudon (Set A),Don Buri (Pork),275.0,10109,False,True
+248,Katsudon (Set B),Don Buri (Pork),355.0,10111,False,True
+249,Mixed Seafood Misono (Set A),Don Buri (Seafood),335.0,10073,False,True
+250,Mixed Seafood Misono (Set B),Don Buri (Seafood),375.0,10113,False,True
+251,Oyakudon (Set A),Don Buri (Chicken),255.0,10018,False,True
+252,Oyakudon (Set B),Don Buri (Chicken),315.0,10051,False,True
+253,Pork Teppanyaki/Misono (Set A),Don Buri (Pork),275.0,10115,False,True
+254,Pork Teppanyaki/Misono (Set B),Don Buri (Pork),355.0,10118,False,True
+255,Pork Teriyaki (Set A),GrabFood,400.0,10713,False,True
+256,Shoyu Miso Buttered Chicken (Set A),Don Buri (Chicken),260.0,10046,False,True
+257,Shoyu Miso Buttered Chicken (Set B),Don Buri (Chicken),340.0,10047,False,True
+258,Shoyu Miso Buttered Pork (Set A),Don Buri (Pork),275.0,10107,False,True
+259,Shoyu Miso Buttered Pork (Set B),Don Buri (Pork),355.0,10108,False,True
+260,Sukiyakidon (Set A),Don Buri (Beef),310.0,10135,False,True
+261,Sukiyakidon (Set B),Don Buri (Beef),350.0,10137,False,True
+262,Tonkatsu (Set A),Don Buri (Pork),260.0,10095,False,True
+263,Tonkatsu (Set B),Don Buri (Pork),355.0,10097,False,True
+264,Torikatsu (Set A),Don Buri (Chicken),260.0,10055,False,True
+265,Torikatsu (Set B),Don Buri (Chicken),355.0,10057,False,True
+266,Torikatsu Curry (Set A),Don Buri (Chicken),275.0,10088,False,True
+267,Torikatsu Curry (Set B),Don Buri (Chicken),355.0,10089,False,True
+268,Torikatsu Omelette Curry (Set A),GrabFood,425.0,10704,False,True
+269,Torikatsu Omelette Curry (Set A),Don Buri (Chicken),315.0,10090,False,True
+270,Torikatsu Omelette Curry (Set B),Don Buri (Chicken),385.0,10092,False,True
+271,Torikatsudon (Set A),Don Buri (Chicken),275.0,10062,False,True
+272,Torikatsudon (Set B),Don Buri (Chicken),355.0,10616,False,True
+273,Yakitori (Set A),GrabFood,412.5,10673,False,True
+274,Yakitori (Set A),Don Buri (Chicken),275.0,10075,False,True
+275,Yakitori (Set B),Don Buri (Chicken),355.0,10077,False,True
+276,Brewed Coffee,Drinks & Shakes,75.0,10444,False,True
+277,Coke/Sprite/Royal/Rootbeer,Drinks & Shakes,83.0,10442,False,True
+278,Cucumber Shake,Drinks & Shakes,195.0,10446,False,True
+279,Green Tea,Drinks & Shakes,75.0,10443,False,True
+280,Iced Coffee,Drinks & Shakes,135.0,10488,False,True
+281,Iced Tea (Regular),Drinks & Shakes,88.0,10440,False,True
+282,Iced Tea (Sharing),Drinks & Shakes,250.0,10441,False,True
+283,Ichigo Matcha,Drinks & Shakes,185.0,10464,False,True
+284,Matcha Latte,Drinks & Shakes,155.0,10715,False,True
+285,Mango Juice,Drinks & Shakes,119.0,10439,False,True
+286,Mango Shake,Drinks & Shakes,195.0,10445,False,True
+287,Mineral Water,Drinks & Shakes,45.0,10436,False,True
+288,Mineral Water (Small),Drinks & Shakes,34.0,99469,False,True
+289,Pineapple Juice,Drinks & Shakes,105.0,10437,False,True
+290,Red Iced Tea,Drinks & Shakes,145.0,10042,False,True
+291,Red Iced Tea Shake,Drinks & Shakes,210.0,10447,False,True
+292,Sola,Drinks & Shakes,95.0,10438,False,True
+293,Vanilla Ice Cream,Desserts,75.0,10039,False,True
+294,Extra Egg Fried Rice,Other / Add-ons,73.0,10176,False,True
+295,Extra Mayo,Other / Add-ons,25.0,10491,False,True
+296,Extra Nori Snack Pack,Other / Add-ons,45.0,10489,False,True
+297,Extra Ramen Noodles,Other / Add-ons,59.0,10009,False,True
+298,Extra Seafood Fried Rice,Other / Add-ons,88.0,10498,False,True
+299,Extra Tonkatsu Sauce,Other / Add-ons,35.0,10003,False,True
+300,Chirashi Don,House Specialty,395.0,10473,False,True
+301,Mixed Maki Rolls,House Specialty,275.0,10470,False,True
+302,Mixed Sashimi,House Specialty,645.0,10472,False,True
+303,Mixed Sushi & Sashimi,House Specialty,495.0,10471,False,True
+304,Mix & Match Sashimi/Ebi,Management,0.0,10734,True,True
+305,Japanese Rice w/ Beef Misono & Ebi Tempura,Mix & Match,265.0,10211,False,True
+306,Japanese Rice w/ Beef Misono & Kani Tempura,Mix & Match,245.0,10212,False,True
+307,Japanese Rice w/ Tuna Misono & Ebi Tempura,Mix & Match,265.0,10214,False,True
+308,Japanese Rice w/ Tuna Misono & Kani Tempura,Mix & Match,245.0,10213,False,True
+309,Seafood Fried Rice w/ Tonkatsu & Ebi Tempura,Mix & Match,255.0,10221,False,True
+310,Seafood Fried Rice w/ Tonkatsu & Kani Tempura,Mix & Match,235.0,10222,False,True
+311,Seafood Fried Rice w/ Torikatsu & Ebi Tempura,Mix & Match,245.0,10218,False,True
+312,Seafood Fried Rice w/ Torikatsu & Kani Tempura,Mix & Match,225.0,10220,False,True
+313,Seafood Fried Rice w/ Tuna & Salmon Sashimi & Ebi Tempura,Mix & Match,275.0,10223,False,True
+314,Seafood Fried Rice w/ Tuna & Salmon Sashimi & Kani Tempura,Mix & Match,255.0,10224,False,True
+315,Seafood Fried Rice w/ Yakitori & Ebi Tempura,Mix & Match,245.0,10216,False,True
+316,Seafood Fried Rice w/ Yakitori & Kani Tempura,Mix & Match,225.0,10215,False,True
+317,Seafood Fried Rice w/ Salmon Tuna Sashimi & Ebi Tempura,GrabFood,393.75,10669,False,True
+318,Seafood Fried Rice w/ Tonkatsu & Kani Tempura,GrabFood,337.5,10671,False,True
+319,Seafood Fried Rice w/ Yakitori & Ebi Tempura,GrabFood,350.0,10650,False,True
+320,Mix & Match Torikatsu/Kani Tempura,GrabFood,325.0,10745,False,True
+321,California Maki,Maki Rolls,190.0,10264,False,True
+322,Cheesy Cowboy Roll,Maki Rolls,270.0,10366,False,True
+323,Crazy Kani Roll,Maki Rolls,265.0,10368,False,True
+324,Crunchy California Maki,Maki Rolls,225.0,10381,False,True
+325,Crunchy Ebi Roll,Maki Rolls,275.0,10371,False,True
+326,Crunchy Kani Roll,Maki Rolls,230.0,10380,False,True
+327,Crunchy Salmon Roll,Maki Rolls,330.0,10376,False,True
+328,Crunchy Salmon Roll,Maki Rolls,345.0,10377,False,True
+329,Crunchy Veggie Salad Roll,Maki Rolls,225.0,10369,False,True
+330,Crunchy Veggie Salad Roll,GrabFood,325.0,10778,False,True
+331,Dynamite Roll,Maki Rolls,275.0,10373,False,True
+332,Futo Maki,Maki Rolls,310.0,10384,False,True
+333,Katsu Tuna Roll,Maki Rolls,255.0,10234,False,True
+334,Nachos Beef Roll,Maki Rolls,285.0,10378,False,True
+335,Phila Salmon Roll,Maki Rolls,255.0,10375,False,True
+336,Philadelphia Roll,Maki Rolls,265.0,10363,False,True
+337,Salmon Maki,Maki Rolls,235.0,10382,False,True
+338,Salmon Mango Roll,Maki Rolls,275.0,10007,False,True
+339,Salmon Skin Roll,Maki Rolls,310.0,10370,False,True
+340,Salmon Spicy Roll,Maki Rolls,330.0,10364,False,True
+341,Spicy Ebi Tempura Roll,Maki Rolls,320.0,10365,False,True
+342,Tamago Roll,Maki Rolls,235.0,10383,False,True
+343,Tonkatsu Roll,Maki Rolls,265.0,10372,False,True
+344,Tuna Maki,Maki Rolls,225.0,10383,False,True
+345,Tuna Mango Roll,Maki Rolls,275.0,10766,False,True
+346,Tuna Spicy Toro Roll,Maki Rolls,330.0,10367,False,True
+347,Yellow Kimono Roll,Maki Rolls,275.0,10374,False,True
+348,California Maki Platter (40 pcs),Platters,860.0,10481,False,True
+349,California Maki Platter (48 pcs),Platters,1020.0,10482,False,True
+350,California Maki Platter (64 pcs),Platters,1320.0,10483,False,True
+351,California Maki Platter (96 pcs),Platters,2030.0,10484,False,True
+352,Party Tray (Large),Platters,4535.0,10480,False,True
+353,Medium Party Tray,Platters,2830.0,10479,False,True
+354,Mixed Sashimi Platter,Platters,1389.0,10475,False,True
+355,Salmon Platter (500 g),Platters,1725.0,10209,False,True
+356,Seafood Platter Maki Rolls,Platters,1290.0,10033,False,True
+357,Party Tray (Small),Platters,1435.0,10034,False,True
+358,Special Mixed Sushi Maki Salmon & Tuna Sashimi,Platters,1799.0,10485,False,True
+359,Super Supreme Mixed Maki,Platters,1170.0,10477,False,True
+360,Curry Beef Ramen,GrabFood,556.25,10672,False,True
+361,Curry Beef Ramen,Ramen Bowls,385.0,10361,False,True
+362,Gyoza Ramen,Ramen Bowls,360.0,10357,False,True
+363,Katsu Ramen,Ramen Bowls,350.0,10355,False,True
+364,Shoyu Beef Ramen,Ramen Bowls,350.0,10354,False,True
+365,Shoyu Mushroom Miso Ramen,Ramen Bowls,310.0,10043,False,True
+366,Shoyu Seafood Ramen,Ramen Bowls,350.0,10353,False,True
+367,Spicy Beef Tomato Ramen,Ramen Bowls,385.0,10360,False,True
+368,Spicy Roast Pork Tomato Ramen,Ramen Bowls,385.0,10359,False,True
+369,Spicy Roast Pork Tomato Ramen,GrabFood,556.25,10735,False,True
+370,Tantanmen,Ramen Bowls,385.0,10227,False,True
+371,Tonkotsu Ramen,Ramen Bowls,360.0,10356,False,True
+372,Torikatsu Ramen,Ramen Bowls,340.0,10545,False,True
+373,Cheesy Beef Teriyaki Burrito,Stardeals,0.0,10678,True,True
+374,Cheesy Beef Teriyaki Burrito,Sushi Burrito,325.0,10391,False,True
+375,Cheesy Torikatsu Burrito,Sushi Burrito,315.0,10392,False,True
+376,Crazy Kani Burrito,Sushi Burrito,315.0,10393,False,True
+377,Ebi Spicy Burrito,Sushi Burrito,355.0,10394,False,True
+378,Roasted Chicken (Inasal) Burrito,Sushi Burrito,385.0,10169,False,True
+379,Sweet Spicy Salmon Burrito,Sushi Burrito,355.0,10395,False,True
+380,Kani Sashimi (Crabstick),Sashimi,255.0,10002,False,True
+381,Salmon Sashimi,GrabFood,518.75,10659,False,True
+382,Salmon Sashimi (Sake),Sashimi,359.0,10427,False,True
+383,Tamago Sashimi (Sweet Egg),Sashimi,255.0,10430,False,True
+384,Tuna Sashimi (Maguro),Sashimi,349.0,10428,False,True
+385,Crispy Salmon Salad,Salad,495.0,10431,False,True
+386,Special Kani Salad (Regular),Salad,315.0,10432,False,True
+387,Special Kani Salad (Sharing),Salad,475.0,10433,False,True
+388,Sukiyaki w/ California Maki,Snack Meals,325.0,10407,False,True
+389,Yakisoba w/ 2 pcs Ebi Tempura & California Maki,Snack Meals,395.0,10411,False,True
+390,Yakisoba w/ Gyoza & California Maki,Snack Meals,335.0,10409,False,True
+391,Yakisoba w/ Torikatsu & California Maki,GrabFood,400.0,10035,False,True
+392,Yakisoba w/ Torikatsu & California Maki,Snack Meals,275.0,10653,False,True
+393,Yakisoba w/ Yakitori (Chicken BBQ) & California Maki,Snack Meals,385.0,10037,False,True
+394,Agedashi (4 pcs),Starters,195.0,10417,False,True
+395,Agedashi (8 pcs),Starters,375.0,10418,False,True
+396,Gyoza (4 pcs),Starters,238.0,10421,False,True
+397,Gyoza (8 pcs),Starters,448.0,10422,False,True
+398,Gyoza (4 pcs),GrabFood,350.0,10702,False,True
+399,Kakiage (4 pcs),Starters,270.0,10415,False,True
+400,Kakiage (8 pcs),Starters,420.0,10416,False,True
+401,Okonomiyaki Buttered Chicken (Regular),Starters,280.0,10423,False,True
+402,Okonomiyaki Buttered Chicken (Sharing),Starters,485.0,10519,False,True
+403,Okonomiyaki Cheesy Beef (Regular),Starters,320.0,10509,False,True
+404,Okonomiyaki Cheesy Beef (Sharing),Starters,525.0,10516,False,True
+405,Okonomiyaki Garlic & Cheese (Regular),Starters,280.0,10508,False,True
+406,Okonomiyaki Mixed Seafood (Regular),Starters,320.0,10142,False,True
+407,Okonomiyaki Mixed Seafood (Sharing),Starters,525.0,10517,False,True
+408,Okonomiyaki Cheesy Beef (Regular),Starters,320.0,10509,False,True
+409,Okonomiyaki Cheesy Mushroom (Regular),Starters,280.0,10512,False,True
+410,Okonomiyaki Mixed Seafood (Regular),Starters,320.0,10142,False,True
+411,Okonomiyaki Mixed Seafood (Sharing),Starters,525.0,10517,False,True
+412,Seafood Fried Rice w/ Ebi Tempura,Tempura Meals,335.0,10403,False,True
+413,Seafood Fried Rice w/ Kani Tempura,Tempura Meals,285.0,10402,False,True
+414,Seafood Fried Rice w/ Mixed Tempura,Tempura Meals,355.0,10404,False,True
+415,Upgrade to Ichigo Matcha,Other / Add-ons,90.0,10639,False,True
+416,Upgrade to Soft Drinks,Other / Add-ons,55.0,10204,False,True
+417,"Good for 3: Chicken Misono, Ebi Tempura, California Maki",Value Meals,695.0,10030,False,True
+418,"Good for 3: Pork Misono, Ebi Tempura, California Maki",Value Meals,715.0,10031,False,True
+419,"Good for 6: Beef Misono, Ebi Tempura, Crispy Chicken",Value Meals,1825.0,10032,False,True
+420,Good for 3: Crispy Chicken,Value Meals,795.0,10562,False,True
+421,Super Supreme Mixed Maki,Management,0.0,10412,True,True

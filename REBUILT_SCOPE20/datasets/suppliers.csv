@@ -1,0 +1,8 @@
+supplier_id,supplier_name,lead_time_days,lead_time_sd_days,delivery_interval_days
+1,BANRI,1,0.3,2
+2,FIRST ENTERPRISES,2,0.5,7
+3,FRANCESCO,1,0.3,1
+4,HI-QRYS,1,0.3,7
+5,SHOKURYOHIN,2,0.5,3
+6,MY OWN,1,0.2,2
+7,HI-TOP,0,0.0,1

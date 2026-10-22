@@ -1,0 +1,32 @@
+13c13,15
+< import numpy as np, pandas as pd
+---
+> import numpy as np
+> import os as _os_cap, pandas as pd
+> BUSY_MONTHS = {int(x) for x in _os_cap.environ.get('SAL_BUSY_MONTHS', '11,12').split(',') if x}
+73a76,77
+>         if _os_cap.environ.get('SAL_P_CURE'):                     # client 2026-10-19: when salmon runs out between deliveries a whole fish is bought the same day
+>             self.p_cure[int(np.flatnonzero(env.code == 'SAL')[0])] = float(_os_cap.environ['SAL_P_CURE'])
+89a94,95
+>         if _os_cap.environ.get('SAL_MONTH_CAP') == '1' and str(self.e.code[k]) == 'SAL':      # client 2026-10-19: salmon is delivered 1-2 times a month, 3 in busy months (Nov, Dec)
+>             arr = self._sal_capped_arrival(t, arr, k)
+91a98,116
+>         return arr
+> 
+>     def _sal_capped_arrival(self, t, arr, k):
+>         """Moves a salmon delivery to the first delivery day of a later month while its calendar month already holds the cap
+>         (2 deliveries; 3 in November and December). Counts deliveries already received and already scheduled."""
+>         days = self.e.days; nd = len(days)
+>         if not hasattr(self, '_mon_idx'):
+>             self._mon_idx = np.array([d.year * 12 + d.month for d in days])
+>         mi = self._mon_idx
+>         while arr < nd:
+>             m = mi[arr]; mon = (m % 12) or 12; cap = 3 if mon in BUSY_MONTHS else 2          # month index = year*12 + month; BUSY_MONTHS from SAL_BUSY_MONTHS (default 11,12)
+>             got = int((self.received[:min(t + 1, nd), k][mi[:min(t + 1, nd)] == m] > 0).sum())
+>             sched = sum(1 for d_, ents in self.pipe.items() if d_ < nd and mi[d_] == m for ent in ents if ent[0] == k)
+>             if got + sched < cap:
+>                 break
+>             nxt = int(np.argmax(mi > m)) if (mi > m).any() else nd
+>             if nxt >= nd:
+>                 break
+>             arr = self.arrival_day(nxt, 0, k)

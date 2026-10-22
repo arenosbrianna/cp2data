@@ -1,0 +1,30 @@
+source_file,staging_table,rows_in,rows_before_window,rows_after_window,rows_out,columns_in,columns_kept,columns_dropped
+calendar.csv,stg.calendar,2077,243,0,1834,16,14,is_open;closure_basis
+storage_locations.csv,stg.storage_locations,6,0,0,6,13,5,location;unit_type;holds;compartments;compartment_capacity_l;reference_note;capacity_provenance;capacity_enforced_in_simulation
+menu_items.csv,stg.menu_items,438,0,0,436,12,8,printed_menu_price;printed_menu_cell;is_promo;is_synthetic
+ingredients.csv,stg.ingredients,57,0,0,55,20,9,expected_yield;expected_yield_provenance;expected_yield_basis;catalog_unit_cost;menu2_codes;shelf_life_provenance;shelf_life_basis;thawed_use_within_days;thaw_policy;primary_storage_location;client_answer
+suppliers.csv,stg.suppliers,9,0,0,7,8,5,fill_rate;delivery_terms_provenance;delivery_terms_basis
+supplier_catalog.csv,stg.supplier_item_terms,57,0,0,55,20,7,catalog_id;current_price;purchasing_unit;price_provenance;price_source;pack_size_base;density_g_per_ml;density_provenance;in_use;pack_vs_sheet;sheet_row;sheet_product;mapping_basis
+recipes.csv,stg.recipes,1813,0,0,1803,11,4,ingredient_code;derivation;recipe_source;is_synthetic;qty_adjusted_by;line_provenance;qty_provenance
+sales.csv,stg.sales,49201,4015,0,45186,18,12,item_code;item_name;portion_qty;portion_unit;sku;taxes
+sales_artifact_log.csv,stg.sales_artifact_log,258,21,0,237,14,5,artifact_id;artifact_type;sale_id;related_sale_id;net_sales;category_recorded;category_original;in_analytical_fact;detail
+inventory.csv,stg.inventory,118389,13851,0,100870,17,14,qty_thawed;qty_wasted;data_source
+inventory_batches.csv,stg.inventory_batches,139897,15067,0,124830,11,9,storage_state;data_source
+waste.csv,stg.waste,5656,666,0,4990,15,13,uom;storage_state
+client_answer_checks.csv,(not loaded),96,0,0,0,12,0,check_id;check;client_value;client_min;client_max;period;simulated_value;unit;status;basis;note;source
+client_answer_impact.csv,(not loaded),61,0,0,0,6,0,answer_id;file;column_or_table;before;after;applied
+client_answer_issues.csv,(not loaded),27,0,0,0,9,0,issue_id;type;topic;detail;resolution;needs_client;blocking;status;evidence
+client_answers_applied.csv,(not loaded),18,0,0,0,7,0,answer_id;question;client_answer_verbatim;status;interpretation;applied_to;source
+client_budget_diagnosis.csv,(not loaded),57,0,0,0,13,0,ingredient_id;ingredient_code;ingredient_name;uom;unit_cost;use_per_week;cost_source;supply_ur_wastage_fluctuation;php_per_week;share_of_use_from_synthetic_lines;php_per_week_source_lines_only;in_weekly_budget;share_of_cost
+client_parameters.csv,(not loaded),81,0,0,0,11,0,parameter;value;value_min;value_max;unit;provenance;source;interpretation;used_in;enforced_in_simulation;owner_answer_status
+closure_day_sales_removed.csv,(not loaded),426,0,0,0,27,0,sale_id;sale_date;item_id;item_name;sku;category;quantity_sold;gross_sales;items_refunded;refunds;discount;net_sales;cost_of_goods;gross_profit;margin;taxes;unit_price;channel;is_complimentary;data_source;source_row;is_duplicate_artifact;duplicate_of_sale_id;is_label_artifact;is_closure_adjusted;include_in_fact;adjustment_reason
+ingredient_storage.csv,(not loaded),57,0,0,0,13,0,ingredient_id;ingredient_code;ingredient_name;storage_type;receipt_form;receipt_location;stored_form;stored_location;ready_to_use;thawed_use_within_days;location_provenance;basis;counts_toward_raw_ingredient_capacity
+item_name_split_review.csv,(not loaded),446,0,0,0,6,0,item_id;pos_item_name;item_code;item_name;portion_qty;portion_unit
+promo_campaign.csv,(not loaded),56,0,0,0,3,0,promo_name;promo_year;item_id
+recipe_lines_removed.csv,(not loaded),17,0,0,0,11,0,item_id;ingredient_id;ingredient_code;qty_per_item;uom;derivation;recipe_source;is_synthetic;qty_adjusted_by;removed_because;source
+recipe_review.csv,(not loaded),134,0,0,0,5,0,review_type;dish;menu2_code;detail;v4_status
+sales_duplicates_removed.csv,(not loaded),120,0,0,0,27,0,sale_id;sale_date;item_id;item_name;sku;category;quantity_sold;gross_sales;items_refunded;refunds;discount;net_sales;cost_of_goods;gross_profit;margin;taxes;unit_price;channel;is_complimentary;data_source;source_row;is_duplicate_artifact;duplicate_of_sale_id;is_label_artifact;is_closure_adjusted;include_in_fact;adjustment_reason
+supplier_pack_size_check.csv,(not loaded),57,0,0,0,22,0,supplier_id;ingredient_id;order_unit;pack_size;pack_unit;pack_size_base;min_order_packs;usable_fraction;usable_fraction_provenance;usable_fraction_basis;usable_qty_per_pack;density_g_per_ml;density_provenance;ingredient_code;source_row;mapping_basis;source_product;source_quantity;unit_source;source_detailed_quantity;status;resolution
+supply_unit_rates.csv,(not loaded),72,0,0,0,38,0,source_sheet;source_row;row_visibility;outline_level;in_filter_range;supplier_id;supplier_name;supplier_name_source;supplier_source;supplier_fill_note;product;group_code;quantity;unit_source;unit;detailed_quantity;unit_rate_php;unit_rate_formula;amount_php;wastage_fluctuation;wastage_fluctuation_semantics;net_qty;net_qty_formula;unit_rate_per_gms;side_n;side_o;side_p;side_q;side_r;side_s;is_chosen_supplier;duplicate_rows;name_variant_of;normalization;cell_comments;data_flags;row_fate;fate_detail
+supply_ur_formula_audit.csv,(not loaded),231,0,0,0,9,0,cell;excel_row;column;header;formula;cached_value;pattern;meaning;exported_as
+supply_ur_row_audit.csv,(not loaded),95,0,0,0,10,0,excel_row;row_visibility;outline_level;in_filter_range;populated_columns;row_kind;supplier_name;product;fate;note

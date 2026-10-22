@@ -1,0 +1,792 @@
+item_id,item_name,ingredient_code,qty_per_item,uom,rule,basis,copied_from_item_id
+17,4 in 1 baked,CF,60.0,g,A_copy_variant,same dish as [BS] 4in1 Baked Sushi,209.0
+17,4 in 1 baked,KNI,1.0,pc,A_copy_variant,same dish as [BS] 4in1 Baked Sushi,209.0
+17,4 in 1 baked,SAL,50.0,g,A_copy_variant,same dish as [BS] 4in1 Baked Sushi,209.0
+17,4 in 1 baked,SB,50.0,g,A_copy_variant,same dish as [BS] 4in1 Baked Sushi,209.0
+54,Creamy Chicken Baked,SUS,100.0,g,A_copy_variant,same dish as [BS] Creamy Chicken,213.0
+55,Creamy chicken baked,SUS,100.0,g,A_copy_variant,same dish as [BS] Creamy Chicken,213.0
+82,Katsu Ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Katsu Ramen,385.0
+82,Katsu Ramen,MZN,45.0,g,A_copy_variant,same dish as [RM] Katsu Ramen,385.0
+82,Katsu Ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Katsu Ramen,385.0
+82,Katsu Ramen,PL,60.0,g,A_copy_variant,same dish as [RM] Katsu Ramen,385.0
+143,Shoyo beef ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Shoyu Beef Ramen,386.0
+143,Shoyo beef ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Shoyu Beef Ramen,386.0
+143,Shoyo beef ramen,SB,50.0,g,A_copy_variant,same dish as [RM] Shoyu Beef Ramen,386.0
+143,Shoyo beef ramen,SHO,45.0,g,A_copy_variant,same dish as [RM] Shoyu Beef Ramen,386.0
+161,Tonkotsu Ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+161,Tonkotsu Ramen,MZN,45.0,g,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+161,Tonkotsu Ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+161,Tonkotsu Ramen,PB,60.0,g,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+162,Tonkotsu ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+162,Tonkotsu ramen,MZN,45.0,g,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+162,Tonkotsu ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+162,Tonkotsu ramen,PB,60.0,g,A_copy_variant,same dish as [RM] Tonkotsu Ramen,393.0
+167,Torikatsu Ramen,CF,60.0,g,A_copy_variant,same dish as [RM] Torikatsu Ramen,394.0
+167,Torikatsu Ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Torikatsu Ramen,394.0
+167,Torikatsu Ramen,MZN,45.0,g,A_copy_variant,same dish as [RM] Torikatsu Ramen,394.0
+167,Torikatsu Ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Torikatsu Ramen,394.0
+184,Yellow Kimono Roll,KNI,1.0,pc,A_copy_variant,same dish as [MR] Yellow Kimono,361.0
+184,Yellow Kimono Roll,SUS,100.0,g,A_copy_variant,same dish as [MR] Yellow Kimono,361.0
+212,[BS] Cheesy Beef Baked,SB,100.0,g,A_copy_variant,same dish as [BS] Cheesy Beef,211.0
+215,[BS] Creamy Salmon Baked,KNI,2.0,pc,A_copy_variant,same dish as [BS] Creamy Salmon,214.0
+215,[BS] Creamy Salmon Baked,SAL,100.0,g,A_copy_variant,same dish as [BS] Creamy Salmon,214.0
+217,[BS] Mixed Seafood Baked,SUS,100.0,g,A_copy_variant,same dish as [BS] Mixed Seafood,216.0
+336,[MR] Cheesy Cowboy,SB,30.0,g,A_copy_variant,same dish as 'Cheesy cowboy roll',39.0
+382,[RM] Curry Beef,EGG,1.0,pc,A_copy_variant,same dish as [RM] Curry Beef Ramen,383.0
+382,[RM] Curry Beef,NOD,100.0,g,A_copy_variant,same dish as [RM] Curry Beef Ramen,383.0
+382,[RM] Curry Beef,SB,50.0,g,A_copy_variant,same dish as [RM] Curry Beef Ramen,383.0
+26,BSP Creamy Salmon,KNI,2.0,pc,A_copy_variant,same dish as [BS] Creamy Salmon (pie form),214.0
+26,BSP Creamy Salmon,SAL,100.0,g,A_copy_variant,same dish as [BS] Creamy Salmon (pie form),214.0
+137,Salmon baked,KNI,2.0,pc,A_copy_variant,same dish as [BS] Creamy Salmon,214.0
+137,Salmon baked,SAL,100.0,g,A_copy_variant,same dish as [BS] Creamy Salmon,214.0
+219,[Baked Sushi] California Baked 50g,KNI,2.0,pc,A_copy_variant,same dish as [BS] California Baked,210.0
+56,Crispy chicken,CT,120.0,g,A_copy_variant,comp version of Crispy Chicken w/ Egg (Set A),235.0
+56,Crispy chicken,EGG,1.0,pc,A_copy_variant,comp version of Crispy Chicken w/ Egg (Set A),235.0
+59,Crunchy Salmon,EGG,1.0,pc,A_copy_variant,Crunchy Salmon: modelled on [MR] Crunchy Salmon Aburi,342.0
+59,Crunchy Salmon,SAL,50.0,g,A_copy_variant,Crunchy Salmon: modelled on [MR] Crunchy Salmon Aburi,342.0
+59,Crunchy Salmon,SUS,100.0,g,A_copy_variant,Crunchy Salmon: modelled on [MR] Crunchy Salmon Aburi,342.0
+341,[MR] Crunchy Salmon,EGG,1.0,pc,A_copy_variant,Crunchy Salmon: modelled on [MR] Crunchy Salmon Aburi,342.0
+341,[MR] Crunchy Salmon,SAL,50.0,g,A_copy_variant,Crunchy Salmon: modelled on [MR] Crunchy Salmon Aburi,342.0
+341,[MR] Crunchy Salmon,SUS,100.0,g,A_copy_variant,Crunchy Salmon: modelled on [MR] Crunchy Salmon Aburi,342.0
+63,Ebi Tempura,B+B,3.0,serving,A_copy_variant,GrabFood Ebi Tempura = [ATF] Ebi Tempura (3pcs),190.0
+63,Ebi Tempura,EBI,3.0,pc,A_copy_variant,GrabFood Ebi Tempura = [ATF] Ebi Tempura (3pcs),190.0
+63,Ebi Tempura,TSS,30.0,g,A_copy_variant,GrabFood Ebi Tempura = [ATF] Ebi Tempura (3pcs),190.0
+79,Kani salad regular,KNI,2.0,pc,A_copy_variant,comp version of [SL] Special Kani Salad (Regular),408.0
+80,Karaage Ala carte,B+B,1.0,serving,A_copy_variant,karaage a la carte = Karaagedon chicken without the rice bowl,246.0
+80,Karaage Ala carte,CT,120.0,g,A_copy_variant,karaage a la carte = Karaagedon chicken without the rice bowl,246.0
+186,[ALC] Karaage Ala carte,B+B,1.0,serving,A_copy_variant,karaage a la carte = Karaagedon chicken without the rice bowl,246.0
+186,[ALC] Karaage Ala carte,CT,120.0,g,A_copy_variant,karaage a la carte = Karaagedon chicken without the rice bowl,246.0
+92,M&M beef misono/Kani tempura,B+B,1.0,serving,A_copy_variant,GrabFood version of [MM] JR w/ Beef Misono & Kani Tempura,320.0
+92,M&M beef misono/Kani tempura,BSG,1.0,serving,A_copy_variant,GrabFood version of [MM] JR w/ Beef Misono & Kani Tempura,320.0
+92,M&M beef misono/Kani tempura,KNI,2.0,pc,A_copy_variant,GrabFood version of [MM] JR w/ Beef Misono & Kani Tempura,320.0
+92,M&M beef misono/Kani tempura,SB,60.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Beef Misono & Kani Tempura,320.0
+92,M&M beef misono/Kani tempura,TEP,22.5,g,A_copy_variant,GrabFood version of [MM] JR w/ Beef Misono & Kani Tempura,320.0
+92,M&M beef misono/Kani tempura,TSS,30.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Beef Misono & Kani Tempura,320.0
+94,M&M sashimi/kani,B+B,1.0,serving,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,BSG,1.0,serving,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,EGG,1.0,pc,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,KNI,2.0,pc,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,SAL,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,SQD,10.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,TSS,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+94,M&M sashimi/kani,TUN,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,B+B,1.0,serving,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,BSG,1.0,serving,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,EGG,1.0,pc,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,KNI,2.0,pc,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,SAL,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,SQD,10.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,TSS,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+95,MM Sashimi/ Kani,TUN,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,328.0
+96,MM Tuna Misono & Ebi Tempura,B+B,1.0,serving,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,BEL,10.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,BSG,1.0,serving,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,CAR,30.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,EBI,2.0,pc,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,ONI,15.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,TEP,22.5,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,TSS,30.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+96,MM Tuna Misono & Ebi Tempura,TUN,40.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Ebi Tempura,321.0
+97,MM Tuna Misono & Kani Tempura,B+B,1.0,serving,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,BEL,10.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,CAR,30.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,KNI,2.0,pc,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,ONI,15.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,TEP,22.5,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,TSS,30.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+97,MM Tuna Misono & Kani Tempura,TUN,40.0,g,A_copy_variant,GrabFood version of [MM] JR w/ Tuna Misono & Kani Tempura,322.0
+98,MM Yakitori / Kani,B+B,1.0,serving,A_copy_variant,GrabFood version of [MM] SF w/ Yakitori & Kani Tempura,330.0
+98,MM Yakitori / Kani,BSG,1.0,serving,A_copy_variant,GrabFood version of [MM] SF w/ Yakitori & Kani Tempura,330.0
+98,MM Yakitori / Kani,CF,80.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Yakitori & Kani Tempura,330.0
+98,MM Yakitori / Kani,KNI,2.0,pc,A_copy_variant,GrabFood version of [MM] SF w/ Yakitori & Kani Tempura,330.0
+98,MM Yakitori / Kani,SQD,10.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Yakitori & Kani Tempura,330.0
+98,MM Yakitori / Kani,TSS,30.0,g,A_copy_variant,GrabFood version of [MM] SF w/ Yakitori & Kani Tempura,330.0
+103,Mix&Match yakitori & ebi tempura,B+B,1.0,serving,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+103,Mix&Match yakitori & ebi tempura,BSG,1.0,serving,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+103,Mix&Match yakitori & ebi tempura,CF,80.0,g,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+103,Mix&Match yakitori & ebi tempura,EBI,2.0,pc,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+103,Mix&Match yakitori & ebi tempura,EGG,1.0,pc,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+103,Mix&Match yakitori & ebi tempura,SQD,10.0,g,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+103,Mix&Match yakitori & ebi tempura,TSS,30.0,g,A_copy_variant,comp version of [MM] SF w/ Yakitori & Ebi Tempura,329.0
+318,[M/M] Sashimi/ Ebi,B+B,1.0,serving,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,BSG,1.0,serving,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,EBI,2.0,pc,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,EGG,1.0,pc,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,SAL,30.0,g,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,SQD,10.0,g,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,TSS,30.0,g,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+318,[M/M] Sashimi/ Ebi,TUN,30.0,g,A_copy_variant,comp version of [MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,327.0
+99,Medium party platter,EBI,4.0,pc,A_copy_variant,comp version of [PL] Medium Party Tray,367.0
+99,Medium party platter,KNI,1.0,pc,A_copy_variant,comp version of [PL] Medium Party Tray,367.0
+99,Medium party platter,SAL,30.0,g,A_copy_variant,comp version of [PL] Medium Party Tray,367.0
+99,Medium party platter,TAM,70.0,g,A_copy_variant,comp version of [PL] Medium Party Tray,367.0
+366,[PL] Large Party Tray,EBI,6.0,pc,A_copy_variant,Large tray = 1.5 x Medium tray (size ratio assumed),367.0
+366,[PL] Large Party Tray,KNI,1.5,pc,A_copy_variant,Large tray = 1.5 x Medium tray (size ratio assumed),367.0
+366,[PL] Large Party Tray,SAL,45.0,g,A_copy_variant,Large tray = 1.5 x Medium tray (size ratio assumed),367.0
+366,[PL] Large Party Tray,TAM,105.0,g,A_copy_variant,Large tray = 1.5 x Medium tray (size ratio assumed),367.0
+368,[PL] Mixed Sashimi Platter,KNI,4.0,pc,A_copy_variant,platter = 2 x [HS] Mixed Sashimi (size assumed),316.0
+368,[PL] Mixed Sashimi Platter,PDT,6.0,pc,A_copy_variant,platter = 2 x [HS] Mixed Sashimi (size assumed),316.0
+368,[PL] Mixed Sashimi Platter,SAL,120.0,g,A_copy_variant,platter = 2 x [HS] Mixed Sashimi (size assumed),316.0
+368,[PL] Mixed Sashimi Platter,SQD,100.0,g,A_copy_variant,platter = 2 x [HS] Mixed Sashimi (size assumed),316.0
+368,[PL] Mixed Sashimi Platter,TAM,140.0,g,A_copy_variant,platter = 2 x [HS] Mixed Sashimi (size assumed),316.0
+368,[PL] Mixed Sashimi Platter,TUN,120.0,g,A_copy_variant,platter = 2 x [HS] Mixed Sashimi (size assumed),316.0
+127,Pork Teppan,BEL,5.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+127,Pork Teppan,CAB,150.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+127,Pork Teppan,CAR,30.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+127,Pork Teppan,ONI,15.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+127,Pork Teppan,PL,120.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+127,Pork Teppan,TEP,45.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+127,Pork Teppan,TOG,40.0,g,A_copy_variant,comp Pork Teppan = [DB] Pork Teppanyaki/Misono (Set A),264.0
+176,Tuna Teppan,TEP,45.0,g,A_copy_variant,GrabFood Tuna Teppan = [ATF] Tuna Teppanyaki/Teriyaki,204.0
+176,Tuna Teppan,TUN,150.0,g,A_copy_variant,GrabFood Tuna Teppan = [ATF] Tuna Teppanyaki/Teriyaki,204.0
+227,[DB] Beef Teppan (A),BEL,5.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+227,[DB] Beef Teppan (A),CAB,150.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+227,[DB] Beef Teppan (A),CAR,30.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+227,[DB] Beef Teppan (A),ONI,15.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+227,[DB] Beef Teppan (A),SB,100.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+227,[DB] Beef Teppan (A),TEP,45.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+227,[DB] Beef Teppan (A),TOG,40.0,g,A_copy_variant,GrabFood = [DB] Beef Teppanyaki/Misono (Set A),228.0
+45,Chicken Misono 90grams,BEL,10.0,g,A_copy_variant,Chicken Misono with the 90 g stated in the name,42.0
+45,Chicken Misono 90grams,CAB,150.0,g,A_copy_variant,Chicken Misono with the 90 g stated in the name,42.0
+45,Chicken Misono 90grams,CAR,30.0,g,A_copy_variant,Chicken Misono with the 90 g stated in the name,42.0
+45,Chicken Misono 90grams,CF,90.0,g,A_copy_variant,Chicken Misono with the 90 g stated in the name,42.0
+45,Chicken Misono 90grams,ONI,15.0,g,A_copy_variant,Chicken Misono with the 90 g stated in the name,42.0
+45,Chicken Misono 90grams,TOG,40.0,g,A_copy_variant,Chicken Misono with the 90 g stated in the name,42.0
+48,Chicken teppanyaki 120grams,BEL,5.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+48,Chicken teppanyaki 120grams,CAB,150.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+48,Chicken teppanyaki 120grams,CAR,30.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+48,Chicken teppanyaki 120grams,CF,120.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+48,Chicken teppanyaki 120grams,ONI,15.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+48,Chicken teppanyaki 120grams,TEP,45.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+48,Chicken teppanyaki 120grams,TOG,40.0,g,A_copy_variant,Chicken Teppan with the 120 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,BEL,5.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,CAB,150.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,CAR,30.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,CF,60.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,ONI,15.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,TEP,45.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+49,Chicken teppanyaki 60grams,TOG,40.0,g,A_copy_variant,Chicken Teppan with the 60 g stated in the name,46.0
+152,Spicy Roast pork Ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+152,Spicy Roast pork Ramen,MZN,45.0,g,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+152,Spicy Roast pork Ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+152,Spicy Roast pork Ramen,PB,60.0,g,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+391,[RM] Spicy Roast pork Ramen,EGG,1.0,pc,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+391,[RM] Spicy Roast pork Ramen,MZN,45.0,g,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+391,[RM] Spicy Roast pork Ramen,NOD,100.0,g,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+391,[RM] Spicy Roast pork Ramen,PB,60.0,g,A_copy_variant,same dish as [RM] Spicy Roast Pork Tomato Ramen,390.0
+165,Torikatsu Burrito,SUS,100.0,g,A_copy_variant,comp version of [SB] Cheesy Torikatsu Burrito,397.0
+132,Salmon Burito,SAL,50.0,g,A_copy_variant,comp version of [SB] Sweet Spicy Salmon Burrito,401.0
+403,[SH] Salmon,SAL,100.0,g,A_copy_variant,GrabFood version of [SH] Salmon (Sake) 100 g,404.0
+134,Salmon Sashimi,SAL,100.0,g,A_copy_variant,comp salmon sashimi = [SH] Salmon (Sake) 100 g,404.0
+446,supreme,KNI,1.0,pc,A_copy_variant,'supreme' read as 'Super supreme' (name similarity),155.0
+446,supreme,SAL,30.0,g,A_copy_variant,'supreme' read as 'Super supreme' (name similarity),155.0
+446,supreme,SAS,50.0,g,A_copy_variant,'supreme' read as 'Super supreme' (name similarity),155.0
+446,supreme,SB,30.0,g,A_copy_variant,'supreme' read as 'Super supreme' (name similarity),155.0
+109,Okonomiyaki,CHE,1.0,pc,A_copy_variant,unnamed promo Okonomiyaki = [ST] Okonomiyaki (Cheesy Beef) (Regular),425.0
+109,Okonomiyaki,OKO,20.0,g,A_copy_variant,unnamed promo Okonomiyaki = [ST] Okonomiyaki (Cheesy Beef) (Regular),425.0
+109,Okonomiyaki,SB,50.0,g,A_copy_variant,unnamed promo Okonomiyaki = [ST] Okonomiyaki (Cheesy Beef) (Regular),425.0
+112,Okonomiyaki (sharing)cheesy beef,CHE,2.0,pc,A_copy_variant,Sharing = 2 x Regular (ratio assumed),425.0
+112,Okonomiyaki (sharing)cheesy beef,OKO,40.0,g,A_copy_variant,Sharing = 2 x Regular (ratio assumed),425.0
+112,Okonomiyaki (sharing)cheesy beef,SB,100.0,g,A_copy_variant,Sharing = 2 x Regular (ratio assumed),425.0
+426,[ST] Okonomiyaki (Cheesy Beef) (Sharing),CHE,2.0,pc,A_copy_variant,Sharing = 2 x Regular (ratio assumed),425.0
+426,[ST] Okonomiyaki (Cheesy Beef) (Sharing),OKO,40.0,g,A_copy_variant,Sharing = 2 x Regular (ratio assumed),425.0
+426,[ST] Okonomiyaki (Cheesy Beef) (Sharing),SB,100.0,g,A_copy_variant,Sharing = 2 x Regular (ratio assumed),425.0
+117,Okonomiyaki Mushroomc & Cheese (Sharing),MUS,60.0,g,A_copy_variant,Sharing = 2 x Regular + cheese (name says cheese),116.0
+117,Okonomiyaki Mushroomc & Cheese (Sharing),CHE,1.0,pc,A_copy_variant,Sharing = 2 x Regular + cheese (name says cheese),116.0
+173,Tuna Aburi,EGG,1.0,pc,A_copy_variant,Tuna Aburi = Crunchy Salmon Aburi with tuna,342.0
+173,Tuna Aburi,SUS,100.0,g,A_copy_variant,Tuna Aburi = Crunchy Salmon Aburi with tuna,342.0
+173,Tuna Aburi,TUN,50.0,g,A_copy_variant,Tuna Aburi = Crunchy Salmon Aburi with tuna,342.0
+359,[MR] Tuna Mango Roll,BAR,1.0,pc,A_copy_variant,Tuna Mango Roll = Salmon Mango Roll with tuna,352.0
+359,[MR] Tuna Mango Roll,NOR,0.5,pc,A_copy_variant,Tuna Mango Roll = Salmon Mango Roll with tuna,352.0
+359,[MR] Tuna Mango Roll,SUS,100.0,g,A_copy_variant,Tuna Mango Roll = Salmon Mango Roll with tuna,352.0
+359,[MR] Tuna Mango Roll,WAS,18.0,g,A_copy_variant,Tuna Mango Roll = Salmon Mango Roll with tuna,352.0
+359,[MR] Tuna Mango Roll,TUN,30.0,g,A_copy_variant,Tuna Mango Roll = Salmon Mango Roll with tuna,352.0
+359,[MR] Tuna Mango Roll,MNG,30.0,g,A_copy_variant,Tuna Mango Roll = Salmon Mango Roll with tuna,352.0
+18,40pcs California maki,BAR,5.0,pc,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,CUC,112.5,g,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,EBK,25.0,g,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,KAL,50.0,g,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,KNI,5.0,pc,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,MAY,25.0,g,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,NOR,2.5,pc,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,SUS,500.0,g,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+18,40pcs California maki,WAS,90.0,g,A_copy_variant,40 pcs = 40/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,BAR,0.5,pc,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,CUC,11.25,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,EBK,2.5,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,KAL,5.0,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,KNI,0.5,pc,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,MAY,2.5,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,NOR,0.25,pc,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,SUS,50.0,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+21,4pcs California Maki,WAS,9.0,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,BAR,0.5,pc,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,CUC,11.25,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,EBK,2.5,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,KAL,5.0,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,KNI,0.5,pc,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,MAY,2.5,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,NOR,0.25,pc,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,SUS,50.0,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+71,Free 4pcs Cali maki,WAS,9.0,g,A_copy_variant,4 pcs = 4/48 of the 48 pcs California Maki Platter,363.0
+8,2 pcs Gyoza,GZA,2.0,pc,A_new_recipe,2 pcs gyoza (name),
+9,240g chicken,CF,240.0,g,A_new_recipe,240 g chicken (name),
+164,Torikatsu 60grams,CF,60.0,g,A_new_recipe,"torikatsu 60 g (name), breaded",
+164,Torikatsu 60grams,B+B,1.0,serving,A_new_recipe,"torikatsu 60 g (name), breaded",
+10,2pcs Kani tempura,KNI,2.0,pc,A_new_recipe,2 pcs kani tempura (name); 1 batter serving per piece as in [ATF] Kani Tempura,
+10,2pcs Kani tempura,B+B,2.0,serving,A_new_recipe,2 pcs kani tempura (name); 1 batter serving per piece as in [ATF] Kani Tempura,
+11,30pcs Kani Tempura,KNI,30.0,pc,A_new_recipe,30 pcs kani tempura (name),
+11,30pcs Kani Tempura,B+B,30.0,serving,A_new_recipe,30 pcs kani tempura (name),
+23,4pcs Tofu,TUF,4.0,pc,A_new_recipe,4 pcs tofu (name),
+375,[PR] 4pcs Tofu,TUF,4.0,pc,A_new_recipe,4 pcs tofu (name),
+24,6pcs Tamago Sushi,TAM,90.0,g,A_new_recipe,6 pcs tamago sushi: 15 g tamago + 20 g sushi rice per piece (assumed),
+24,6pcs Tamago Sushi,SUS,120.0,g,A_new_recipe,6 pcs tamago sushi: 15 g tamago + 20 g sushi rice per piece (assumed),
+27,Baked Sushi] Salmon 50grams,SAL,50.0,g,A_new_recipe,salmon baked sushi 50 g (name),
+27,Baked Sushi] Salmon 50grams,SUS,100.0,g,A_new_recipe,salmon baked sushi 50 g (name),
+29,Beef Nachos Roll,GB,50.0,g,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+29,Beef Nachos Roll,SUS,100.0,g,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+29,Beef Nachos Roll,CHE,1.0,pc,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+29,Beef Nachos Roll,NOR,0.5,pc,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+348,[MR] Nachos Beef Roll,GB,50.0,g,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+348,[MR] Nachos Beef Roll,SUS,100.0,g,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+348,[MR] Nachos Beef Roll,CHE,1.0,pc,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+348,[MR] Nachos Beef Roll,NOR,0.5,pc,A_new_recipe,"nachos beef roll: ground beef, cheese, maki rice + nori (assumed)",
+41,Chicken Inasal burito,CF,100.0,g,A_new_recipe,"chicken inasal burrito: chicken, rice, nori (assumed)",
+41,Chicken Inasal burito,SUS,150.0,g,A_new_recipe,"chicken inasal burrito: chicken, rice, nori (assumed)",
+41,Chicken Inasal burito,NOR,1.0,pc,A_new_recipe,"chicken inasal burrito: chicken, rice, nori (assumed)",
+400,[SB] Roasted Chicken (Inasal) Burrito,CF,100.0,g,A_new_recipe,"chicken inasal burrito: chicken, rice, nori (assumed)",
+400,[SB] Roasted Chicken (Inasal) Burrito,SUS,150.0,g,A_new_recipe,"chicken inasal burrito: chicken, rice, nori (assumed)",
+400,[SB] Roasted Chicken (Inasal) Burrito,NOR,1.0,pc,A_new_recipe,"chicken inasal burrito: chicken, rice, nori (assumed)",
+399,[SB] Ebi Spicy Burrito,EBI,3.0,pc,A_new_recipe,"ebi spicy burrito: 3 ebi tempura, spicy mayo, rice, nori (assumed)",
+399,[SB] Ebi Spicy Burrito,B+B,3.0,serving,A_new_recipe,"ebi spicy burrito: 3 ebi tempura, spicy mayo, rice, nori (assumed)",
+399,[SB] Ebi Spicy Burrito,MAY,10.0,g,A_new_recipe,"ebi spicy burrito: 3 ebi tempura, spicy mayo, rice, nori (assumed)",
+399,[SB] Ebi Spicy Burrito,SUS,150.0,g,A_new_recipe,"ebi spicy burrito: 3 ebi tempura, spicy mayo, rice, nori (assumed)",
+399,[SB] Ebi Spicy Burrito,NOR,1.0,pc,A_new_recipe,"ebi spicy burrito: 3 ebi tempura, spicy mayo, rice, nori (assumed)",
+60,Crunchy Veggie Roll,CUC,30.0,g,A_new_recipe,crunchy veggie roll (assumed),
+60,Crunchy Veggie Roll,CAR,20.0,g,A_new_recipe,crunchy veggie roll (assumed),
+60,Crunchy Veggie Roll,KAL,10.0,g,A_new_recipe,crunchy veggie roll (assumed),
+60,Crunchy Veggie Roll,MAY,10.0,g,A_new_recipe,crunchy veggie roll (assumed),
+60,Crunchy Veggie Roll,B+B,1.0,serving,A_new_recipe,crunchy veggie roll (assumed),
+60,Crunchy Veggie Roll,SUS,100.0,g,A_new_recipe,crunchy veggie roll (assumed),
+60,Crunchy Veggie Roll,NOR,0.5,pc,A_new_recipe,crunchy veggie roll (assumed),
+343,[MR] Crunchy Veggie Salad,CUC,30.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+343,[MR] Crunchy Veggie Salad,CAR,20.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+343,[MR] Crunchy Veggie Salad,KAL,10.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+343,[MR] Crunchy Veggie Salad,MAY,10.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+343,[MR] Crunchy Veggie Salad,B+B,1.0,serving,A_new_recipe,crunchy veggie salad roll (assumed),
+343,[MR] Crunchy Veggie Salad,SUS,100.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+343,[MR] Crunchy Veggie Salad,NOR,0.5,pc,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,CUC,30.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,CAR,20.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,KAL,10.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,MAY,10.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,B+B,1.0,serving,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,SUS,100.0,g,A_new_recipe,crunchy veggie salad roll (assumed),
+344,[MR] Crunchy Veggie Salad Roll,NOR,0.5,pc,A_new_recipe,crunchy veggie salad roll (assumed),
+340,[MR] Crunchy Kani,KNI,2.0,pc,A_new_recipe,crunchy kani roll (assumed),
+340,[MR] Crunchy Kani,B+B,1.0,serving,A_new_recipe,crunchy kani roll (assumed),
+340,[MR] Crunchy Kani,MAY,5.0,g,A_new_recipe,crunchy kani roll (assumed),
+340,[MR] Crunchy Kani,SUS,100.0,g,A_new_recipe,crunchy kani roll (assumed),
+340,[MR] Crunchy Kani,NOR,0.5,pc,A_new_recipe,crunchy kani roll (assumed),
+355,[MR] Spicy Ebi Tempura,EBI,2.0,pc,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+355,[MR] Spicy Ebi Tempura,B+B,2.0,serving,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+355,[MR] Spicy Ebi Tempura,MAY,10.0,g,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+355,[MR] Spicy Ebi Tempura,SUS,100.0,g,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+355,[MR] Spicy Ebi Tempura,NOR,0.5,pc,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+151,Spicy Ebi Tempura,EBI,2.0,pc,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+151,Spicy Ebi Tempura,B+B,2.0,serving,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+151,Spicy Ebi Tempura,MAY,10.0,g,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+151,Spicy Ebi Tempura,SUS,100.0,g,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+151,Spicy Ebi Tempura,NOR,0.5,pc,A_new_recipe,"spicy ebi tempura roll, modelled on [MR] Crunchy Ebi (EBI 2) (assumed)",
+356,[MR] Tamago Roll,TAM,30.0,g,A_new_recipe,tamago roll (assumed),
+356,[MR] Tamago Roll,SUS,100.0,g,A_new_recipe,tamago roll (assumed),
+356,[MR] Tamago Roll,NOR,0.5,pc,A_new_recipe,tamago roll (assumed),
+405,[SH] Tamago (Sweet Egg),TAM,100.0,g,A_new_recipe,"tamago sashimi, 100 g like the printed salmon/tuna sashimi",
+407,[SL] Crispy Salmon Salad,SAL,80.0,g,A_new_recipe,crispy salmon salad (assumed),
+407,[SL] Crispy Salmon Salad,B+B,1.0,serving,A_new_recipe,crispy salmon salad (assumed),
+407,[SL] Crispy Salmon Salad,CUC,30.0,g,A_new_recipe,crispy salmon salad (assumed),
+407,[SL] Crispy Salmon Salad,CAB,50.0,g,A_new_recipe,crispy salmon salad (assumed),
+407,[SL] Crispy Salmon Salad,MAY,15.0,g,A_new_recipe,crispy salmon salad (assumed),
+201,[ATF] Squid Teppanyaki,SQD,150.0,g,A_new_recipe,"squid teppanyaki, 150 g like [ATF] Tuna Teppanyaki",
+201,[ATF] Squid Teppanyaki,TEP,45.0,g,A_new_recipe,"squid teppanyaki, 150 g like [ATF] Tuna Teppanyaki",
+369,[PL] Salmon Platter  (500g),SAL,500.0,g,A_new_recipe,salmon platter 500 g (name),
+221,[DB) Pork Teriyaki (Set B),PB,120.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+221,[DB) Pork Teriyaki (Set B),TER,1.0,serving,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+221,[DB) Pork Teriyaki (Set B),BEL,5.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+221,[DB) Pork Teriyaki (Set B),CAB,150.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+221,[DB) Pork Teriyaki (Set B),CAR,30.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+221,[DB) Pork Teriyaki (Set B),ONI,15.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+221,[DB) Pork Teriyaki (Set B),TOG,40.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),PB,120.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),TER,1.0,serving,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),BEL,5.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),CAB,150.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),CAR,30.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),ONI,15.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+222,[DB) Pork Terriyaki (Set B),TOG,40.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),PB,120.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),TER,1.0,serving,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),BEL,5.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),CAB,150.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),CAR,30.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),ONI,15.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+223,[DB]  Pork  Teriyaki (Set A),TOG,40.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),PB,120.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),TER,1.0,serving,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),BEL,5.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),CAB,150.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),CAR,30.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),ONI,15.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+224,[DB]  Pork  Terriyaki (Set A),TOG,40.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),PB,120.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),TER,1.0,serving,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),BEL,5.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),CAB,150.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),CAR,30.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),ONI,15.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+266,[DB] Pork Teriyaki (A),TOG,40.0,g,A_new_recipe,printed 'SWEET PORK BELLY TERRIYAKI' built like [DB] Beef Terriyaki with pork belly,
+66,Egg Fried Rice,RIC,150.0,g,A_new_recipe,egg fried rice: rice portion + 1 egg,
+66,Egg Fried Rice,EGG,1.0,pc,A_new_recipe,egg fried rice: rice portion + 1 egg,
+307,[EXTRA] Egg Fried Rice,RIC,150.0,g,A_new_recipe,egg fried rice: rice portion + 1 egg,
+307,[EXTRA] Egg Fried Rice,EGG,1.0,pc,A_new_recipe,egg fried rice: rice portion + 1 egg,
+68,Extra Japanese Rice,RIC,150.0,g,A_new_recipe,extra Japanese rice = one rice portion,
+308,[EXTRA] Japanese Rice,RIC,150.0,g,A_new_recipe,extra Japanese rice = one rice portion,
+70,Extra rice,RIC,150.0,g,A_new_recipe,extra rice = one rice portion,
+178,UPGRADE to seafood fried rice,EGG,1.0,pc,A_new_recipe,"upgrade plain rice -> seafood fried rice: the fried-rice add-ons (EGG 1, SQD 10)",
+178,UPGRADE to seafood fried rice,SQD,10.0,g,A_new_recipe,"upgrade plain rice -> seafood fried rice: the fried-rice add-ons (EGG 1, SQD 10)",
+440,[UPGRADE] to Seafood Fried Rice,EGG,1.0,pc,A_new_recipe,"upgrade plain rice -> seafood fried rice: the fried-rice add-ons (EGG 1, SQD 10)",
+440,[UPGRADE] to Seafood Fried Rice,SQD,10.0,g,A_new_recipe,"upgrade plain rice -> seafood fried rice: the fried-rice add-ons (EGG 1, SQD 10)",
+100,Miso Soup (Large),MSO,30.0,g,A_new_recipe,"miso soup (large), synthetic portion",
+100,Miso Soup (Large),TUF,2.0,pc,A_new_recipe,"miso soup (large), synthetic portion",
+195,[ATF] Miso Soup (Large),MSO,30.0,g,A_new_recipe,"miso soup (large), synthetic portion",
+195,[ATF] Miso Soup (Large),TUF,2.0,pc,A_new_recipe,"miso soup (large), synthetic portion",
+101,Miso Soup (Small),MSO,15.0,g,A_new_recipe,"miso soup (small), synthetic portion",
+101,Miso Soup (Small),TUF,1.0,pc,A_new_recipe,"miso soup (small), synthetic portion",
+102,Miso soup small,MSO,15.0,g,A_new_recipe,"miso soup (small), synthetic portion",
+102,Miso soup small,TUF,1.0,pc,A_new_recipe,"miso soup (small), synthetic portion",
+196,[ATF] Miso Soup (Small),MSO,15.0,g,A_new_recipe,"miso soup (small), synthetic portion",
+196,[ATF] Miso Soup (Small),TUF,1.0,pc,A_new_recipe,"miso soup (small), synthetic portion",
+106,Moyashi,VMO,1.0,serving,A_new_recipe,printed 'MOYASHI (mung bean sprouts)' = one moyashi portion,
+198,[ATF] Moyashi,VMO,1.0,serving,A_new_recipe,printed 'MOYASHI (mung bean sprouts)' = one moyashi portion,
+115,Okonomiyaki Garlic & Cheese,CAB,300.0,g,A_new_recipe,okonomiyaki garlic & cheese: base as mixed-seafood okonomiyaki + cheese (garlic not in master),
+115,Okonomiyaki Garlic & Cheese,ONI,15.0,g,A_new_recipe,okonomiyaki garlic & cheese: base as mixed-seafood okonomiyaki + cheese (garlic not in master),
+115,Okonomiyaki Garlic & Cheese,EGG,1.0,pc,A_new_recipe,okonomiyaki garlic & cheese: base as mixed-seafood okonomiyaki + cheese (garlic not in master),
+115,Okonomiyaki Garlic & Cheese,OKO,20.0,g,A_new_recipe,okonomiyaki garlic & cheese: base as mixed-seafood okonomiyaki + cheese (garlic not in master),
+115,Okonomiyaki Garlic & Cheese,CHE,2.0,pc,A_new_recipe,okonomiyaki garlic & cheese: base as mixed-seafood okonomiyaki + cheese (garlic not in master),
+121,Okonomiyaki garlic and cheese,CAB,300.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+121,Okonomiyaki garlic and cheese,ONI,15.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+121,Okonomiyaki garlic and cheese,EGG,1.0,pc,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+121,Okonomiyaki garlic and cheese,OKO,20.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+121,Okonomiyaki garlic and cheese,CHE,2.0,pc,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+379,[PR] Okonomiyaki Garlic & Cheese,CAB,300.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+379,[PR] Okonomiyaki Garlic & Cheese,ONI,15.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+379,[PR] Okonomiyaki Garlic & Cheese,EGG,1.0,pc,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+379,[PR] Okonomiyaki Garlic & Cheese,OKO,20.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+379,[PR] Okonomiyaki Garlic & Cheese,CHE,2.0,pc,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),CAB,300.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),ONI,15.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),EGG,1.0,pc,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),OKO,20.0,g,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),CHE,2.0,pc,A_new_recipe,okonomiyaki garlic & cheese (see 115),
+129,Ramen soup,MZN,45.0,g,A_new_recipe,ramen soup = one ramen soup-base serving as in [RM] Katsu Ramen,
+311,[EXTRA] Ramen Noodles,NOD,100.0,g,A_new_recipe,extra ramen noodles = one noodle serving,
+38,Cheese,CHE,1.0,pc,A_new_recipe,extra cheese = one slice,
+309,[EXTRA] Mayo,MAY,20.0,g,A_new_recipe,extra mayo (assumed 20 g),
+158,Teriyaki Sauce,TER,1.0,serving,A_new_recipe,teriyaki sauce add-on = one serving,
+86,Leche Plan,EGG,2.0,pc,A_new_recipe,"leche flan: eggs only are in the master (milk, sugar are not)",
+87,Leche flan,EGG,2.0,pc,A_new_recipe,"leche flan: eggs only are in the master (milk, sugar are not)",
+298,[DS] Mango Shake,MNG,150.0,g,A_new_recipe,mango shake (150 g mango assumed),
+179,Upgrade to Mango Shake,MNG,150.0,g,A_new_recipe,upgrade to mango shake (150 g mango assumed),
+297,[DS] Mango Juice,MNG,120.0,g,A_new_recipe,mango juice (120 g mango assumed),
+292,[DS] Iced Tea (Regular),ICT,1.0,pc,A_new_recipe,iced tea regular = 1 iced-tea unit,
+76,Iced tea regular,ICT,1.0,pc,A_new_recipe,iced tea regular = 1 iced-tea unit,
+293,[DS] Iced Tea (Sharing),ICT,2.0,pc,A_new_recipe,iced tea sharing = 2 units (assumed),
+75,Iced tea bottomless,ICT,2.0,pc,A_new_recipe,bottomless iced tea = 2 units (assumed),
+303,[DS] Red Iced Tea,ICT,1.0,pc,A_new_recipe,red iced tea = 1 iced-tea unit,
+304,[DS] Red Iced Tea Shake,ICT,1.0,pc,A_new_recipe,red iced tea shake = 1 iced-tea unit,
+2,(BSP)Cheesy beef,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+28,Beef Curry,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+34,Cali maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+35,California Baked Sushi,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+36,California baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+39,Cheesy cowboy roll,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+42,Chicken Misono,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+43,Chicken Misono (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+44,Chicken Misono 60 grams,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+46,Chicken Teppan (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+47,Chicken misono 120g,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+64,Ebi toji don,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+78,Kani Burrito,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+81,Karaagedon,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+84,Katsu tuna set A,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+85,Katsudon,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+90,M&M Yakitori & Kani tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+91,M&M beef misono w Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+93,M&M salmon/tuna sashimi w/ Kani tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+104,Mixed seafood misono,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+105,Mixed sushi and sashimi,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+126,Pork Misono,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+128,Pork misono,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+139,Seafood Fried Rice,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+140,Seafood fried rice,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+141,Seafood fried rice & ebi tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+142,Seafood fried rice with ebi tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+154,Sukiyakidon (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+157,TONKATSU set A,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+166,Torikatsu Curry,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+168,Torikatsu curry,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+169,Torikatsu set A,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+170,Torikatsudon,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+171,Torikatsudon 60 grams,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+172,Torikatsudon Set A,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+174,Tuna Misono 100 grams,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+177,Tuna misono 60 grams,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+182,Yakisoba w/yakitori&Cali maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+208,[BSP] Cheesy Beef,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+209,[BS] 4in1 Baked Sushi,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+210,[BS] California Baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+211,[BS] Cheesy Beef,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+214,[BS] Creamy Salmon,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+218,[Baked Sushi] California Baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+220,[Baked Sushi] Cheesy Beef,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+225,[DB] Beef Curry (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+226,[DB] Beef Curry (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+228,[DB] Beef Teppanyaki/Misono (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+229,[DB] Beef Teppanyaki/Misono (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+230,[DB] Beef Terriyaki (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+231,[DB] Beef Terriyaki (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+232,[DB] Chicken Teppanyaki/Misono (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+233,[DB] Chicken Teppanyaki/Misono (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+234,[DB] Chicken Terriyaki (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+235,[DB] Crispy Chicken w/ Egg (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+236,[DB] Crispy Chicken w/ Egg (Set B ),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+237,[DB] Crispy Chicken w/ Egg (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+238,[DB] Ebi Toji Don (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+239,[DB] Grilled Chicken Teriyaki (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+240,[DB] Grilled Chicken Teriyaki (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+241,[DB] Grilled Chicken Teriyaki (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+242,[DB] Grilled Chicken Terriyaki (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+243,[DB] Gyudon (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+244,[DB] Gyudon (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+245,[DB] Karaagedon (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+246,[DB] Karaagedon (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+247,[DB] Karaagedon (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+248,[DB] Katsu Curry (Regular) (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+249,[DB] Katsu Curry (Regular) (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+250,[DB] Katsu Curry (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+251,[DB] Katsu Curry (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+252,[DB] Katsu Omelette Curry (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+253,[DB] Katsu Omelette Curry (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+254,[DB] Katsu Omelette Curry (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+255,[DB] Katsu Tuna (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+256,[DB] Katsu Tuna (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+257,[DB] Katsudon (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+258,[DB] Katsudon (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+259,[DB] Katsudon (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+260,[DB] Mixed Seafood Misono (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+261,[DB] Mixed Seafood Misono (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+262,[DB] Oyakudon (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+263,[DB] Oyakudon (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+264,[DB] Pork Teppanyaki/Misono (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+265,[DB] Pork Teppanyaki/Misono (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+267,[DB] Shoyu Miso Buttered Chicken (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+268,[DB] Shoyu Miso Buttered Chicken (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+269,[DB] Shoyu Miso Buttered Pork (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+270,[DB] Shoyu Miso Buttered Pork (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+271,[DB] Sukiyakidon (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+272,[DB] Sukiyakidon (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+273,[DB] Tonkatsu (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+274,[DB] Tonkatsu (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+275,[DB] Torikatsu (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+276,[DB] Torikatsu (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+277,[DB] Torikatsu Curry (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+278,[DB] Torikatsu Curry (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+279,[DB] Torikatsu Omelette Curry (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+280,[DB] Torikatsu Omelette Curry (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+281,[DB] Torikatsu Omelette Curry (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+282,[DB] Torikatsudon (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+283,[DB] Torikatsudon (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+284,[DB] Yakitori (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+285,[DB] Yakitori (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+286,[DB] Yakitori (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+312,[EXTRA] Seafood Fried Rice,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+314,[HS] Chirashi Don,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+315,[HS] Mixed Maki Rolls,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+317,[HS] Mixed Sushi & Sashimi,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+319,[MM] JR w/ Beef Misono & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+320,[MM] JR w/ Beef Misono & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+321,[MM] JR w/ Tuna Misono & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+322,[MM] JR w/ Tuna Misono & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+323,[MM] SF w/ Tonkatsu & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+324,[MM] SF w/ Tonkatsu & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+325,[MM] SF w/ Torikatsu & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+326,[MM] SF w/ Torikatsu &Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+327,[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+328,[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+329,[MM] SF w/ Yakitori & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+330,[MM] SF w/ Yakitori & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+331,[MM] SFR w/ Salmon Tuna Sashimi & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+332,[MM] SFR w/ Tonkatsu & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+333,[MM] SFR/Yakitori & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+334,[MM] Torikatsu/ Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+376,[PR] Chicken Misono,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+377,[PR] Katsudon,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+380,[PR] Pork Misono,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+381,[PR] Torikatsudon,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+395,[SB] Cheesy Beef Teriyaki Burrito,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+396,[SB] Cheesy Beef Terriyaki Burrito,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+398,[SB] Crazy Kani Burrito,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+401,[SB] Sweet Spicy Salmon Burrito,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+410,[SM] Sukiyaki w/ California Maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+411,[SM] Yakisoba w/ 2PCS Ebi Tempura & Cali Maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+412,[SM] Yakisoba w/ Gyoza & Cali Maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+413,[SM] Yakisoba w/ Torikatsu & Cali Maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+414,[SM] Yakisoba w/ Torikatsu & Cali maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+415,[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+436,[TM] Seafood Fried Rice w/ Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+437,[TM] Seafood Fried Rice w/ Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+438,[TM] Seafood Fried Rice w/ Mixed Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+442,"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",RIC,450.0,g,B_rice_bowl,"value meal: printed misono = rice bowl, 150 g x 3",
+442,"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",SUS,100.0,g,B_sushi_rice,value meal: printed '(8pcs) CALIFORNIA MAKI' = one maki roll of rice,
+443,"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",RIC,450.0,g,B_rice_bowl,"value meal: printed misono = rice bowl, 150 g x 3",
+443,"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",SUS,100.0,g,B_sushi_rice,value meal: printed '(8pcs) CALIFORNIA MAKI' = one maki roll of rice,
+444,"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",RIC,900.0,g,B_rice_bowl,"value meal: printed misono = rice bowl, 150 g x 6",
+445,[VM] Good for 3: Crispy chicken,RIC,450.0,g,B_rice_bowl,"value meal: printed misono = rice bowl, 150 g x 3",
+17,4 in 1 baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+212,[BS] Cheesy Beef Baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+215,[BS] Creamy Salmon Baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+336,[MR] Cheesy Cowboy,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+26,BSP Creamy Salmon,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+137,Salmon baked,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+219,[Baked Sushi] California Baked 50g,SUS,100.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 100 g (MENU2's standard maki line is SUS 100),
+92,M&M beef misono/Kani tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+94,M&M sashimi/kani,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+95,MM Sashimi/ Kani,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+96,MM Tuna Misono & Ebi Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+97,MM Tuna Misono & Kani Tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+98,MM Yakitori / Kani,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+103,Mix&Match yakitori & ebi tempura,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+227,[DB] Beef Teppan (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+45,Chicken Misono 90grams,RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+132,Salmon Burito,SUS,150.0,g,B_sushi_rice,maki/sushi/burrito without sushi rice: 150 g (MENU2's standard maki line is SUS 100),
+221,[DB) Pork Teriyaki (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+222,[DB) Pork Terriyaki (Set B),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+223,[DB]  Pork  Teriyaki (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+224,[DB]  Pork  Terriyaki (Set A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+266,[DB] Pork Teriyaki (A),RIC,150.0,g,B_rice_bowl,"rice bowl / fried rice without a rice line: 150 g x 1 (owner's 150 g rice portion, SUPPLY-UR row 21)",
+43,Chicken Misono (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+43,Chicken Misono (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+46,Chicken Teppan (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+46,Chicken Teppan (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+84,Katsu tuna set A,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+84,Katsu tuna set A,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+154,Sukiyakidon (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+154,Sukiyakidon (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+157,TONKATSU set A,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+157,TONKATSU set A,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+169,Torikatsu set A,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+169,Torikatsu set A,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+172,Torikatsudon Set A,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+172,Torikatsudon Set A,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+225,[DB] Beef Curry (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+225,[DB] Beef Curry (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+226,[DB] Beef Curry (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+226,[DB] Beef Curry (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+228,[DB] Beef Teppanyaki/Misono (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+228,[DB] Beef Teppanyaki/Misono (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+229,[DB] Beef Teppanyaki/Misono (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+229,[DB] Beef Teppanyaki/Misono (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+230,[DB] Beef Terriyaki (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+230,[DB] Beef Terriyaki (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+231,[DB] Beef Terriyaki (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+231,[DB] Beef Terriyaki (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+232,[DB] Chicken Teppanyaki/Misono (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+232,[DB] Chicken Teppanyaki/Misono (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+233,[DB] Chicken Teppanyaki/Misono (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+233,[DB] Chicken Teppanyaki/Misono (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+234,[DB] Chicken Terriyaki (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+234,[DB] Chicken Terriyaki (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+235,[DB] Crispy Chicken w/ Egg (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+235,[DB] Crispy Chicken w/ Egg (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+236,[DB] Crispy Chicken w/ Egg (Set B ),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+236,[DB] Crispy Chicken w/ Egg (Set B ),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+237,[DB] Crispy Chicken w/ Egg (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+237,[DB] Crispy Chicken w/ Egg (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+238,[DB] Ebi Toji Don (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+238,[DB] Ebi Toji Don (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+239,[DB] Grilled Chicken Teriyaki (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+239,[DB] Grilled Chicken Teriyaki (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+240,[DB] Grilled Chicken Teriyaki (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+240,[DB] Grilled Chicken Teriyaki (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+241,[DB] Grilled Chicken Teriyaki (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+241,[DB] Grilled Chicken Teriyaki (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+242,[DB] Grilled Chicken Terriyaki (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+242,[DB] Grilled Chicken Terriyaki (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+243,[DB] Gyudon (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+243,[DB] Gyudon (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+244,[DB] Gyudon (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+244,[DB] Gyudon (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+245,[DB] Karaagedon (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+245,[DB] Karaagedon (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+246,[DB] Karaagedon (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+246,[DB] Karaagedon (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+247,[DB] Karaagedon (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+247,[DB] Karaagedon (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+248,[DB] Katsu Curry (Regular) (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+248,[DB] Katsu Curry (Regular) (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+249,[DB] Katsu Curry (Regular) (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+249,[DB] Katsu Curry (Regular) (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+250,[DB] Katsu Curry (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+250,[DB] Katsu Curry (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+251,[DB] Katsu Curry (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+251,[DB] Katsu Curry (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+252,[DB] Katsu Omelette Curry (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+252,[DB] Katsu Omelette Curry (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+253,[DB] Katsu Omelette Curry (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+253,[DB] Katsu Omelette Curry (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+254,[DB] Katsu Omelette Curry (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+254,[DB] Katsu Omelette Curry (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+255,[DB] Katsu Tuna (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+255,[DB] Katsu Tuna (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+256,[DB] Katsu Tuna (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+256,[DB] Katsu Tuna (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+257,[DB] Katsudon (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+257,[DB] Katsudon (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+258,[DB] Katsudon (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+258,[DB] Katsudon (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+259,[DB] Katsudon (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+259,[DB] Katsudon (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+260,[DB] Mixed Seafood Misono (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+260,[DB] Mixed Seafood Misono (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+261,[DB] Mixed Seafood Misono (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+261,[DB] Mixed Seafood Misono (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+262,[DB] Oyakudon (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+262,[DB] Oyakudon (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+263,[DB] Oyakudon (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+263,[DB] Oyakudon (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+264,[DB] Pork Teppanyaki/Misono (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+264,[DB] Pork Teppanyaki/Misono (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+265,[DB] Pork Teppanyaki/Misono (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+265,[DB] Pork Teppanyaki/Misono (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+267,[DB] Shoyu Miso Buttered Chicken (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+267,[DB] Shoyu Miso Buttered Chicken (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+268,[DB] Shoyu Miso Buttered Chicken (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+268,[DB] Shoyu Miso Buttered Chicken (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+269,[DB] Shoyu Miso Buttered Pork (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+269,[DB] Shoyu Miso Buttered Pork (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+270,[DB] Shoyu Miso Buttered Pork (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+270,[DB] Shoyu Miso Buttered Pork (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+271,[DB] Sukiyakidon (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+271,[DB] Sukiyakidon (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+272,[DB] Sukiyakidon (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+272,[DB] Sukiyakidon (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+273,[DB] Tonkatsu (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+273,[DB] Tonkatsu (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+274,[DB] Tonkatsu (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+274,[DB] Tonkatsu (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+275,[DB] Torikatsu (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+275,[DB] Torikatsu (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+276,[DB] Torikatsu (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+276,[DB] Torikatsu (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+277,[DB] Torikatsu Curry (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+277,[DB] Torikatsu Curry (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+278,[DB] Torikatsu Curry (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+278,[DB] Torikatsu Curry (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+279,[DB] Torikatsu Omelette Curry (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+279,[DB] Torikatsu Omelette Curry (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+280,[DB] Torikatsu Omelette Curry (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+280,[DB] Torikatsu Omelette Curry (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+281,[DB] Torikatsu Omelette Curry (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+281,[DB] Torikatsu Omelette Curry (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+282,[DB] Torikatsudon (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+282,[DB] Torikatsudon (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+283,[DB] Torikatsudon (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+283,[DB] Torikatsudon (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+284,[DB] Yakitori (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+284,[DB] Yakitori (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+285,[DB] Yakitori (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+285,[DB] Yakitori (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+286,[DB] Yakitori (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+286,[DB] Yakitori (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+436,[TM] Seafood Fried Rice w/ Ebi Tempura,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+436,[TM] Seafood Fried Rice w/ Ebi Tempura,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+437,[TM] Seafood Fried Rice w/ Kani Tempura,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+437,[TM] Seafood Fried Rice w/ Kani Tempura,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+438,[TM] Seafood Fried Rice w/ Mixed Tempura,MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+438,[TM] Seafood Fried Rice w/ Mixed Tempura,TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+442,"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",MSO,45.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 3",
+442,"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",TUF,3.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 3",
+443,"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",MSO,45.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 3",
+443,"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",TUF,3.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 3",
+444,"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",MSO,90.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 6",
+444,"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",TUF,6.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 6",
+445,[VM] Good for 3: Crispy chicken,MSO,45.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 3",
+445,[VM] Good for 3: Crispy chicken,TUF,3.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 3",
+227,[DB] Beef Teppan (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+227,[DB] Beef Teppan (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+221,[DB) Pork Teriyaki (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+221,[DB) Pork Teriyaki (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+222,[DB) Pork Terriyaki (Set B),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+222,[DB) Pork Terriyaki (Set B),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+223,[DB]  Pork  Teriyaki (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+223,[DB]  Pork  Teriyaki (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+224,[DB]  Pork  Terriyaki (Set A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+224,[DB]  Pork  Terriyaki (Set A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+266,[DB] Pork Teriyaki (A),MSO,15.0,g,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+266,[DB] Pork Teriyaki (A),TUF,1.0,pc,C_miso_soup_side,"printed menu: SET A 'w/ miso', SET B 'w/miso, kani salad & Iced Tea', tempura/value meals 'free miso soup' - small miso soup x 1",
+226,[DB] Beef Curry (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+229,[DB] Beef Teppanyaki/Misono (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+231,[DB] Beef Terriyaki (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+251,[DB] Katsu Curry (Set B),ICT,1.0,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+251,[DB] Katsu Curry (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+263,[DB] Oyakudon (Set B),ICT,1.0,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+268,[DB] Shoyu Miso Buttered Chicken (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+272,[DB] Sukiyakidon (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+274,[DB] Tonkatsu (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+276,[DB] Torikatsu (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+283,[DB] Torikatsudon (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+286,[DB] Yakitori (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+221,[DB) Pork Teriyaki (Set B),ICT,1.0,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+221,[DB) Pork Teriyaki (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+222,[DB) Pork Terriyaki (Set B),ICT,1.0,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+222,[DB) Pork Terriyaki (Set B),KNI,0.25,pc,D_set_b_addons,Set B = Set A + iced tea + kani salad (printed menu; generator SET_B_ADDONS),
+3,(BSP)Creamy chicken,CF,30.0,g,E_named_ingredient,chicken named in the dish; MENU2's own 'Baked Sushi Chicken 30 grams' = CF_060 x 0.5 = 30 g,
+54,Creamy Chicken Baked,CF,30.0,g,E_named_ingredient,chicken named in the dish; MENU2 'Baked Sushi Chicken 30 grams',
+55,Creamy chicken baked,CF,30.0,g,E_named_ingredient,chicken named in the dish; MENU2 'Baked Sushi Chicken 30 grams',
+213,[BS] Creamy Chicken,CF,30.0,g,E_named_ingredient,chicken named in the dish; MENU2 'Baked Sushi Chicken 30 grams',
+40,Cheesy torikatsu Burrito,CF,60.0,g,E_named_ingredient,torikatsu named in the burrito: one 60 g chicken portion (CF_060),
+165,Torikatsu Burrito,CF,60.0,g,E_named_ingredient,torikatsu named in the burrito: one 60 g chicken portion (CF_060),
+397,[SB] Cheesy Torikatsu Burrito,CF,60.0,g,E_named_ingredient,torikatsu named in the burrito: one 60 g chicken portion (CF_060),
+188,[ATF] Beef Teriyaki Noodles (Sharing),SB,100.0,g,E_named_ingredient,beef named in the dish; Sharing = 2 x Regular's SB 50 (MENU2 line was 0),
+19,48pcs CALIFORNIA MAKI PLATTERS,BAR,6.0,pc,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,CUC,135.0,g,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,EBK,30.0,g,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,KAL,60.0,g,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,MAY,30.0,g,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,NOR,3.0,pc,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,SUS,600.0,g,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+19,48pcs CALIFORNIA MAKI PLATTERS,WAS,108.0,g,E_named_ingredient,48 pcs = 48/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,BAR,5.0,pc,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,CUC,112.5,g,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,EBK,25.0,g,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,KAL,50.0,g,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,MAY,25.0,g,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,NOR,2.5,pc,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,SUS,500.0,g,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+362,[PL] 40pcs California Maki Platter,WAS,90.0,g,E_named_ingredient,40 pcs = 40/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,BAR,8.0,pc,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,CUC,180.0,g,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,EBK,40.0,g,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,KAL,80.0,g,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,MAY,40.0,g,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,NOR,4.0,pc,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,SUS,800.0,g,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+364,[PL] 64pcs California Maki Platter,WAS,144.0,g,E_named_ingredient,64 pcs = 64/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,BAR,12.0,pc,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,CUC,270.0,g,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,EBK,60.0,g,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,KAL,120.0,g,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,MAY,60.0,g,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,NOR,6.0,pc,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,SUS,1200.0,g,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,
+365,[PL] 96pcs California Maki Platter,WAS,216.0,g,E_named_ingredient,96 pcs = 96/48 of the full 48 pcs California Maki Platter recipe,

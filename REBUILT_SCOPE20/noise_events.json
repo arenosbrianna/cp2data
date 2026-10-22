@@ -1,0 +1,248 @@
+[
+ {
+  "kind": "storm",
+  "date": "2024-07-24",
+  "factor": 0.45,
+  "documented_event": true
+ },
+ {
+  "kind": "storm",
+  "date": "2024-07-25",
+  "factor": 0.7,
+  "documented_event": true
+ },
+ {
+  "kind": "storm",
+  "date": "2024-10-23",
+  "factor": 0.5,
+  "documented_event": true
+ },
+ {
+  "kind": "storm",
+  "date": "2021-09-02",
+  "factor": 0.486,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2021-11-18",
+  "factor": 0.639,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2021-11-16",
+  "factor": 0.425,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-07-14",
+  "factor": 0.464,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-09-18",
+  "factor": 0.448,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-08-22",
+  "factor": 0.364,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-02-17",
+  "factor": 0.438,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-10-07",
+  "factor": 0.629,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-07-29",
+  "factor": 0.444,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-06-13",
+  "factor": 0.599,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-06-17",
+  "factor": 0.611,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2022-09-03",
+  "factor": 0.565,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2022-08-05",
+  "factor": 1.362,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2022-08-29",
+  "factor": 1.386,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2022-12-18",
+  "factor": 1.457,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2022-06-01",
+  "factor": 1.372,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2023-06-13",
+  "factor": 0.437,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2023-08-16",
+  "factor": 0.532,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2023-10-13",
+  "factor": 0.578,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2023-10-11",
+  "factor": 0.643,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2023-11-22",
+  "factor": 0.544,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2023-11-11",
+  "factor": 0.317,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2023-01-04",
+  "factor": 1.263,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2023-10-05",
+  "factor": 1.376,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2023-04-25",
+  "factor": 1.288,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2023-01-11",
+  "factor": 1.326,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2024-05-19",
+  "factor": 0.631,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2024-05-14",
+  "factor": 0.442,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2024-01-16",
+  "factor": 1.269,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2024-02-20",
+  "factor": 1.415,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2025-08-07",
+  "factor": 0.587,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2025-10-23",
+  "factor": 0.647,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2025-06-22",
+  "factor": 0.388,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2025-10-13",
+  "factor": 0.528,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2025-10-19",
+  "factor": 0.323,
+  "documented_event": false
+ },
+ {
+  "kind": "storm",
+  "date": "2025-02-11",
+  "factor": 0.348,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2025-08-16",
+  "factor": 1.32,
+  "documented_event": false
+ },
+ {
+  "kind": "surge",
+  "date": "2025-02-05",
+  "factor": 1.463,
+  "documented_event": false
+ }
+]
