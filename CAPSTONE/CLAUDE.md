@@ -1,0 +1,1 @@
+Target design, rules and schema changes: see @docs/DSS_REDESIGN.md. Mockups in docs/mockups/ are layout references, not production code.

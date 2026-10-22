@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Risk alerts</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F6F3}
+a{color:#1E3A8A}a:hover{color:#172554}
+.nav{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:10px;font-size:15px;font-weight:600;color:#374151;text-decoration:none}
+.nav:hover{background:#EEF2FF;color:#1E3A8A}
+.nav.on{background:#E0E7FF;color:#1E3A8A}
+.card{background:#FFFFFF;border:1px solid #E7E5E0;border-radius:14px}
+.mono{font-family:'JetBrains Mono',monospace}
+.btn{font:inherit;font-size:14px;font-weight:700;border-radius:10px;padding:10px 16px;min-height:44px;cursor:pointer;border:1px solid #CBD5E1;background:#FFFFFF;color:#1E3A8A}
+.btn.pri{background:#1E3A8A;border-color:#1E3A8A;color:#FFFFFF}
+.th{font-size:12px;font-weight:700;color:#4B5563;letter-spacing:.04em;text-align:left;padding:10px 10px;background:#FAFAF8;border-bottom:1px solid #E7E5E0;white-space:nowrap}
+.td{font-size:14px;padding:10px 10px;border-bottom:1px solid #EDEBE6;white-space:nowrap;vertical-align:middle}
+.cell{height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800}
+</style>
+</helmet>
+<div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #111827; background: #F6F6F3; min-height: 100vh">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #E7E5E0; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 36px; height: 36px; border-radius: 50%; background: #B91C1C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 15px">M</div>
+<div style="display: flex; flex-direction: column"><span style="font-weight: 800; font-size: 18px; color: #1E3A8A">makisushi</span><span style="font-size: 11px; color: #4B5563; font-weight: 600">Inventory decision support</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+<span style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #374151; background: #F1F5F9; border-radius: 999px; padding: 8px 14px"><span style="width: 8px; height: 8px; border-radius: 50%; background: #2563EB"></span>Data as of Sun 18 Oct, 11:30 PM · Loyverse export</span>
+<span style="font-size: 14px; font-weight: 600; color: #374151">L. Astoriano · Manager</span>
+</div>
+</header>
+
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start">
+<nav aria-label="Main" style="flex: 1 1 240px; max-width: 100%; box-sizing: border-box; padding: 20px 16px; display: flex; flex-direction: column; gap: 4px">
+<a class="nav" href="Overview.dc.html">Overview</a>
+<a class="nav" href="Forecast.dc.html">Demand forecasts</a>
+<a class="nav on" href="Risk.dc.html">Risk alerts <span style="margin-left: auto; font-size: 12px; font-weight: 800; background: #FEE2E2; color: #991B1B; border-radius: 999px; padding: 2px 8px">5</span></a>
+<a class="nav" href="Purchasing.dc.html">Purchasing</a>
+<a class="nav" href="Tracking.dc.html">Tracking</a>
+<div style="height: 1px; background: #E7E5E0; margin: 12px 4px"></div>
+<a class="nav" href="Main.dc.html">Gap audit</a>
+</nav>
+
+<main style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 24px 64px; display: flex; flex-direction: column; gap: 24px">
+
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 14px; font-weight: 700; color: #1E3A8A">Prescriptive alerts · recomputed on every refresh against today's date</div>
+<h1 style="margin: 0; font-size: 36px; font-weight: 800; letter-spacing: -0.02em">Risk alerts</h1>
+<p style="margin: 0; font-size: 15px; color: #4B5563; max-width: 820px">Three risk states from §3.4.2: <b>expiration</b> (stock that will spoil before it's used), <b>under-ordering</b> (stock that runs out inside the supplier lead time), and <b>over-ordering</b> (cash tied up above forecast). Only perishable raw materials are in scope.</p>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px">
+<a href="#spoil" class="card" style="padding: 16px 18px; text-decoration: none; color: #111827; display: flex; gap: 14px; align-items: center"><span class="mono" style="font-size: 30px; font-weight: 600; color: #B91C1C">2</span><span style="font-size: 14px; font-weight: 700; line-height: 1.35">Spoilage alerts<br><span style="font-weight: 500; color: #4B5563">₱4,000 at risk</span></span></a>
+<a href="#stockout" class="card" style="padding: 16px 18px; text-decoration: none; color: #111827; display: flex; gap: 14px; align-items: center"><span class="mono" style="font-size: 30px; font-weight: 600; color: #B91C1C">1</span><span style="font-size: 14px; font-weight: 700; line-height: 1.35">Stockout warning<br><span style="font-weight: 500; color: #4B5563">Tuna loin · Tue 20 Oct</span></span></a>
+<a href="#excess" class="card" style="padding: 16px 18px; text-decoration: none; color: #111827; display: flex; gap: 14px; align-items: center"><span class="mono" style="font-size: 30px; font-weight: 600; color: #B45309">2</span><span style="font-size: 14px; font-weight: 700; line-height: 1.35">Excess stock<br><span style="font-weight: 500; color: #4B5563">₱4,946 tied up</span></span></a>
+</div>
+
+<section id="spoil" class="card" style="padding: 0; overflow: hidden">
+<div style="padding: 22px 22px 14px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px">
+<div>
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">Spoilage alert matrix</h2>
+<p style="margin: 4px 0 0; font-size: 13px; color: #4B5563">Expiry = received date + shelf_life_days. At risk = on hand − forecast use before expiry. Red ≤ 1 day, amber 2–3 days.</p>
+</div>
+<div style="display: flex; gap: 14px; font-size: 12px; color: #374151; align-items: center; flex-wrap: wrap">
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 14px; height: 14px; border-radius: 3px; background: #DC2626"></span>Expires ≤ 1 day</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 14px; height: 14px; border-radius: 3px; background: #F59E0B"></span>2–3 days</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 14px; height: 14px; border-radius: 3px; background: #E0E7FF"></span>Usable</span>
+</div>
+</div>
+<div style="overflow-x: auto">
+<table style="width: 100%; border-collapse: collapse; min-width: 1120px">
+<thead><tr>
+<th class="th">Ingredient · batch</th>
+<sc-for list="{{days}}" as="d" hint-placeholder-count="8"><th class="th" style="text-align: center">{{d}}</th></sc-for>
+<th class="th">On hand</th><th class="th">Use before expiry</th><th class="th">At risk</th><th class="th">Action</th>
+</tr></thead>
+<tbody>
+<sc-for list="{{batches}}" as="b" hint-placeholder-count="7">
+<tr>
+<td class="td"><div style="font-weight: 700">{{b.name}}</div><div style="font-size: 12px; color: #4B5563">Rcvd {{b.rcv}} · {{b.life}}</div></td>
+<sc-for list="{{b.cells}}" as="c" hint-placeholder-count="8">
+<td class="td" style="padding: 6px 4px; min-width: 64px">
+<sc-if value="{{c.red}}" hint-placeholder-val="{{false}}"><div class="cell" style="background: #DC2626; color: #FFFFFF">● EXP</div></sc-if>
+<sc-if value="{{c.amber}}" hint-placeholder-val="{{false}}"><div class="cell" style="background: #F59E0B; color: #1F2937">▲ EXP</div></sc-if>
+<sc-if value="{{c.later}}" hint-placeholder-val="{{false}}"><div class="cell" style="background: #C7D2FE; color: #1E3A8A">EXP</div></sc-if>
+<sc-if value="{{c.alive}}" hint-placeholder-val="{{true}}"><div class="cell" style="background: #E0E7FF"></div></sc-if>
+</td>
+</sc-for>
+<td class="td mono">{{b.onhand}}</td>
+<td class="td mono">{{b.use}}</td>
+<td class="td"><span class="mono" style="font-weight: 600; color: {{b.riskColor}}">{{b.risk}}</span><div style="font-size: 12px; color: #4B5563">{{b.peso}}</div></td>
+<td class="td" style="white-space: normal; min-width: 220px">
+<sc-if value="{{b.alert}}" hint-placeholder-val="{{false}}"><div style="display: flex; flex-direction: column; gap: 6px"><span style="font-size: 12px; color: #374151">Promote: {{b.items}}</span><button class="btn pri" type="button" style="align-self: flex-start; min-height: 36px; padding: 6px 12px; font-size: 13px">{{b.cta}}</button></div></sc-if>
+<sc-if value="{{b.ok}}" hint-placeholder-val="{{true}}"><span style="font-size: 13px; color: #4B5563">{{b.note}}</span></sc-if>
+</td>
+</tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="stockout" class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 16px">
+<div role="alert" style="background: #FEF2F2; border: 1px solid #FCA5A5; border-radius: 12px; padding: 16px 18px; display: flex; flex-wrap: wrap; gap: 14px; align-items: center; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 4px; max-width: 760px">
+<div style="font-size: 12px; font-weight: 800; color: #991B1B; letter-spacing: .05em">● STOCKOUT RISK WARNING</div>
+<div style="font-size: 16px; font-weight: 700">Tuna loin is below its reorder level (3.2 kg) and runs out Tue 20 Oct without an order.</div>
+<div style="font-size: 14px; color: #374151">Order <b class="mono">9.5 kg</b> from Tsukiji Fresh Marine Phils (SUP-01) today. Lead time 1 day. LP delivery split: 3.5 kg Tue · 3.0 kg Thu · 3.0 kg Sat.</div>
+</div>
+<button class="btn pri" type="button">Add to purchase list</button>
+</div>
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Tuna loin: projected end-of-day stock vs forecast demand, kg</h2>
+<div style="display: flex; gap: 16px; font-size: 13px; color: #374151; flex-wrap: wrap">
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 12px; height: 12px; background: #CBD5E1; border-radius: 2px"></span>Forecast demand</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 18px; height: 0; border-top: 2.5px solid #1E3A8A"></span>Stock with LP order</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 18px; height: 0; border-top: 2.5px dashed #DC2626"></span>Stock, no order</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 18px; height: 0; border-top: 1.5px dashed #B45309"></span>Reorder level</span>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 8px">
+<div class="mono" style="height: 240px; display: flex; flex-direction: column; justify-content: space-between; font-size: 12px; color: #4B5563; text-align: right"><span>6</span><span>4</span><span>2</span><span>0</span></div>
+<div style="position: relative; height: 240px; border-left: 1px solid #CBD5E1; border-bottom: 1px solid #CBD5E1">
+<div style="position: absolute; inset: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 24px; padding: 0 16px; align-items: end">
+<sc-for list="{{tuna}}" as="t" hint-placeholder-count="7"><div style="height: {{t.dh}}px; background: #CBD5E1; border-radius: 4px 4px 0 0"></div></sc-for>
+</div>
+<svg viewBox="0 0 700 240" preserveAspectRatio="none" role="img" aria-label="Tuna stock falls to zero on Tuesday with no order; with the LP order it stays positive all week" style="position: absolute; inset: 0; width: 100%; height: 100%">
+<rect x="0" y="0" width="200" height="240" fill="#FEF3C7" opacity="0.5"></rect>
+<line x1="0" y1="{{reorderY}}" x2="700" y2="{{reorderY}}" stroke="#B45309" stroke-width="1.5" stroke-dasharray="5 4" vector-effect="non-scaling-stroke"></line>
+<path d="{{noOrderPath}}" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-dasharray="7 5" vector-effect="non-scaling-stroke"></path>
+<path d="{{withOrderPath}}" fill="none" stroke="#1E3A8A" stroke-width="2.5" vector-effect="non-scaling-stroke"></path>
+</svg>
+<div style="position: absolute; top: 6px; left: 8px; font-size: 12px; font-weight: 700; color: #92400E">Lead-time window</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 8px"><span></span><div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 24px; padding: 0 16px; font-size: 12px; color: #4B5563; text-align: center"><sc-for list="{{tuna}}" as="t" hint-placeholder-count="7"><span>{{t.day}}</span></sc-for></div></div>
+</section>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch">
+<section id="excess" class="card" style="flex: 1 1 420px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Excess capital gauge</h2>
+<p style="margin: 0; font-size: 13px; color: #4B5563">Flags stock above 1.5× its 7-day forecast. Share of total on-hand value (₱32,170).</p>
+<div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap">
+<svg viewBox="0 0 200 116" width="200" height="116" role="img" aria-label="15.4 percent of inventory value is excess, in the amber zone">
+<path d="M 16 100 A 84 84 0 0 1 184 100" fill="none" stroke="#E5E7EB" stroke-width="18"></path>
+<path d="M 16 100 A 84 84 0 0 1 40.6 40.6" fill="none" stroke="#93C5FD" stroke-width="18"></path>
+<path d="M 40.6 40.6 A 84 84 0 0 1 100 16" fill="none" stroke="#FCD34D" stroke-width="18"></path>
+<path d="M 100 16 A 84 84 0 0 1 184 100" fill="none" stroke="#FCA5A5" stroke-width="18"></path>
+<line x1="100" y1="100" x2="72.8" y2="28.0" stroke="#111827" stroke-width="3" stroke-linecap="round"></line>
+<circle cx="100" cy="100" r="6" fill="#111827"></circle>
+</svg>
+<div><div class="mono" style="font-size: 30px; font-weight: 600">₱4,946</div><div style="font-size: 14px; color: #374151">15.4% of inventory value</div><div style="font-size: 12px; color: #4B5563">Scale 0–40% · &lt;10% ok · 10–20% review · &gt;20% act</div></div>
+</div>
+<sc-for list="{{excess}}" as="e" hint-placeholder-count="4">
+<div style="border-top: 1px solid #EDEBE6; padding-top: 12px; display: flex; flex-direction: column; gap: 6px">
+<div style="display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap"><span style="font-size: 14px; font-weight: 700">{{e.name}}</span><span class="mono" style="font-size: 13px">{{e.label}}</span></div>
+<div style="position: relative; height: 12px; background: #F1F5F9; border-radius: 999px">
+<div style="position: absolute; left: 0; top: 0; height: 100%; width: {{e.stockW}}%; background: {{e.color}}; border-radius: 999px"></div>
+<div style="position: absolute; top: -3px; width: 2px; height: 18px; left: {{e.fcW}}%; background: #111827"></div>
+</div>
+<div style="font-size: 12px; color: #4B5563">{{e.note}}</div>
+</div>
+</sc-for>
+<button class="btn" type="button" style="align-self: flex-start">Freeze next order for flagged items</button>
+</section>
+
+<section class="card" style="flex: 1 1 420px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Where waste concentrates</h2>
+<p style="margin: 0; font-size: 13px; color: #4B5563">Average kg wasted by weekday, last 8 weeks (fact_inventory.waste_quantity). Darker = more.</p>
+<div style="overflow-x: auto">
+<div style="min-width: 420px; display: grid; grid-template-columns: 120px repeat(7, minmax(0, 1fr)); gap: 4px; font-size: 12px">
+<span></span>
+<sc-for list="{{wd}}" as="w" hint-placeholder-count="7"><span style="text-align: center; color: #4B5563; font-weight: 700">{{w}}</span></sc-for>
+<sc-for list="{{heat}}" as="h" hint-placeholder-count="42">
+<sc-if value="{{h.isLabel}}" hint-placeholder-val="{{false}}"><span style="font-weight: 700; font-size: 13px; align-self: center">{{h.text}}</span></sc-if>
+<sc-if value="{{h.isCell}}" hint-placeholder-val="{{true}}"><div class="mono" title="{{h.title}}" style="height: 34px; border-radius: 4px; display: flex; align-items: center; justify-content: center; background: {{h.bg}}; color: {{h.fg}}; font-size: 12px">{{h.text}}</div></sc-if>
+</sc-for>
+</div>
+</div>
+<p style="margin: 0; font-size: 13px; color: #374151; line-height: 1.5"><b>Pattern:</b> Monday salmon and tuna waste follows weekend over-prep. The LP now splits deliveries so Sunday stock is lower.</p>
+</section>
+</div>
+</main>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const days = ["Mon 19", "Tue 20", "Wed 21", "Thu 22", "Fri 23", "Sat 24", "Sun 25", "> 7 d"];
+    const B = [
+      { name: "Fresh salmon", rcv: "Sat 17 Oct", life: "3-day life", exp: 1, onhand: "6.0 kg", use: "3.2 kg", risk: "2.8 kg", peso: "₱3,220 at ₱1,150/kg", items: "Salmon Sashimi, Aburi Salmon Maki, Salmon Don", cta: "Create lunch promo" },
+      { name: "Hass avocado", rcv: "Sat 17 Oct", life: "4-day life", exp: 2, onhand: "30 pcs", use: "18 pcs", risk: "12 pcs", peso: "₱780 at ₱65/pc", items: "California Maki, Avocado Salmon Roll", cta: "Notify kitchen" },
+      { name: "Tuna loin", rcv: "Sun 18 Oct", life: "3-day life", exp: 2, onhand: "2.0 kg", use: "2.0 kg", risk: "0", peso: "Stock runs out first", note: "No spoilage risk. See stockout warning." },
+      { name: "Hamachi", rcv: "Sun 18 Oct", life: "4-day life", exp: 3, onhand: "2.4 kg", use: "2.4 kg", risk: "0", peso: "—", note: "Used before expiry." },
+      { name: "Japanese cucumber", rcv: "Fri 16 Oct", life: "7-day life", exp: 4, onhand: "4.0 kg", use: "4.0 kg", risk: "0", peso: "—", note: "Used before expiry." },
+      { name: "Cream cheese", rcv: "Mon 12 Oct", life: "21-day life", exp: 7, onhand: "5.0 kg", use: "1.8 kg / 7 d", risk: "0", peso: "—", note: "Not spoiling, but excess. See gauge." },
+      { name: "Ebi (frozen)", rcv: "Thu 1 Oct", life: "90-day life", exp: 7, onhand: "9.0 kg", use: "3.5 kg / 7 d", risk: "0", peso: "—", note: "Not spoiling, but excess. See gauge." }
+    ];
+    const batches = B.map((b) => {
+      const alert = b.risk !== "0";
+      const cells = days.map((_, i) => {
+        const isExp = i === b.exp;
+        const dl = b.exp;
+        return { red: isExp && dl <= 1, amber: isExp && dl >= 2 && dl <= 3, later: isExp && dl > 3, alive: !isExp && i < b.exp };
+      });
+      return Object.assign({}, b, { cells, alert, ok: !alert, riskColor: alert ? "#B91C1C" : "#374151" });
+    });
+
+    const dem = [1.23, 1.15, 1.30, 1.38, 1.99, 2.30, 1.84];
+    const del = [0, 3.5, 0, 3.0, 0, 3.0, 0];
+    const H = 240, Y = (v) => (H - (v / 6) * H).toFixed(1), X = (i) => (50 + i * 100).toFixed(1);
+    let s1 = 2.0, s2 = 2.0, p1 = "M0 " + Y(2.0) + " ", p2 = "M0 " + Y(2.0) + " ";
+    for (let i = 0; i < 7; i++) {
+      s1 = Math.max(0, s1 - dem[i]);
+      s2 = Math.max(0, s2 + del[i] - dem[i]);
+      p1 += "L" + X(i) + " " + Y(s1) + " ";
+      p2 += "L" + X(i) + " " + Y(s2) + " ";
+    }
+    const tdays = ["Mon 19", "Tue 20", "Wed 21", "Thu 22", "Fri 23", "Sat 24", "Sun 25"];
+    const tuna = dem.map((d, i) => ({ day: tdays[i] + (del[i] ? " · +" + del[i].toFixed(1) : ""), dh: Math.round(d / 6 * H) }));
+
+    const excess = [
+      { name: "Ebi (frozen)", stock: 9.0, fc: 3.5, unit: "kg", cost: 620, flag: true },
+      { name: "Cream cheese", stock: 5.0, fc: 1.8, unit: "kg", cost: 480, flag: true },
+      { name: "Koshihikari rice", stock: 45, fc: 38.5, unit: "kg", cost: 140, flag: false },
+      { name: "Nori sheets", stock: 6, fc: 9, unit: "packs", cost: 420, flag: false }
+    ].map((e) => {
+      const max = Math.max(e.stock, e.fc) * 1.1;
+      const ex = Math.max(0, e.stock - e.fc);
+      return {
+        name: e.name,
+        label: e.stock + " " + e.unit + " on hand · " + e.fc + " forecast",
+        stockW: Math.round(e.stock / max * 100), fcW: Math.round(e.fc / max * 100),
+        color: e.flag ? "#F59E0B" : "#93C5FD",
+        note: e.flag ? "Excess " + ex.toFixed(1) + " " + e.unit + " = ₱" + Math.round(ex * e.cost).toLocaleString("en-US") + " · skip this cycle" : "Within 1.5× of forecast · no action"
+      };
+    });
+
+    const wd = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    const rows = [
+      ["Fresh salmon", [1.4, 0.5, 0.4, 0.4, 0.3, 0.4, 0.9]],
+      ["Tuna loin", [0.9, 0.4, 0.3, 0.3, 0.2, 0.3, 0.6]],
+      ["Hass avocado", [0.6, 0.5, 0.4, 0.4, 0.3, 0.3, 0.5]],
+      ["Sushi rice", [0.5, 0.4, 0.4, 0.4, 0.6, 0.7, 0.6]],
+      ["Cucumber", [0.3, 0.2, 0.2, 0.2, 0.2, 0.2, 0.3]],
+      ["Hamachi", [0.4, 0.2, 0.1, 0.1, 0.1, 0.2, 0.3]]
+    ];
+    const ramp = ["#EFF6FF", "#DBEAFE", "#BFDBFE", "#93C5FD", "#3B82F6", "#1D4ED8", "#1E3A8A"];
+    const heat = [];
+    rows.forEach((r) => {
+      heat.push({ isLabel: true, isCell: false, text: r[0] });
+      r[1].forEach((v, i) => {
+        const k = Math.min(6, Math.floor(v / 1.4 * 6.99));
+        heat.push({ isLabel: false, isCell: true, text: v.toFixed(1), bg: ramp[k], fg: k >= 4 ? "#FFFFFF" : "#1E3A8A", title: r[0] + ", " + wd[i] + ": " + v.toFixed(1) + " kg" });
+      });
+    });
+
+    return { days, batches, tuna, reorderY: Y(3.2), noOrderPath: p1, withOrderPath: p2, excess, wd, heat };
+  }
+}
+</script>
+</body>
+</html>

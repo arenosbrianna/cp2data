@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gap audit</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F6F3}
+a{color:#1E3A8A}a:hover{color:#172554}
+.row{display:grid;grid-template-columns:44px minmax(0,1.3fr) minmax(0,1.4fr) minmax(0,1.5fr) 150px;gap:20px;padding:16px 24px;border-top:1px solid #E7E5E0;align-items:start}
+.hd{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#4B5563}
+.num{font-family:'JetBrains Mono',monospace;font-size:13px;color:#4B5563;padding-top:2px}
+.ref{font-family:'JetBrains Mono',monospace;font-size:12px;color:#1E3A8A;font-weight:600}
+@media (max-width:900px){.row{grid-template-columns:minmax(0,1fr)}}
+</style>
+</helmet>
+<div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #111827; background: #F6F6F3; min-height: 100vh; box-sizing: border-box; padding: 56px 24px 96px">
+<div style="max-width: 1280px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px">
+
+<header style="display: flex; flex-direction: column; gap: 16px">
+<div style="font-size: 14px; font-weight: 700; color: #1E3A8A; letter-spacing: .04em">GAP AUDIT · CP-1 FINAL REVISED MANUSCRIPT (GROUP 6)</div>
+<h1 style="margin: 0; font-size: 48px; line-height: 1.08; font-weight: 800; letter-spacing: -0.02em; max-width: 980px">The prototype is an inventory app. The manuscript promises a decision pipeline.</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; color: #374151; max-width: 900px">Every page of the current build was checked against Chapters 1 and 3. The manuscript's DSS runs <b>forecast → optimize → recommend → track</b>. Today only the "recommend" step has a screen, and its numbers can't be traced back to a forecast or an LP run. The five boards to the right show the redesign. This board lists every change and where it comes from.</p>
+</header>
+
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+<sc-for list="{{counts}}" as="c" hint-placeholder-count="4">
+<div style="background: #FFFFFF; border: 1px solid #E7E5E0; border-radius: 14px; padding: 20px 22px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-family: 'JetBrains Mono', monospace; font-size: 40px; font-weight: 600; color: {{c.color}}">{{c.n}}</div>
+<div style="font-size: 15px; font-weight: 700">{{c.label}}</div>
+<div style="font-size: 13px; color: #4B5563; line-height: 1.5">{{c.sub}}</div>
+</div>
+</sc-for>
+</div>
+
+<section style="display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 24px; font-weight: 800">Pipeline coverage in the current prototype</h2>
+<div style="display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px">
+<sc-for list="{{pipeline}}" as="p" hint-placeholder-count="6">
+<div style="background: #FFFFFF; border: 1px solid #E7E5E0; border-radius: 12px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-size: 12px; font-family: 'JetBrains Mono', monospace; color: #4B5563">{{p.step}}</div>
+<div style="font-size: 15px; font-weight: 700; line-height: 1.3">{{p.name}}</div>
+<sc-if value="{{p.missing}}" hint-placeholder-val="{{false}}"><span style="align-self: flex-start; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: #FEE2E2; color: #991B1B">✕ Missing</span></sc-if>
+<sc-if value="{{p.partial}}" hint-placeholder-val="{{false}}"><span style="align-self: flex-start; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: #FEF3C7; color: #92400E">◐ Partial</span></sc-if>
+<sc-if value="{{p.ok}}" hint-placeholder-val="{{true}}"><span style="align-self: flex-start; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: #DBEAFE; color: #1E3A8A">✓ Present</span></sc-if>
+<div style="font-size: 13px; color: #374151; line-height: 1.5">{{p.note}}</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<sc-for list="{{sections}}" as="s" hint-placeholder-count="4">
+<section style="background: #FFFFFF; border: 1px solid #E7E5E0; border-radius: 16px; overflow: hidden">
+<div style="padding: 24px 24px 18px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 13px; font-weight: 700; color: #1E3A8A; letter-spacing: .04em">{{s.kicker}}</div>
+<h2 style="margin: 0; font-size: 24px; font-weight: 800">{{s.title}}</h2>
+<p style="margin: 0; font-size: 15px; color: #4B5563; line-height: 1.55; max-width: 900px">{{s.intro}}</p>
+</div>
+<div class="row" style="background: #FAFAF8">
+<div class="hd">#</div><div class="hd">Issue</div><div class="hd">{{s.col2}}</div><div class="hd">Fix</div><div class="hd">Redesign</div>
+</div>
+<sc-for list="{{s.items}}" as="it" hint-placeholder-count="5">
+<div class="row">
+<div class="num">{{it.id}}</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 15px; font-weight: 700; line-height: 1.4">{{it.issue}}</div>
+<sc-if value="{{it.must}}" hint-placeholder-val="{{true}}"><span style="align-self: flex-start; font-size: 11px; font-weight: 800; letter-spacing: .04em; padding: 3px 8px; border-radius: 6px; background: #FEE2E2; color: #991B1B">MUST FIX</span></sc-if>
+<sc-if value="{{it.should}}" hint-placeholder-val="{{false}}"><span style="align-self: flex-start; font-size: 11px; font-weight: 800; letter-spacing: .04em; padding: 3px 8px; border-radius: 6px; background: #FEF3C7; color: #92400E">SHOULD FIX</span></sc-if>
+</div>
+<div style="font-size: 14px; line-height: 1.55; color: #374151"><span class="ref">{{it.ref}}</span> {{it.why}}</div>
+<div style="font-size: 14px; line-height: 1.55; color: #111827">{{it.fix}}</div>
+<div style="font-size: 13px; font-weight: 600; color: #1E3A8A">{{it.board}}</div>
+</div>
+</sc-for>
+</section>
+</sc-for>
+
+<section style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border: 1px solid #E7E5E0; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">Keep these</h2>
+<ul style="margin: 0; padding-left: 20px; font-size: 15px; line-height: 1.7; color: #374151">
+<li>The clean visual language, navy/red brand and card layout.</li>
+<li>Supplier records with contact person and lead time, which feed the purchasing list.</li>
+<li>Apply / Dismiss on each recommendation. Extend them with a log.</li>
+<li>The Reports list, especially the Forecasting Accuracy Audit and Baseline Comparison.</li>
+<li>Status chips on the inventory table, as long as they're computed and not hard-coded.</li>
+</ul>
+</div>
+<div style="background: #1E3A8A; color: #FFFFFF; border-radius: 16px; padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">Decide before defense: Power BI or web app?</h2>
+<p style="margin: 0; font-size: 15px; line-height: 1.65; color: #E0E7FF">Objective 4 and §3.4.2 say the dashboard is built in Power BI, with DAX TODAY() driving the alerts. The prototype is a custom web app. Either revise the manuscript (justify the web app, keep PostgreSQL + Python, and replace the DAX description with server-side computation) or rebuild these screens as Power BI report pages. The redesign works for both: each board maps to one report page.</p>
+</div>
+</section>
+
+<p style="margin: 0; font-size: 13px; color: #4B5563">All figures on the redesign boards are sample values chosen to be internally consistent. Replace them with ETL and model output.</p>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const B = { ov: "01 Overview", fc: "02 Forecasts", rk: "03 Risk alerts", pu: "04 Purchasing", tr: "05 Tracking", all: "All boards", ms: "Manuscript" };
+    const m = (o) => Object.assign({ must: o.sev === "must", should: o.sev !== "must" }, o);
+    return {
+      counts: [
+        { n: "10", label: "Missing or partial modules", sub: "Features the manuscript commits to that have no working screen", color: "#B91C1C" },
+        { n: "13", label: "Numbers that contradict", sub: "Panelists will spot these in seconds", color: "#B45309" },
+        { n: "5", label: "Wording and framing", sub: "Labels that overclaim or confuse a restaurant manager", color: "#1E3A8A" },
+        { n: "8", label: "Data-model gaps", sub: "Fields the schema in Table 3.1 needs before the UI can work", color: "#374151" }
+      ],
+      pipeline: [
+        { step: "STEP 1", name: "Loyverse CSV ingest + ETL", partial: true, note: "No upload, refresh time, or 'data as of' anywhere. UI implies live data." },
+        { step: "STEP 2", name: "Descriptive baselines", partial: true, note: "Sales and waste charts exist. Usage summary, turnover, stockout frequency are missing." },
+        { step: "STEP 3", name: "Demand forecast (SES / SARIMA / HW / ML)", missing: true, note: "No forecast chart, intervals, or WMAPE / MASE model selection." },
+        { step: "STEP 4", name: "LP optimization (PuLP)", missing: true, note: "Order quantities appear with no constraints, costs, or alternatives." },
+        { step: "STEP 5", name: "Prescriptive alerts", partial: true, note: "4 text cards. Matrix, gauge, and stockout chart are described in §3.4.2 but not built." },
+        { step: "STEP 6", name: "Tracking + feedback loop", missing: true, note: "Apply/Dismiss leave no record. No before/after comparison." }
+      ],
+      sections: [
+        {
+          kicker: "SECTION A", title: "Missing or incomplete modules", col2: "Manuscript says", intro: "These are the features the panel will look for because the manuscript commits to them. Each one maps to a redesigned board.",
+          items: [
+            m({ id: "A1", sev: "must", issue: "No demand forecasting screen", ref: "Obj. 2 · §3.3.3–3.3.5 · §3.4.4", why: "Forecasts with confidence intervals are written to PostgreSQL and shown on the dashboard. Models are chosen per ingredient by WMAPE and MASE.", fix: "Add a Forecasts page: actual vs forecast with an 80/95% band, a model leaderboard per ingredient, and a 'selected model' column.", board: B.fc }),
+            m({ id: "A2", sev: "must", issue: "No Supplier Purchasing List", ref: "§3.4.5", why: "The LP output is a table of ingredient, supplier ID, optimal order quantity, and lead time, joined to dim_supplier contacts.", fix: "Replace the supplier card grid with a purchasing list: order-by date, quantity, unit cost, line cost, supplier contact, and Copy / Print.", board: B.pu }),
+            m({ id: "A3", sev: "must", issue: "Stockout Risk Warning not built", ref: "§3.4.2", why: "Dual-axis chart of projected stock vs forecast demand. A banner appears when stock drops below the reorder level inside the supplier lead-time window.", fix: "Add a stock-curve chart with the reorder line, a shaded lead-time window, and a banner that shows the exact order quantity.", board: B.rk }),
+            m({ id: "A4", sev: "must", issue: "Spoilage Alert Matrix is a text card", ref: "§3.4.2 · §1.4c", why: "Cross-references receipt date with shelf_life_days and flags items amber or red. Red triggers Promotional Menu Suggestions.", fix: "Build a matrix of ingredient × days-to-expiry. Show at-risk quantity (on hand minus forecast use before expiry), ₱ at risk, and the menu items that use it (from the BOM).", board: B.rk }),
+            m({ id: "A5", sev: "must", issue: "Excess Capital Gauge is a text card", ref: "§3.4.2", why: "Isolates capital frozen where stock exceeds the forecast, then triggers order reductions or freezes.", fix: "Add a stock-vs-forecast bar per ingredient, total ₱ tied up, and a 'Freeze next order' action.", board: B.rk }),
+            m({ id: "A6", sev: "must", issue: "LP constraints and alternatives are invisible", ref: "§3.3.6 · §3.3.7 · Obj. 3", why: "Budget, storage capacity, shelf life, and lead time constrain the model. Alternatives: minimize spoilage, minimize cost, maximize availability.", fix: "Add editable constraint inputs, three scenario cards with cost / waste / service level, and binding-constraint notes.", board: B.pu }),
+            m({ id: "A7", sev: "must", issue: "No recommendation tracking", ref: "§3.3.6", why: "Records whether actions were implemented and measures the effect on spoilage, turnover, and forecast accuracy.", fix: "Log every Apply / Modify / Dismiss with user, timestamp, and reason. Join to the next ETL cycle to show the outcome.", board: B.tr }),
+            m({ id: "A8", sev: "must", issue: "Baseline metrics aren't shown", ref: "§1.3", why: "Four baseline KPIs: average weekly waste, spoilage rate, stockout frequency, inventory turnover. They're compared after deployment.", fix: "Put these four KPIs on the Overview with baseline and delta. Add a before/after page. Turnover and stockouts are missing today.", board: B.ov + " · " + B.tr }),
+            m({ id: "A9", sev: "must", issue: "No data freshness or ingest", ref: "§1.4 · §3.2.1 · §3.4.2", why: "Batch CSV exports from Loyverse, no live API. Alerts are 'operational real-time' and recompute on each refresh.", fix: "Show 'Data as of …' on every page with Upload CSV and Run refresh. Add a waste-log entry, because waste_quantity has to come from somewhere.", board: B.ov }),
+            m({ id: "A10", sev: "should", issue: "Descriptive pages incomplete", ref: "§3.3.1 · §3.4.3", why: "Ingredient Usage Summary, Inventory Status vs par and reorder levels, and a waste-concentration heatmap.", fix: "Add reorder level and days of cover to the inventory table, and an ingredient × weekday waste heatmap.", board: B.rk })
+          ]
+        },
+        {
+          kicker: "SECTION B", title: "Numbers that contradict each other", col2: "Where it shows up", intro: "Sample data is fine in a prototype. Sample data that disagrees with itself across pages makes the whole system look untrustworthy. Generate every number from one seeded dataset.",
+          items: [
+            m({ id: "B1", sev: "must", issue: "Top 3 items earn more than the whole day", ref: "Dashboard", why: "₱2,760 + ₱2,601 + ₱3,072 = ₱8,433, but Total Sales Today is ₱4,250.75.", fix: "Derive top performers from the same fact_sales query as the KPI.", board: B.all }),
+            m({ id: "B2", sev: "must", issue: "Ranking order is wrong", ref: "Dashboard", why: "Salmon Sashimi (₱3,072) is ranked #3, below items with less revenue. California Maki works out to ₱8 per piece.", fix: "Sort by one stated measure (revenue or qty) and say which.", board: B.ov }),
+            m({ id: "B3", sev: "must", issue: "₱33 average per order", ref: "Dashboard", why: "₱4,250.75 ÷ 128 orders. That isn't plausible for a sushi restaurant.", fix: "Recompute from a consistent sample.", board: B.ov }),
+            m({ id: "B4", sev: "must", issue: "Alert counts disagree", ref: "Dashboard · Inventory · sidebar", why: "'Low stock alerts 4' vs sidebar badge '2' vs chips Critical 2 + Low 5.", fix: "Define one rule (e.g. stock < reorder level) and use it everywhere.", board: B.all }),
+            m({ id: "B5", sev: "must", issue: "Waste totals don't add up", ref: "Waste & Spoilage", why: "149 kg in 30 days is about 35 kg/week. That's above the 24.5 kg baseline, yet 'current weekly waste' says 14.2 kg. '-4.4% spoilage rate' has no unit or base.", fix: "Show spoilage rate as waste ÷ received qty, and weekly waste vs baseline with an explicit delta.", board: B.ov + " · " + B.tr }),
+            m({ id: "B6", sev: "must", issue: "Peso values are far too low", ref: "Waste · Insights", why: "₱2,612 loss for 149 kg is ₱17.5/kg. '2.5 kg salmon protects ₱185' is ₱74/kg. Fresh seafood costs far more.", fix: "Add unit_cost to dim_ingredient (see D1) and compute ₱ from it.", board: B.rk }),
+            m({ id: "B7", sev: "must", issue: "Expiry dates are already past", ref: "Inventory", why: "Expiry 2026-09-07 to 09-10 still shows 'Critical', not 'Expired'. Status looks hard-coded.", fix: "Compute days left = expiry − today on every refresh, and add an Expired state.", board: B.rk }),
+            m({ id: "B8", sev: "must", issue: "PuLP card can't be traced", ref: "Insights", why: "Forecast 14.8 kg, order 5.0 kg. Ingredient isn't named, on-hand netting isn't shown. Inventory says 10 kg salmon. Tsukiji is linked only to Hamachi.", fix: "Show forecast − usable on hand − pipeline + safety = order, per ingredient.", board: B.pu }),
+            m({ id: "B9", sev: "should", issue: "Out-of-scope item in Excess Capital", ref: "Insights", why: "Aged tamari soy sauce isn't a perishable raw material, which is the stated scope (§1.4).", fix: "Limit alerts to the perishable ingredient list.", board: B.rk }),
+            m({ id: "B10", sev: "must", issue: "Chart uses data that doesn't exist", ref: "Analytics", why: "'Order volume vs wait time': wait time isn't in any table, and the y-axis is in ₱.", fix: "Remove it, or replace with forecast vs actual demand.", board: B.fc }),
+            m({ id: "B11", sev: "must", issue: "Profit can't be computed", ref: "Analytics", why: "'Revenue vs profit' needs cost of goods. The schema has no cost field.", fix: "Drop profit, or add unit_cost plus the BOM and label it 'food cost margin'.", board: ms(B) }),
+            m({ id: "B12", sev: "should", issue: "Duplicate and unlabeled charts", ref: "Waste · Analytics", why: "The waste-by-ingredient chart appears twice. The 6th bar has no label.", fix: "Keep one. Replace the other with the weekday × ingredient waste heatmap.", board: B.rk }),
+            m({ id: "B13", sev: "should", issue: "Supplier KPIs don't match", ref: "Suppliers", why: "'Items with lead time 10' but 5 linked ingredients. 'Orders needing action 7' vs 6 orders on Inventory.", fix: "Link every ingredient to a supplier and count from the purchasing list.", board: B.pu })
+          ]
+        },
+        {
+          kicker: "SECTION C", title: "Wording and framing", col2: "Problem", intro: "The audience is a restaurant manager first and the panel second. Labels should say what the system does, not how it was researched.",
+          items: [
+            m({ id: "C1", sev: "must", issue: "'AI decision support', 'AI-driven', 'Smart actions'", ref: "Insights · Dashboard", why: "The methods are time-series models plus linear programming. 'AI' invites a question you can't answer from Chapter 3.", fix: "Use 'Recommendations: from forecasts and order optimization'.", board: B.all }),
+            m({ id: "C2", sev: "should", issue: "'DSR & CRISP-DM · PuLP Active' sidebar badge", ref: "Sidebar", why: "Methodology names mean nothing to kitchen staff.", fix: "Replace with data freshness: last refresh and next scheduled refresh.", board: B.all }),
+            m({ id: "C3", sev: "should", issue: "'Sales velocity' for a daily revenue bar chart", ref: "Dashboard", why: "Velocity means rate of sale per item. The week has no dates.", fix: "Use 'Daily revenue, last 7 days' with dates, and overlay the forecast.", board: B.ov }),
+            m({ id: "C4", sev: "should", issue: "Recommendations lack the 'why'", ref: "Insights", why: "Reasons are prose with no linked data, and Apply's effect is undefined.", fix: "Structure each one as trigger → evidence → action → ₱ impact → what Apply does.", board: B.ov + " · " + B.rk }),
+            m({ id: "C5", sev: "should", issue: "Color-only status", ref: "Inventory · Waste", why: "Red/green chips rely on hue. The manuscript specifies amber and red.", fix: "Pair color with an icon and text, and use amber for warning.", board: B.all })
+          ]
+        },
+        {
+          kicker: "SECTION D", title: "Manuscript gaps that block the DSS", col2: "Why it matters", intro: "Fixing the UI isn't enough. Several promised features have no data to stand on in Table 3.1. Revise Chapter 3 alongside the build.",
+          items: [
+            m({ id: "D1", sev: "must", issue: "No unit_cost in dim_ingredient", ref: "Table 3.1", why: "₱ waste, frozen capital, the LP budget constraint, and the cost objective all need it.", fix: "Add unit_cost (and cost history if prices move).", board: ms(B) }),
+            m({ id: "D2", sev: "must", issue: "No receipt date / batch in fact_inventory", ref: "§1.4c · §3.4.4", why: "The spoilage score uses receipt date. Each delivery is a batch with its own expiry.", fix: "Add received_date and batch_id, or a fact_inventory_batch table.", board: ms(B) }),
+            m({ id: "D3", sev: "must", issue: "BOM table missing from the schema", ref: "§3.2.2 (4)", why: "Ingredient disaggregation depends on it, and so do promo suggestions.", fix: "Add bridge_bom(item_id, ingredient_id, qty_per_serving).", board: ms(B) }),
+            m({ id: "D4", sev: "must", issue: "Sales fact carries ingredient_id", ref: "Table 3.1", why: "A sale line has many ingredients. Revenue would double-count.", fix: "Keep fact_sales at item grain and derive ingredient use via the BOM.", board: ms(B) }),
+            m({ id: "D5", sev: "must", issue: "No forecast or recommendation tables", ref: "§3.4.4 · §3.3.6", why: "Forecasts 'are written to dedicated tables', and tracking needs storage.", fix: "Add fact_forecast(date, ingredient, model, yhat, lo, hi) and fact_recommendation(id, type, qty, scenario, status, user, outcome).", board: ms(B) }),
+            m({ id: "D6", sev: "must", issue: "No storage capacity or stockout data", ref: "§3.3.7 · §1.3", why: "The chiller constraint and stockout frequency have nothing to read from.", fix: "Add storage_zone + capacity on dim_ingredient, and log stockout events (or detect zero stock with unmet demand).", board: ms(B) }),
+            m({ id: "D7", sev: "should", issue: "MAPE is both rejected and used", ref: "§3.3.2 vs §3.3.5.2, §3.4.7", why: "§3.3.2 says MAPE is avoided. Holt-Winters and Results then evaluate with MAPE.", fix: "Use WMAPE + MASE (and RMSE) consistently.", board: ms(B) }),
+            m({ id: "D8", sev: "should", issue: "ML regression drops out", ref: "§3.4.4 · Fig 1.5.1", why: "Four models are named in §3.3.3, three in §3.4.4.", fix: "List all four everywhere, or justify dropping one.", board: ms(B) })
+          ]
+        }
+      ]
+    };
+    function ms(b) { return b.ms; }
+  }
+}
+</script>
+</body>
+</html>

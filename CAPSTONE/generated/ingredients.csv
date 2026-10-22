@@ -1,0 +1,55 @@
+ingredient_id,ingredient_code,ingredient_name,category,storage_type,uom,portion_g,pack_size,shelf_life_days,is_perishable,unit_cost,name_inferred
+1,BAR,unknown:BAR*,other,ambient,g,,100.0,30,False,0.15,True
+2,BSG,Benishoga,condiment,ambient,g,,100.0,90,False,0.2,False
+3,CAR,Carrot*,veg,chilled,g,,50.0,7,True,0.05,True
+4,CF_040,Chicken Fillet 40gms,chicken,chilled,g,40.0,250.0,2,True,0.2,False
+5,CF_060,Chicken Fillet 60gms,chicken,chilled,g,60.0,500.0,2,True,0.2,False
+6,CHE,Cheese*,dairy,chilled,g,,50.0,14,False,0.3,True
+7,CT_120,Chicken Thigh 120gms,chicken,chilled,g,120.0,250.0,2,True,0.2,False
+8,CT_150,Chicken Thigh 150gms,chicken,chilled,g,150.0,50.0,2,True,0.2,False
+9,CUC,Cucumber,veg,chilled,g,,250.0,5,True,0.05,False
+10,EBI,Nobashi,seafood,frozen,pc,,1.0,3,True,0.4,False
+11,EBK,Ebiko/roe*,seafood,frozen,g,,250.0,30,False,0.4,True
+12,EGG,Egg,egg,chilled,pc,,30.0,21,False,9.0,False
+13,ENOD,Egg Noodle,noodle,chilled,g,,50.0,3,True,0.1,False
+14,GP_050,Ground Pork 50g*,pork,chilled,g,50.0,50.0,2,True,0.35,True
+15,GZA,Gyoza,prepared,frozen,pc,,1.0,30,False,15.0,False
+16,ICT,Ice Tea,drink,ambient,pc,,50.0,180,False,15.0,False
+17,KAL,Kalabasa/squash*,veg,chilled,g,,100.0,7,True,0.05,True
+18,KNI,Kani,seafood,chilled,pc,,30.0,3,True,0.4,False
+19,MAY,Japanese Mayo*,condiment,chilled,g,,250.0,30,False,0.2,True
+20,MUO,Mushroom Okonomiyaki,veg,chilled,g,,50.0,5,True,0.05,False
+21,MUS,Mushroom,veg,chilled,g,,50.0,5,True,0.05,False
+22,MZN,Marusen/ Ebara,sauce,ambient,g,,500.0,90,False,0.15,False
+23,NOD,Ramen Noodle,noodle,chilled,g,,50.0,3,True,0.1,False
+24,NOR,Nori sheet*,dry,ambient,pc,,50.0,180,False,0.1,True
+25,OKO,Okonomiyaki Sauce,sauce,ambient,g,,50.0,90,False,0.15,False
+26,PB_060,Pork Belly 60gms,pork,chilled,g,60.0,250.0,2,True,0.35,False
+27,PB_120,Pork Belly 120gms,pork,chilled,g,120.0,1000.0,2,True,0.35,False
+28,PDT,Shrimp,seafood,chilled,pc,,5.0,2,True,0.4,False
+29,PL_020,Porkloin 20gms,pork,chilled,g,20.0,50.0,2,True,0.35,False
+30,PL_060,Porkloin 60gms,pork,chilled,g,60.0,500.0,2,True,0.35,False
+31,SAL,Salmon,seafood,chilled,g,,250.0,2,True,0.4,False
+32,SAS,Sashimi trim*,seafood,chilled,g,,50.0,2,True,0.4,True
+33,SB_030,Sukiyaki Beef 30gms,beef,chilled,g,30.0,50.0,2,True,0.45,False
+34,SB_050,Sukiyaki Beef 50gms,beef,chilled,g,50.0,500.0,2,True,0.45,False
+35,SHO,Shoyo Sauce,sauce,ambient,g,,500.0,180,False,0.15,False
+36,SOT,Sotanghon*,noodle,ambient,g,,500.0,180,False,0.1,True
+37,SQD,Squid,seafood,chilled,g,,50.0,2,True,0.4,False
+38,SQD_10,Squid 10,seafood,chilled,g,10.0,50.0,2,True,0.4,False
+39,SQD_15,SQD_15,seafood,chilled,g,15.0,50.0,2,True,0.4,False
+40,SQD_20,SQD_20,seafood,chilled,g,20.0,50.0,2,True,0.4,False
+41,SUS,Sushi Rice,rice,ambient,g,,500.0,1,True,0.08,False
+42,TAM,Tamago/egg*,egg,chilled,g,,50.0,3,True,9.0,True
+43,TEM,Tempura flakes*,dry,ambient,g,,500.0,90,False,0.1,True
+44,TEP,Teppanyaki Sauce,sauce,ambient,g,,50.0,90,False,0.15,False
+45,TER,Terriyaki Sauce,sauce,ambient,g,,50.0,90,False,0.15,False
+46,TSS,Tempura Sauce,sauce,ambient,g,,500.0,90,False,0.15,False
+47,TUF,Tufo,tofu,chilled,g,,50.0,5,True,0.12,False
+48,TUN,Tuna,seafood,chilled,g,,250.0,2,True,0.4,False
+49,VDB,Donburi Vegetables,veg_portion,chilled,pc,,5.0,4,True,8.0,False
+50,VMM,M&M Vegetables,veg_portion,chilled,pc,,5.0,4,True,8.0,False
+51,VMO,Moyashi,veg_portion,chilled,pc,,1.0,4,True,8.0,False
+52,VOK,Vegetabales Okonomiyaki,veg_portion,chilled,pc,,1.0,4,True,8.0,False
+53,VRG,REG. Vegetables,veg_portion,chilled,pc,,1.0,4,True,8.0,False
+54,WAS,Wasabi*,condiment,chilled,g,,1000.0,30,False,0.2,True

@@ -1,0 +1,447 @@
+item_id,item_name,category,sku,price,is_promo,is_comp,date_introduced,date_retired,is_active
+1,(BSP) California,BAKED SUSHI PIE,10613,235.0,False,False,2021-01-01,,True
+2,(BSP)Cheesy beef,BAKED SUSHI PIE,10614,245.0,False,False,2021-01-01,,True
+3,(BSP)Creamy chicken,BAKED SUSHI PIE,10611,235.0,False,False,2021-01-01,,True
+4,(BSP)mixed seafood,BAKED SUSHI PIE,10612,285.0,False,False,2021-01-01,,True
+5,(DS)Coffee reg,DRINKS & SHAKES,10598,65.0,False,False,2021-01-01,,True
+6,(ST) Gyoza 4pcs,GRAB FOOD,10702,275.0,True,False,2022-01-01,,True
+7,1pc Ebi Tempura,MANAGEMENT,10410,86.0,False,True,2021-01-01,,True
+8,2 pcs Gyoza,MANAGEMENT,10566,0.0,False,True,2021-01-01,,True
+9,240g chicken,MANAGEMENT,106417,0.0,False,True,2021-01-01,,True
+10,2pcs Kani tempura,MANAGEMENT,10624,0.0,False,True,2021-01-01,,True
+11,30pcs Kani Tempura,MANAGEMENT,10816,0.0,False,True,2021-01-01,,True
+12,3pcs Gyoza,MANAGEMENT,10557,0.0,False,True,2021-01-01,,True
+13,3pcs Kani Tempura,MANAGEMENT,10816,0.0,False,True,2021-01-01,,True
+14,3pcs Kani tempura,MANAGEMENT,10624,0.0,False,True,2021-01-01,,True
+15,3pcs K√†ni Tempura,GRAB FOOD,10789,249.0,True,False,2022-01-01,,True
+16,3pcs ebi tempura,MANAGEMENT,10529,0.0,False,True,2021-01-01,,True
+17,4 in 1 baked,MANAGEMENT,10716,0.0,False,True,2021-01-01,,True
+18,40pcs California maki,MANAGEMENT,10606,0.0,False,True,2021-01-01,,True
+19,48pcs CALIFORNIA MAKI PLATTERS,GRAB FOOD,10701,1173.0,True,False,2022-01-01,,True
+20,4pcs Agedashi,MANAGEMENT,10897,0.0,False,True,2021-01-01,,True
+21,4pcs California Maki,Other,1066,99.0,False,False,2021-01-01,,True
+22,4pcs Gyoza,ANNIVERSARY PROMO 2025,10749,179.0,True,False,2025-01-01,,True
+23,4pcs Tofu,ANNIVERSARY PROMO 2025,10925,149.0,True,False,2025-01-01,,True
+24,6pcs Tamago Sushi,MANAGEMENT,10815,0.0,False,True,2021-01-01,,True
+25,Additional,GRAB FOOD,10743,25.0,True,False,2022-01-01,,True
+26,BSP Creamy Salmon,BAKED SUSHI PIE,10608,275.0,False,False,2021-01-01,,True
+27,Baked Sushi] Salmon 50grams,MANAGEMENT,10571,0.0,False,True,2021-01-01,,True
+28,Beef Curry,MANAGEMENT,10765,0.0,False,True,2021-01-01,,True
+29,Beef Nachos Roll,MANAGEMENT,10764,0.0,False,True,2021-01-01,,True
+30,Brownies,MANAGEMENT,10684,0.0,False,True,2021-01-01,,True
+31,CALIFORNIA MAKI,GRAB FOOD,10175,220.0,True,False,2022-01-01,,True
+32,Cake,MANAGEMENT,10683,0.0,False,True,2021-01-01,,True
+33,Cakes w/ Coffee,Dessert,10675,215.0,False,False,2021-01-01,,True
+34,Cali maki,MANAGEMENT,10263,0.0,False,True,2021-01-01,,True
+35,California Baked Sushi,MANAGEMENT,10546,0.0,False,True,2021-01-01,,True
+36,California baked,GRAB FOOD,10510,640.0,True,False,2022-01-01,,True
+37,Caramel choco bliss,Dessert,0,150.0,False,False,2021-01-01,,True
+38,Cheese,Other,10634,50.0,False,False,2021-01-01,,True
+39,Cheesy cowboy roll,MANAGEMENT,10260,0.0,False,True,2021-01-01,,True
+40,Cheesy torikatsu Burrito,GRAB FOOD,10637,365.0,True,False,2022-01-01,,True
+41,Chicken Inasal burito,MANAGEMENT,10636,0.0,False,True,2021-01-01,,True
+42,Chicken Misono,ANNIVERSARY PROMO 2025,10923,159.0,True,False,2025-01-01,,True
+43,Chicken Misono (A),GRAB FOOD,10808,330.0,True,False,2022-01-01,,True
+44,Chicken Misono 60 grams,MANAGEMENT,10551,0.0,False,True,2021-01-01,,True
+45,Chicken Misono 90grams,MANAGEMENT,10561,0.0,False,True,2021-01-01,,True
+46,Chicken Teppan (A),GRAB FOOD,10987,330.0,True,False,2022-01-01,,True
+47,Chicken misono 120g,MANAGEMENT,10242,0.0,False,True,2021-01-01,,True
+48,Chicken teppanyaki 120grams,MANAGEMENT,10282,0.0,False,True,2021-01-01,,True
+49,Chicken teppanyaki 60grams,MANAGEMENT,10282,0.0,False,True,2021-01-01,,True
+50,Chicken teriyaki,MANAGEMENT,0,0.0,False,True,2021-01-01,,True
+51,Classic Dark Choco,Dessert,10667,150.0,False,False,2021-01-01,,True
+52,Classic brownies,Dessert,10607,115.0,False,False,2021-01-01,,True
+53,Crazy Kani Roll,MANAGEMENT,10898,0.0,False,True,2021-01-01,,True
+54,Creamy Chicken Baked,MANAGEMENT,10610,0.0,False,True,2021-01-01,,True
+55,Creamy chicken baked,MANAGEMENT,106410,0.0,False,True,2021-01-01,,True
+56,Crispy chicken,MANAGEMENT,10250,0.0,False,True,2021-01-01,,True
+57,Crunchy California Maki,MANAGEMENT,10648,0.0,False,True,2021-01-01,,True
+58,Crunchy Ebi,GRAB FOOD,10626,320.0,True,False,2022-01-01,,True
+59,Crunchy Salmon,GRAB FOOD,10878,380.0,True,False,2022-01-01,,True
+60,Crunchy Veggie Roll,MANAGEMENT,10813,0.0,False,True,2021-01-01,,True
+61,Crunchy salmon aburi,GRAB FOOD,10467,399.0,True,False,2022-01-01,,True
+62,Dynamite,MANAGEMENT,10414,0.0,False,True,2021-01-01,,True
+63,Ebi Tempura,GRAB FOOD,1064111111111,25.0,True,False,2022-01-01,,True
+64,Ebi toji don,GRAB FOOD,106418,385.0,True,False,2022-01-01,,True
+65,Egg,Other,10490,25.0,False,False,2021-01-01,,True
+66,Egg Fried Rice,Other,10176,73.0,False,False,2021-01-01,,True
+67,Extra Curry Sauce,Other,10687,30.0,False,False,2021-01-01,,True
+68,Extra Japanese Rice,Other,10493,58.0,False,False,2021-01-01,,True
+69,Extra Milk,Other,10681,25.0,False,False,2021-01-01,,True
+70,Extra rice,MANAGEMENT,10247,0.0,False,True,2021-01-01,,True
+71,Free 4pcs Cali maki,ANNIVERSARY PROMO,10664,0.0,True,False,2021-01-01,,True
+72,Free SOLA,ANNIVERSARY PROMO 2025,10989,0.0,True,False,2025-01-01,,True
+73,Futo Maki,MANAGEMENT,10762,0.0,False,True,2021-01-01,,True
+74,Gyosa 3pcs,Other,10768,180.0,False,False,2021-01-01,,True
+75,Iced tea bottomless,MANAGEMENT,10537,0.0,False,True,2021-01-01,,True
+76,Iced tea regular,MANAGEMENT,10259,0.0,False,True,2021-01-01,,True
+77,Kani 6pcs,MANAGEMENT,10585,0.0,False,True,2021-01-01,,True
+78,Kani Burrito,MANAGEMENT,10528,0.0,False,True,2021-01-01,,True
+79,Kani salad regular,MANAGEMENT,10277,0.0,False,True,2021-01-01,,True
+80,Karaage Ala carte,Other,10787,235.0,False,False,2021-01-01,,True
+81,Karaagedon,MANAGEMENT,10405,0.0,False,True,2021-01-01,,True
+82,Katsu Ramen,MANAGEMENT,10358,0.0,False,True,2021-01-01,,True
+83,Katsu tuna,MANAGEMENT,10593,0.0,False,True,2021-01-01,,True
+84,Katsu tuna set A,GRAB FOOD,1064144444,385.0,True,False,2022-01-01,,True
+85,Katsudon,ANNIVERSARY PROMO 2025,10633,159.0,True,False,2025-01-01,,True
+86,Leche Plan,MANAGEMENT,10723,0.0,False,True,2021-01-01,,True
+87,Leche flan,Dessert,10641111111,90.0,False,False,2021-01-01,,True
+88,Lemonade,Other,10641333,88.0,False,False,2021-01-01,,True
+89,Lemonadeüçã,Other,10641333,45.0,False,False,2021-01-01,,True
+90,M&M Yakitori & Kani tempura,MANAGEMENT,10281,0.0,False,True,2021-01-01,,True
+91,M&M beef misono w Ebi Tempura,GRAB FOOD,10641111111111,280.0,True,False,2022-01-01,,True
+92,M&M beef misono/Kani tempura,GRAB FOOD,106411111111,280.0,True,False,2022-01-01,,True
+93,M&M salmon/tuna sashimi w/ Kani tempura,MANAGEMENT,10526,0.0,False,True,2021-01-01,,True
+94,M&M sashimi/kani,GRAB FOOD,106419,345.0,True,False,2022-01-01,,True
+95,MM Sashimi/ Kani,GRAB FOOD,10786,295.0,True,False,2022-01-01,,True
+96,MM Tuna Misono & Ebi Tempura,GRAB FOOD,10767,280.0,True,False,2022-01-01,,True
+97,MM Tuna Misono & Kani Tempura,GRAB FOOD,10767,320.0,True,False,2022-01-01,,True
+98,MM Yakitori / Kani,GRAB FOOD,10515,260.0,True,False,2022-01-01,,True
+99,Medium party platter,MANAGEMENT,18769,0.0,False,True,2021-01-01,,True
+100,Miso Soup (Large),Other,10004,70.0,False,False,2021-01-01,,True
+101,Miso Soup (Small),Other,10494,38.0,False,False,2021-01-01,,True
+102,Miso soup small,MANAGEMENT,10499,0.0,False,True,2021-01-01,,True
+103,Mix&Match yakitori & ebi tempura,MANAGEMENT,10538,0.0,False,True,2021-01-01,,True
+104,Mixed seafood misono,GRAB FOOD,1064189,415.0,True,False,2022-01-01,,True
+105,Mixed sushi and sashimi,MANAGEMENT,0,0.0,False,True,2021-01-01,,True
+106,Moyashi,Other,10512,110.0,False,False,2021-01-01,,True
+107,Nori Snack,MANAGEMENT,10899,0.0,False,True,2021-01-01,,True
+108,Nori Snack Pack,Other,10489,45.0,False,False,2021-01-01,,True
+109,Okonomiyaki,ANNIVERSARY PROMO 2025,10634,168.0,True,False,2025-01-01,,True
+110,Okonomiyaki (Cheesy Mushroom),MANAGEMENT,12654,0.0,False,True,2021-01-01,,True
+111,Okonomiyaki (reg)cheesy beef,MANAGEMENT,1064111111,0.0,False,True,2021-01-01,,True
+112,Okonomiyaki (sharing)cheesy beef,MANAGEMENT,1064111111,0.0,False,True,2021-01-01,,True
+113,Okonomiyaki (sharing)mixed seafood,MANAGEMENT,106411111,0.0,False,True,2021-01-01,,True
+114,Okonomiyaki Cheesy Beef (Reg),Pre Promo Offer,10699,249.0,True,False,2021-01-01,,True
+115,Okonomiyaki Garlic & Cheese,ANNIVERSARY PROMO 2025,10754,209.0,True,False,2025-01-01,,True
+116,Okonomiyaki Mushroomc & Cheese,MANAGEMENT,10777,0.0,False,True,2021-01-01,,True
+117,Okonomiyaki Mushroomc & Cheese (Sharing),MANAGEMENT,10777,0.0,False,True,2021-01-01,,True
+118,Okonomiyaki Promo Buttered Chicken,ANNIVERSARY PROMO 2025,10746,209.0,True,False,2025-01-01,,True
+119,Okonomiyaki buttered chicken,MANAGEMENT,10777,0.0,False,True,2021-01-01,,True
+120,Okonomiyaki cheesy mushroom,ANNIVERSARY PROMO,10638,209.0,True,False,2021-01-01,,True
+121,Okonomiyaki garlic and cheese,MANAGEMENT,10630,0.0,False,True,2021-01-01,,True
+122,Okonomiyaki mixed seafood reg,GRAB FOOD,10641122222,370.0,True,False,2022-01-01,,True
+123,Oreo Dream Cake,Dessert,10666,150.0,False,False,2021-01-01,,True
+124,Phila Salmon,GRAB FOOD,10625,295.0,True,False,2022-01-01,,True
+125,Philadelphia,MANAGEMENT,10539,305.0,False,True,2021-01-01,,True
+126,Pork Misono,ANNIVERSARY PROMO 2025,10924,159.0,True,False,2025-01-01,,True
+127,Pork Teppan,MANAGEMENT,10798,0.0,False,True,2021-01-01,,True
+128,Pork misono,MANAGEMENT,10550,0.0,False,True,2021-01-01,,True
+129,Ramen soup,Other,0,45.0,False,False,2021-01-01,,True
+130,Red Velvet Royale,Dessert,10668,150.0,False,False,2021-01-01,,True
+131,STARDEALS,STARDEALS,10620,585.0,True,False,2021-01-01,,True
+132,Salmon Burito,MANAGEMENT,10814,0.0,False,True,2021-01-01,,True
+133,Salmon Maki,GRAB FOOD,10552,270.0,True,False,2022-01-01,,True
+134,Salmon Sashimi,MANAGEMENT,10799,0.0,False,True,2021-01-01,,True
+135,Salmon Skin Roll,MANAGEMENT,10814,0.0,False,True,2021-01-01,,True
+136,Salmon Spicy,GRAB FOOD,10583,380.0,True,False,2022-01-01,,True
+137,Salmon baked,MANAGEMENT,10601,0.0,False,True,2021-01-01,,True
+138,Salmon spicy,MANAGEMENT,10258,0.0,False,True,2021-01-01,,True
+139,Seafood Fried Rice,Other,10498,88.0,False,False,2021-01-01,,True
+140,Seafood fried rice,MANAGEMENT,10171,0.0,False,True,2021-01-01,,True
+141,Seafood fried rice & ebi tempura,MANAGEMENT,10185,0.0,False,True,2021-01-01,,True
+142,Seafood fried rice with ebi tempura,GRAB FOOD,10474,385.0,True,False,2022-01-01,,True
+143,Shoyo beef ramen,MANAGEMENT,10531,0.0,False,True,2021-01-01,,True
+144,Shoyo seafood ramen,MANAGEMENT,10425,0.0,False,True,2021-01-01,,True
+145,Shoyu Mushroom Miso Ramen,GRAB FOOD,10876,370.0,True,False,2022-01-01,,True
+146,Shoyu Seafood Ramen,ANNIVERSARY PROMO,10875,289.0,True,False,2021-01-01,,True
+147,Shoyu miso buttered chicken,MANAGEMENT,1064100,0.0,False,True,2021-01-01,,True
+148,Shoyu mushrooms miso ramen,MANAGEMENT,10534,0.0,False,True,2021-01-01,,True
+149,Softdrinks,MANAGEMENT,10812,0.0,False,True,2021-01-01,,True
+150,Special Kani Salad,GRAB FOOD,13243,370.0,True,False,2022-01-01,,True
+151,Spicy Ebi Tempura,GRAB FOOD,10604,370.0,True,False,2022-01-01,,True
+152,Spicy Roast pork Ramen,MANAGEMENT,10680,0.0,False,True,2021-01-01,,True
+153,Sukiyaki Soup Reg,GRAB FOOD,10879,369.0,True,False,2022-01-01,,True
+154,Sukiyakidon (A),GRAB FOOD,12123,360.0,True,False,2022-01-01,,True
+155,Super supreme,MANAGEMENT,0,0.0,False,True,2021-01-01,,True
+156,TONKATSU roll,MANAGEMENT,10623,0.0,False,True,2021-01-01,,True
+157,TONKATSU set A,GRAB FOOD,10527,299.0,True,False,2022-01-01,,True
+158,Teriyaki Sauce,Other,10010,25.0,False,False,2021-01-01,,True
+159,Tonkatsu Sauce,Other,10003,28.0,False,False,2021-01-01,,True
+160,Tonkatsu ala carte,Other,10719,240.0,False,False,2021-01-01,,True
+161,Tonkotsu Ramen,GRAB FOOD,11234,425.0,True,False,2022-01-01,,True
+162,Tonkotsu ramen,MANAGEMENT,10536,0.0,False,True,2021-01-01,,True
+163,Torikatsu,MANAGEMENT,10294,0.0,False,True,2021-01-01,,True
+164,Torikatsu 60grams,MANAGEMENT,10698,0.0,False,True,2021-01-01,,True
+165,Torikatsu Burrito,MANAGEMENT,10558,0.0,False,True,2021-01-01,,True
+166,Torikatsu Curry,GRAB FOOD,10603,325.0,True,False,2022-01-01,,True
+167,Torikatsu Ramen,MANAGEMENT,10595,0.0,False,True,2021-01-01,,True
+168,Torikatsu curry,MANAGEMENT,10506,0.0,False,True,2021-01-01,,True
+169,Torikatsu set A,GRAB FOOD,10544,299.0,True,False,2022-01-01,,True
+170,Torikatsudon,ANNIVERSARY PROMO 2025,10632,159.0,True,False,2025-01-01,,True
+171,Torikatsudon 60 grams,MANAGEMENT,10522,0.0,False,True,2021-01-01,,True
+172,Torikatsudon Set A,GRAB FOOD,10560,325.0,True,False,2022-01-01,,True
+173,Tuna Aburi,MAKI ROLLS,10756,345.0,False,False,2021-01-01,,True
+174,Tuna Misono 100 grams,MANAGEMENT,10549,0.0,False,True,2021-01-01,,True
+175,Tuna Sashimi,MANAGEMENT,10266,0.0,False,True,2021-01-01,,True
+176,Tuna Teppan,GRAB FOOD,11239,690.0,True,False,2022-01-01,,True
+177,Tuna misono 60 grams,MANAGEMENT,10170,0.0,False,True,2021-01-01,,True
+178,UPGRADE to seafood fried rice,Other,10580,40.0,False,False,2021-01-01,,True
+179,Upgrade to Mango Shake,Other,105987,85.0,False,False,2021-01-01,,True
+180,Yakisoba for Sharing,MANAGEMENT,10559,0.0,False,True,2021-01-01,,True
+181,Yakisoba reg,MANAGEMENT,0,0.0,False,True,2021-01-01,,True
+182,Yakisoba w/yakitori&Cali maki,GRAB FOOD,1064111,455.0,True,False,2022-01-01,,True
+183,Yakitori (4pcs),Other,10187,280.0,False,False,2021-01-01,,True
+184,Yellow Kimono Roll,MANAGEMENT,10763,0.0,False,True,2021-01-01,,True
+185,[ MR] Tonkatsu Roll,MAKI ROLLS,10660,265.0,False,False,2021-01-01,,True
+186,[ALC] Karaage Ala carte,Other,10787,235.0,False,False,2021-01-01,,True
+187,[ATF]  Beef Teriyaki Noodles (Regular),ALL TIME FAVORITES,10457,285.0,False,False,2021-01-01,,True
+188,[ATF] Beef Teriyaki Noodles (Sharing),ALL TIME FAVORITES,10458,430.0,False,False,2021-01-01,,True
+189,[ATF] Ebi Tempura (12pcs ),ALL TIME FAVORITES,10451,895.0,False,False,2021-01-01,,True
+190,[ATF] Ebi Tempura (3pcs ),ALL TIME FAVORITES,10449,260.0,False,False,2021-01-01,,True
+191,[ATF] Ebi Tempura (6pcs),ALL TIME FAVORITES,10450,470.0,False,False,2021-01-01,,True
+192,[ATF] Kani Tempura (12pcs),ALL TIME FAVORITES,10454,720.0,False,False,2021-01-01,,True
+193,[ATF] Kani Tempura (3pcs),ALL TIME FAVORITES,10452,210.0,False,False,2021-01-01,,True
+194,[ATF] Kani Tempura (6pcs),ALL TIME FAVORITES,10453,370.0,False,False,2021-01-01,,True
+195,[ATF] Miso Soup (Large),ALL TIME FAVORITES,10004,70.0,False,False,2021-01-01,,True
+196,[ATF] Miso Soup (Small),ALL TIME FAVORITES,10494,38.0,False,False,2021-01-01,,True
+197,[ATF] Mixed Tempura (Regular),ALL TIME FAVORITES,10455,465.0,False,False,2021-01-01,,True
+198,[ATF] Moyashi,ALL TIME FAVORITES,10240,95.0,False,False,2021-01-01,,True
+199,[ATF] Salmon Teppanyaki/Teriyaki,ALL TIME FAVORITES,10241,595.0,False,False,2021-01-01,,True
+200,[ATF] Salmon Teppanyaki/Terriyaki,ALL TIME FAVORITES,10241,595.0,False,False,2021-01-01,,True
+201,[ATF] Squid Teppanyaki,ALL TIME FAVORITES,10466,365.0,False,False,2021-01-01,,True
+202,[ATF] Sukiyaki Soup (Regular),ALL TIME FAVORITES,10459,310.0,False,False,2021-01-01,,True
+203,[ATF] Sukiyaki Soup (Sharing),ALL TIME FAVORITES,10460,465.0,False,False,2021-01-01,,True
+204,[ATF] Tuna Teppanyaki/Teriyaki,ALL TIME FAVORITES,10469,555.0,False,False,2021-01-01,,True
+205,[ATF] Yakisoba (Regular),ALL TIME FAVORITES,10461,275.0,False,False,2021-01-01,,True
+206,[ATF] Yakisoba (Sharing),ALL TIME FAVORITES,10462,410.0,False,False,2021-01-01,,True
+207,[BSP] California,BAKED SUSHI PIE,10613,235.0,False,False,2021-01-01,,True
+208,[BSP] Cheesy Beef,BAKED SUSHI PIE,10614,245.0,False,False,2021-01-01,,True
+209,[BS] 4in1 Baked Sushi,BAKED SUSHI,10662,1315.0,False,False,2021-01-01,,True
+210,[BS] California Baked,BAKED SUSHI,10396,555.0,False,False,2021-01-01,,True
+211,[BS] Cheesy Beef,BAKED SUSHI,10397,575.0,False,False,2021-01-01,,True
+212,[BS] Cheesy Beef Baked,GRAB FOOD,10635,665.0,True,False,2022-01-01,,True
+213,[BS] Creamy Chicken,BAKED SUSHI,10400,560.0,False,False,2021-01-01,,True
+214,[BS] Creamy Salmon,BAKED SUSHI,10398,625.0,False,False,2021-01-01,,True
+215,[BS] Creamy Salmon Baked,GRAB FOOD,1070,720.0,True,False,2022-01-01,,True
+216,[BS] Mixed Seafood,BAKED SUSHI,10399,670.0,False,False,2021-01-01,,True
+217,[BS] Mixed Seafood Baked,GRAB FOOD,1071,770.0,True,False,2022-01-01,,True
+218,[Baked Sushi] California Baked,MANAGEMENT,10574,0.0,False,True,2021-01-01,,True
+219,[Baked Sushi] California Baked 50g,MANAGEMENT,10574,0.0,False,True,2021-01-01,,True
+220,[Baked Sushi] Cheesy Beef,MANAGEMENT,10575,0.0,False,True,2021-01-01,,True
+221,[DB) Pork Teriyaki (Set B),DON BURI (PORK),10102,355.0,False,False,2021-01-01,,True
+222,[DB) Pork Terriyaki (Set B),DON BURI (PORK),10102,355.0,False,False,2021-01-01,,True
+223,[DB]  Pork  Teriyaki (Set A),DON BURI (PORK),10098,275.0,False,False,2021-01-01,,True
+224,[DB]  Pork  Terriyaki (Set A),DON BURI (PORK),10098,275.0,False,False,2021-01-01,,True
+225,[DB] Beef Curry (Set A),DON BURI (BEEF),10152,350.0,False,False,2021-01-01,,True
+226,[DB] Beef Curry (Set B),DON BURI (BEEF),10154,385.0,False,False,2021-01-01,,True
+227,[DB] Beef Teppan (A),GRAB FOOD,10724,405.0,True,False,2022-01-01,,True
+228,[DB] Beef Teppanyaki/Misono (Set A),DON BURI (BEEF),10167,350.0,False,False,2021-01-01,,True
+229,[DB] Beef Teppanyaki/Misono (Set B),DON BURI (BEEF),10168,385.0,False,False,2021-01-01,,True
+230,[DB] Beef Terriyaki (Set A),DON BURI (BEEF),10157,350.0,False,False,2021-01-01,,True
+231,[DB] Beef Terriyaki (Set B),DON BURI (BEEF),10158,385.0,False,False,2021-01-01,,True
+232,[DB] Chicken Teppanyaki/Misono (Set A),DON BURI (CHICKEN),10070,275.0,False,False,2021-01-01,,True
+233,[DB] Chicken Teppanyaki/Misono (Set B),DON BURI (CHICKEN),10071,355.0,False,False,2021-01-01,,True
+234,[DB] Chicken Terriyaki (Set B),DON BURI (CHICKEN),10069,355.0,False,False,2021-01-01,,True
+235,[DB] Crispy Chicken w/ Egg (Set A),DON BURI (CHICKEN),10225,255.0,False,False,2021-01-01,,True
+236,[DB] Crispy Chicken w/ Egg (Set B ),STARDEALS,10676,0.0,True,False,2021-01-01,,True
+237,[DB] Crispy Chicken w/ Egg (Set B),DON BURI (CHICKEN),10072,315.0,False,False,2021-01-01,,True
+238,[DB] Ebi Toji Don (Set A),DON BURI (SEAFOOD),10121,335.0,False,False,2021-01-01,,True
+239,[DB] Grilled Chicken Teriyaki (A),GRAB FOOD,10714,330.0,True,False,2022-01-01,,True
+240,[DB] Grilled Chicken Teriyaki (Set A),DON BURI (CHICKEN),10067,275.0,False,False,2021-01-01,,True
+241,[DB] Grilled Chicken Teriyaki (Set B),DON BURI (CHICKEN),10069,355.0,False,False,2021-01-01,,True
+242,[DB] Grilled Chicken Terriyaki (Set A),DON BURI (CHICKEN),10067,275.0,False,False,2021-01-01,,True
+243,[DB] Gyudon (Set A),DON BURI (BEEF),10645,340.0,False,False,2021-01-01,,True
+244,[DB] Gyudon (Set B),DON BURI (BEEF),10145,370.0,False,False,2021-01-01,,True
+245,[DB] Karaagedon (A),GRAB FOOD,10665,299.0,True,False,2022-01-01,,True
+246,[DB] Karaagedon (Set A),DON BURI (CHICKEN),10044,260.0,False,False,2021-01-01,,True
+247,[DB] Karaagedon (Set B),DON BURI (CHICKEN),10052,340.0,False,False,2021-01-01,,True
+248,[DB] Katsu Curry (Regular) (Set A),DON BURI (PORK),10125,275.0,False,False,2021-01-01,,True
+249,[DB] Katsu Curry (Regular) (Set B),DON BURI (PORK),10127,355.0,False,False,2021-01-01,,True
+250,[DB] Katsu Curry (Set A),DON BURI (PORK),10125,275.0,False,False,2021-01-01,,True
+251,[DB] Katsu Curry (Set B),DON BURI (PORK),10127,355.0,False,False,2021-01-01,,True
+252,[DB] Katsu Omelette Curry (A),DON BURI (PORK),10652,315.0,False,False,2021-01-01,,True
+253,[DB] Katsu Omelette Curry (Set A),DON BURI (PORK),10129,315.0,False,False,2021-01-01,,True
+254,[DB] Katsu Omelette Curry (Set B),DON BURI (PORK),10130,385.0,False,False,2021-01-01,,True
+255,[DB] Katsu Tuna (Set A),DON BURI (SEAFOOD),10114,335.0,False,False,2021-01-01,,True
+256,[DB] Katsu Tuna (Set B),DON BURI (SEAFOOD),10119,385.0,False,False,2021-01-01,,True
+257,[DB] Katsudon (A),GRAB FOOD,10661,320.0,True,False,2022-01-01,,True
+258,[DB] Katsudon (Set A),DON BURI (PORK),10109,275.0,False,False,2021-01-01,,True
+259,[DB] Katsudon (Set B),DON BURI (PORK),10111,355.0,False,False,2021-01-01,,True
+260,[DB] Mixed Seafood Misono (Set A),DON BURI (SEAFOOD),10073,335.0,False,False,2021-01-01,,True
+261,[DB] Mixed Seafood Misono (Set B),DON BURI (SEAFOOD),10113,375.0,False,False,2021-01-01,,True
+262,[DB] Oyakudon (Set A),DON BURI (CHICKEN),10018,255.0,False,False,2021-01-01,,True
+263,[DB] Oyakudon (Set B),DON BURI (CHICKEN),10051,315.0,False,False,2021-01-01,,True
+264,[DB] Pork Teppanyaki/Misono (Set A),DON BURI (PORK),10115,275.0,False,False,2021-01-01,,True
+265,[DB] Pork Teppanyaki/Misono (Set B),DON BURI (PORK),10118,355.0,False,False,2021-01-01,,True
+266,[DB] Pork Teriyaki (A),GRAB FOOD,10713,320.0,True,False,2022-01-01,,True
+267,[DB] Shoyu Miso Buttered Chicken (Set A),DON BURI (CHICKEN),10046,260.0,False,False,2021-01-01,,True
+268,[DB] Shoyu Miso Buttered Chicken (Set B),DON BURI (CHICKEN),10047,340.0,False,False,2021-01-01,,True
+269,[DB] Shoyu Miso Buttered Pork (Set A),DON BURI (PORK),10107,275.0,False,False,2021-01-01,,True
+270,[DB] Shoyu Miso Buttered Pork (Set B),DON BURI (PORK),10108,355.0,False,False,2021-01-01,,True
+271,[DB] Sukiyakidon (Set A),DON BURI (BEEF),10135,310.0,False,False,2021-01-01,,True
+272,[DB] Sukiyakidon (Set B),DON BURI (BEEF),10137,350.0,False,False,2021-01-01,,True
+273,[DB] Tonkatsu (Set A),DON BURI (PORK),10095,260.0,False,False,2021-01-01,,True
+274,[DB] Tonkatsu (Set B),DON BURI (PORK),10097,355.0,False,False,2021-01-01,,True
+275,[DB] Torikatsu (Set A),DON BURI (CHICKEN),10055,260.0,False,False,2021-01-01,,True
+276,[DB] Torikatsu (Set B),DON BURI (CHICKEN),10057,355.0,False,False,2021-01-01,,True
+277,[DB] Torikatsu Curry (Set A),DON BURI (CHICKEN),10088,275.0,False,False,2021-01-01,,True
+278,[DB] Torikatsu Curry (Set B),DON BURI (CHICKEN),10089,355.0,False,False,2021-01-01,,True
+279,[DB] Torikatsu Omelette Curry (A),GRAB FOOD,10704,340.0,True,False,2022-01-01,,True
+280,[DB] Torikatsu Omelette Curry (Set A),DON BURI (CHICKEN),10090,315.0,False,False,2021-01-01,,True
+281,[DB] Torikatsu Omelette Curry (Set B),DON BURI (CHICKEN),10092,385.0,False,False,2021-01-01,,True
+282,[DB] Torikatsudon (Set A),DON BURI (CHICKEN),10062,275.0,False,False,2021-01-01,,True
+283,[DB] Torikatsudon (Set B),DON BURI (CHICKEN),10616,355.0,False,False,2021-01-01,,True
+284,[DB] Yakitori (A),GRAB FOOD,10673,330.0,True,False,2022-01-01,,True
+285,[DB] Yakitori (Set A),DON BURI (CHICKEN),10075,275.0,False,False,2021-01-01,,True
+286,[DB] Yakitori (Set B),DON BURI (CHICKEN),10077,355.0,False,False,2021-01-01,,True
+287,[DS] Brewed Coffee,DRINKS & SHAKES,10444,75.0,False,False,2021-01-01,,True
+288,[DS] Coke/Sprite/Royal/Rootbeer,DRINKS & SHAKES,10442,83.0,False,False,2021-01-01,,True
+289,[DS] Cucumber Shake,DRINKS & SHAKES,10446,195.0,False,False,2021-01-01,,True
+290,[DS] Green Tea,DRINKS & SHAKES,10443,75.0,False,False,2021-01-01,,True
+291,[DS] Iced Coffee,DRINKS & SHAKES,10488,135.0,False,False,2021-01-01,,True
+292,[DS] Iced Tea (Regular),DRINKS & SHAKES,10440,88.0,False,False,2021-01-01,,True
+293,[DS] Iced Tea (Sharing),DRINKS & SHAKES,10441,250.0,False,False,2021-01-01,,True
+294,[DS] Iced coffee,DRINKS & SHAKES,10488,135.0,False,False,2021-01-01,,True
+295,[DS] Ichigo Matcha,DRINKS & SHAKES,10464,185.0,False,False,2021-01-01,,True
+296,[DS] MATCHA LATTE,DRINKS & SHAKES,10715,155.0,False,False,2021-01-01,,True
+297,[DS] Mango Juice,DRINKS & SHAKES,10439,119.0,False,False,2021-01-01,,True
+298,[DS] Mango Shake,DRINKS & SHAKES,10445,195.0,False,False,2021-01-01,,True
+299,[DS] Matcha Latte,DRINKS & SHAKES,10715,155.0,False,False,2021-01-01,,True
+300,[DS] Mineral Water,DRINKS & SHAKES,10436,45.0,False,False,2021-01-01,,True
+301,[DS] Mineral Water (Small),DRINKS & SHAKES,1088995,34.0,False,False,2021-01-01,,True
+302,[DS] Pineapple Juice,DRINKS & SHAKES,10437,105.0,False,False,2021-01-01,,True
+303,[DS] Red Iced Tea,DRINKS & SHAKES,10042,145.0,False,False,2021-01-01,,True
+304,[DS] Red Iced Tea Shake,DRINKS & SHAKES,10447,210.0,False,False,2021-01-01,,True
+305,[DS] Sola,DRINKS & SHAKES,10438,95.0,False,False,2021-01-01,,True
+306,[D] Vanilla Ice Cream,DESSERTS,10039,75.0,False,False,2021-01-01,,True
+307,[EXTRA] Egg Fried Rice,Other,10176,73.0,False,False,2021-01-01,,True
+308,[EXTRA] Japanese Rice,Other,10553,58.0,False,False,2021-01-01,,True
+309,[EXTRA] Mayo,Other,10491,25.0,False,False,2021-01-01,,True
+310,[EXTRA] Nori Snack Pack,Other,10489,45.0,False,False,2021-01-01,,True
+311,[EXTRA] Ramen Noodles,Other,10009,59.0,False,False,2021-01-01,,True
+312,[EXTRA] Seafood Fried Rice,Other,10498,88.0,False,False,2021-01-01,,True
+313,[EXTRA] Tonkatsu Sauce,Other,10003,35.0,False,False,2021-01-01,,True
+314,[HS] Chirashi Don,HOUSE SPECIALTY,10473,395.0,False,False,2021-01-01,,True
+315,[HS] Mixed Maki Rolls,HOUSE SPECIALTY,10470,275.0,False,False,2021-01-01,,True
+316,[HS] Mixed Sashimi,HOUSE SPECIALTY,10472,645.0,False,False,2021-01-01,,True
+317,[HS] Mixed Sushi & Sashimi,HOUSE SPECIALTY,10471,495.0,False,False,2021-01-01,,True
+318,[M/M] Sashimi/ Ebi,MANAGEMENT,10734,0.0,False,True,2021-01-01,,True
+319,[MM] JR w/ Beef Misono & Ebi Tempura,MIX & MATCH,10211,265.0,False,False,2021-01-01,,True
+320,[MM] JR w/ Beef Misono & Kani Tempura,MIX & MATCH,10212,245.0,False,False,2021-01-01,,True
+321,[MM] JR w/ Tuna Misono & Ebi Tempura,MIX & MATCH,10214,265.0,False,False,2021-01-01,,True
+322,[MM] JR w/ Tuna Misono & Kani Tempura,MIX & MATCH,10213,245.0,False,False,2021-01-01,,True
+323,[MM] SF w/ Tonkatsu & Ebi Tempura,MIX & MATCH,10221,255.0,False,False,2021-01-01,,True
+324,[MM] SF w/ Tonkatsu & Kani Tempura,MIX & MATCH,10222,235.0,False,False,2021-01-01,,True
+325,[MM] SF w/ Torikatsu & Ebi Tempura,MIX & MATCH,10218,245.0,False,False,2021-01-01,,True
+326,[MM] SF w/ Torikatsu &Kani Tempura,MIX & MATCH,10220,225.0,False,False,2021-01-01,,True
+327,[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,MIX & MATCH,10223,275.0,False,False,2021-01-01,,True
+328,[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,MIX & MATCH,10224,255.0,False,False,2021-01-01,,True
+329,[MM] SF w/ Yakitori & Ebi Tempura,MIX & MATCH,10216,245.0,False,False,2021-01-01,,True
+330,[MM] SF w/ Yakitori & Kani Tempura,MIX & MATCH,10215,225.0,False,False,2021-01-01,,True
+331,[MM] SFR w/ Salmon Tuna Sashimi & Ebi Tempura,GRAB FOOD,10669,315.0,True,False,2022-01-01,,True
+332,[MM] SFR w/ Tonkatsu & Kani Tempura,GRAB FOOD,10671,270.0,True,False,2022-01-01,,True
+333,[MM] SFR/Yakitori & Ebi Tempura,GRAB FOOD,10650,280.0,True,False,2022-01-01,,True
+334,[MM] Torikatsu/ Kani Tempura,GRAB FOOD,10745,260.0,True,False,2022-01-01,,True
+335,[MR] California Maki,MAKI ROLLS,10264,190.0,False,False,2021-01-01,,True
+336,[MR] Cheesy Cowboy,MAKI ROLLS,10366,270.0,False,False,2021-01-01,,True
+337,[MR] Crazy Kani Roll,MAKI ROLLS,10368,265.0,False,False,2021-01-01,,True
+338,[MR] Crunchy California Maki,MAKI ROLLS,10381,225.0,False,False,2021-01-01,,True
+339,[MR] Crunchy Ebi,MAKI ROLLS,10371,275.0,False,False,2021-01-01,,True
+340,[MR] Crunchy Kani,MAKI ROLLS,10380,230.0,False,False,2021-01-01,,True
+341,[MR] Crunchy Salmon,MAKI ROLLS,10376,330.0,False,False,2021-01-01,,True
+342,[MR] Crunchy Salmon Aburi,MAKI ROLLS,10377,345.0,False,False,2021-01-01,,True
+343,[MR] Crunchy Veggie Salad,MAKI ROLLS,10369,225.0,False,False,2021-01-01,,True
+344,[MR] Crunchy Veggie Salad Roll,GRAB FOOD,10778,260.0,True,False,2022-01-01,,True
+345,[MR] Dynamite,MAKI ROLLS,10373,275.0,False,False,2021-01-01,,True
+346,[MR] Futo Maki,MAKI ROLLS,10384,310.0,False,False,2021-01-01,,True
+347,[MR] Katsu Tuna Roll,MAKI ROLLS,10234,255.0,False,False,2021-01-01,,True
+348,[MR] Nachos Beef Roll,MAKI ROLLS,10378,285.0,False,False,2021-01-01,,True
+349,[MR] Phila Salmon,MAKI ROLLS,10375,255.0,False,False,2021-01-01,,True
+350,[MR] Philadelphia,MAKI ROLLS,10363,265.0,False,False,2021-01-01,,True
+351,[MR] Salmon Maki,MAKI ROLLS,10382,235.0,False,False,2021-01-01,,True
+352,[MR] Salmon Mango Roll,MAKI ROLLS,10007,275.0,False,False,2021-01-01,,True
+353,[MR] Salmon Skin Roll,MAKI ROLLS,10370,310.0,False,False,2021-01-01,,True
+354,[MR] Salmon Spicy,MAKI ROLLS,10364,330.0,False,False,2021-01-01,,True
+355,[MR] Spicy Ebi Tempura,MAKI ROLLS,10365,320.0,False,False,2021-01-01,,True
+356,[MR] Tamago Roll,MAKI ROLLS,10383,235.0,False,False,2021-01-01,,True
+357,[MR] Tonkatsu Roll,MAKI ROLLS,10372,265.0,False,False,2021-01-01,,True
+358,[MR] Tuna Maki,MAKI ROLLS,10383,225.0,False,False,2021-01-01,,True
+359,[MR] Tuna Mango Roll,MAKI ROLLS,10766,275.0,False,False,2021-01-01,,True
+360,[MR] Tuna Spicy Toro,MAKI ROLLS,10367,330.0,False,False,2021-01-01,,True
+361,[MR] Yellow Kimono,MAKI ROLLS,10374,275.0,False,False,2021-01-01,,True
+362,[PL] 40pcs California Maki Platter,PLATTERS,10481,860.0,False,False,2021-01-01,,True
+363,[PL] 48pcs California Maki Platter,PLATTERS,10482,1020.0,False,False,2021-01-01,,True
+364,[PL] 64pcs California Maki Platter,PLATTERS,10483,1320.0,False,False,2021-01-01,,True
+365,[PL] 96pcs California Maki Platter,PLATTERS,10484,2030.0,False,False,2021-01-01,,True
+366,[PL] Large Party Tray,PLATTERS,10480,4535.0,False,False,2021-01-01,,True
+367,[PL] Medium Party Tray,PLATTERS,10479,2830.0,False,False,2021-01-01,,True
+368,[PL] Mixed Sashimi Platter,PLATTERS,10475,1389.0,False,False,2021-01-01,,True
+369,[PL] Salmon Platter  (500g),PLATTERS,10209,1725.0,False,False,2021-01-01,,True
+370,[PL] Seafood Platter Maki Rolls,PLATTERS,10033,1290.0,False,False,2021-01-01,,True
+371,[PL] Small Party Tray,PLATTERS,10034,1435.0,False,False,2021-01-01,,True
+372,[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,PLATTERS,10485,1799.0,False,False,2021-01-01,,True
+373,[PL] Super Supreme Mixed Maki,PLATTERS,10477,1170.0,False,False,2021-01-01,,True
+374,[PR] 4pcs Gyoza,ANNIVERSARY PROMO,10749,179.0,True,False,2021-01-01,,True
+375,[PR] 4pcs Tofu,ANNIVERSARY PROMO,10925,149.0,True,False,2021-01-01,,True
+376,[PR] Chicken Misono,ANNIVERSARY PROMO,10923,159.0,True,False,2021-01-01,,True
+377,[PR] Katsudon,ANNIVERSARY PROMO,10633,159.0,True,False,2021-01-01,,True
+378,[PR] Okonomiyaki Buttered Chicken,ANNIVERSARY PROMO,10746,209.0,True,False,2021-01-01,,True
+379,[PR] Okonomiyaki Garlic & Cheese,ANNIVERSARY PROMO,10754,209.0,True,False,2021-01-01,,True
+380,[PR] Pork Misono,ANNIVERSARY PROMO,10924,159.0,True,False,2021-01-01,,True
+381,[PR] Torikatsudon,ANNIVERSARY PROMO,10632,159.0,True,False,2021-01-01,,True
+382,[RM] Curry Beef,GRAB FOOD,10672,445.0,True,False,2022-01-01,,True
+383,[RM] Curry Beef Ramen,RAMEN BOWLS,10361,385.0,False,False,2021-01-01,,True
+384,[RM] Gyoza Ramen,RAMEN BOWLS,10357,360.0,False,False,2021-01-01,,True
+385,[RM] Katsu Ramen,RAMEN BOWLS,10355,350.0,False,False,2021-01-01,,True
+386,[RM] Shoyu Beef Ramen,RAMEN BOWLS,10354,350.0,False,False,2021-01-01,,True
+387,[RM] Shoyu Mushroom Ramen,RAMEN BOWLS,10043,310.0,False,False,2021-01-01,,True
+388,[RM] Shoyu Seafood Ramen,RAMEN BOWLS,10353,350.0,False,False,2021-01-01,,True
+389,[RM] Spicy Beef Tomato Ramen,RAMEN BOWLS,10360,385.0,False,False,2021-01-01,,True
+390,[RM] Spicy Roast Pork Tomato Ramen,RAMEN BOWLS,10359,385.0,False,False,2021-01-01,,True
+391,[RM] Spicy Roast pork Ramen,GRAB FOOD,10735,445.0,True,False,2022-01-01,,True
+392,[RM] Tantanmen,RAMEN BOWLS,10227,385.0,False,False,2021-01-01,,True
+393,[RM] Tonkotsu Ramen,RAMEN BOWLS,10356,360.0,False,False,2021-01-01,,True
+394,[RM] Torikatsu Ramen,RAMEN BOWLS,10545,340.0,False,False,2021-01-01,,True
+395,[SB] Cheesy Beef Teriyaki Burrito,STARDEALS,10678,0.0,True,False,2021-01-01,,True
+396,[SB] Cheesy Beef Terriyaki Burrito,SUSHI BURRITO,10391,325.0,False,False,2021-01-01,,True
+397,[SB] Cheesy Torikatsu Burrito,SUSHI BURRITO,10392,315.0,False,False,2021-01-01,,True
+398,[SB] Crazy Kani Burrito,SUSHI BURRITO,10393,315.0,False,False,2021-01-01,,True
+399,[SB] Ebi Spicy Burrito,SUSHI BURRITO,10394,355.0,False,False,2021-01-01,,True
+400,[SB] Roasted Chicken (Inasal) Burrito,SUSHI BURRITO,10169,385.0,False,False,2021-01-01,,True
+401,[SB] Sweet Spicy Salmon Burrito,SUSHI BURRITO,10395,355.0,False,False,2021-01-01,,True
+402,[SH] Kani (Crabstick),SASHIMI,10002,255.0,False,False,2021-01-01,,True
+403,[SH] Salmon,GRAB FOOD,10659,415.0,True,False,2022-01-01,,True
+404,[SH] Salmon (Sake),SASHIMI,10427,359.0,False,False,2021-01-01,,True
+405,[SH] Tamago (Sweet Egg),SASHIMI,10430,255.0,False,False,2021-01-01,,True
+406,[SH] Tuna (Maguro),SASHIMI,10428,349.0,False,False,2021-01-01,,True
+407,[SL] Crispy Salmon Salad,SALAD,10431,495.0,False,False,2021-01-01,,True
+408,[SL] Special Kani Salad (Regular),SALAD,10432,315.0,False,False,2021-01-01,,True
+409,[SL] Special Kani Salad (Sharing),SALAD,10433,475.0,False,False,2021-01-01,,True
+410,[SM] Sukiyaki w/ California Maki,SNACK MEALS,10407,325.0,False,False,2021-01-01,,True
+411,[SM] Yakisoba w/ 2PCS Ebi Tempura & Cali Maki,SNACK MEALS,10411,395.0,False,False,2021-01-01,,True
+412,[SM] Yakisoba w/ Gyoza & Cali Maki,SNACK MEALS,10409,335.0,False,False,2021-01-01,,True
+413,[SM] Yakisoba w/ Torikatsu & Cali Maki,GRAB FOOD,10035,320.0,True,False,2022-01-01,,True
+414,[SM] Yakisoba w/ Torikatsu & Cali maki,SNACK MEALS,10653,275.0,False,False,2021-01-01,,True
+415,[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,SNACK MEALS,10037,385.0,False,False,2021-01-01,,True
+416,[ST] Agedashi (4pcs),STARTERS,10417,195.0,False,False,2021-01-01,,True
+417,[ST] Agedashi (8pcs),STARTERS,10418,375.0,False,False,2021-01-01,,True
+418,[ST] Gyoza (4pcs),STARTERS,10421,238.0,False,False,2021-01-01,,True
+419,[ST] Gyoza (8pcs),STARTERS,10422,448.0,False,False,2021-01-01,,True
+420,[ST] Gyoza 4pcs,GRAB FOOD,10702,280.0,True,False,2022-01-01,,True
+421,[ST] Kakiage (4pcs),STARTERS,10415,270.0,False,False,2021-01-01,,True
+422,[ST] Kakiage (8pcs),STARTERS,10416,420.0,False,False,2021-01-01,,True
+423,[ST] Okonomiyaki (Buttered Chicken) (Regular),STARTERS,10423,280.0,False,False,2021-01-01,,True
+424,[ST] Okonomiyaki (Buttered Chicken) (Sharing),STARTERS,10519,485.0,False,False,2021-01-01,,True
+425,[ST] Okonomiyaki (Cheesy Beef) (Regular),STARTERS,10509,320.0,False,False,2021-01-01,,True
+426,[ST] Okonomiyaki (Cheesy Beef) (Sharing),STARTERS,10516,525.0,False,False,2021-01-01,,True
+427,[ST] Okonomiyaki (Garlic & Cheese) (Regular),STARTERS,10508,280.0,False,False,2021-01-01,,True
+428,[ST] Okonomiyaki (Mixed Seafood) (Regular),STARTERS,10142,320.0,False,False,2021-01-01,,True
+429,[ST] Okonomiyaki (Mixed Seafood) (Sharing),STARTERS,10517,525.0,False,False,2021-01-01,,True
+430,[ST] Okonomiyaki Buttered Chicken (Regular),STARTERS,10423,280.0,False,False,2021-01-01,,True
+431,[ST] Okonomiyaki Buttered Chicken (Sharing),STARTERS,10519,485.0,False,False,2021-01-01,,True
+432,[ST] Okonomiyaki Cheesy Beef (Regular),STARTERS,10509,320.0,False,False,2021-01-01,,True
+433,[ST] Okonomiyaki Cheesy Mushroom (Regular),STARTERS,10512,280.0,False,False,2021-01-01,,True
+434,[ST] Okonomiyaki Mixed Seafood (Regular),STARTERS,10142,320.0,False,False,2021-01-01,,True
+435,[ST] Okonomiyaki Mixed Seafood (Sharing),STARTERS,10517,525.0,False,False,2021-01-01,,True
+436,[TM] Seafood Fried Rice w/ Ebi Tempura,TEMPURA MEALS,10403,335.0,False,False,2021-01-01,,True
+437,[TM] Seafood Fried Rice w/ Kani Tempura,TEMPURA MEALS,10402,285.0,False,False,2021-01-01,,True
+438,[TM] Seafood Fried Rice w/ Mixed Tempura,TEMPURA MEALS,10404,355.0,False,False,2021-01-01,,True
+439,[UPGRADE] to Ichigo Matcha,Other,10639,90.0,False,False,2021-01-01,,True
+440,[UPGRADE] to Seafood Fried Rice,Other,10580,40.0,False,False,2021-01-01,,True
+441,[UPGRADE] to Soft Drinks,Other,10204,55.0,False,False,2021-01-01,,True
+442,"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",VALUE MEALS,10030,695.0,True,False,2021-01-01,,True
+443,"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",VALUE MEALS,10031,715.0,True,False,2021-01-01,,True
+444,"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",VALUE MEALS,10032,1825.0,True,False,2021-01-01,,True
+445,[VM] Good for 3: Crispy chicken,VALUE MEALS,10562,795.0,True,False,2021-01-01,,True
+446,supreme,MANAGEMENT,10412,0.0,False,True,2021-01-01,,True

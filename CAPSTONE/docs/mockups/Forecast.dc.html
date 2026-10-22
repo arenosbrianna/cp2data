@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Demand forecasts</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F6F3}
+a{color:#1E3A8A}a:hover{color:#172554}
+.nav{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:10px;font-size:15px;font-weight:600;color:#374151;text-decoration:none}
+.nav:hover{background:#EEF2FF;color:#1E3A8A}
+.nav.on{background:#E0E7FF;color:#1E3A8A}
+.card{background:#FFFFFF;border:1px solid #E7E5E0;border-radius:14px}
+.mono{font-family:'JetBrains Mono',monospace}
+.btn{font:inherit;font-size:14px;font-weight:700;border-radius:10px;padding:10px 16px;min-height:44px;cursor:pointer;border:1px solid #CBD5E1;background:#FFFFFF;color:#1E3A8A}
+.tab{font:inherit;font-size:14px;font-weight:700;border-radius:999px;padding:10px 16px;min-height:44px;cursor:pointer;border:1px solid #CBD5E1;background:#FFFFFF;color:#374151}
+.tab.on{background:#1E3A8A;border-color:#1E3A8A;color:#FFFFFF}
+.th{font-size:12px;font-weight:700;color:#4B5563;letter-spacing:.05em;text-align:left;padding:12px 14px;background:#FAFAF8;border-bottom:1px solid #E7E5E0;white-space:nowrap}
+.td{font-size:14px;padding:12px 14px;border-bottom:1px solid #EDEBE6;white-space:nowrap}
+</style>
+</helmet>
+<div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #111827; background: #F6F6F3; min-height: 100vh">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #E7E5E0; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 36px; height: 36px; border-radius: 50%; background: #B91C1C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 15px">M</div>
+<div style="display: flex; flex-direction: column"><span style="font-weight: 800; font-size: 18px; color: #1E3A8A">makisushi</span><span style="font-size: 11px; color: #4B5563; font-weight: 600">Inventory decision support</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+<span style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #374151; background: #F1F5F9; border-radius: 999px; padding: 8px 14px"><span style="width: 8px; height: 8px; border-radius: 50%; background: #2563EB"></span>Data as of Sun 18 Oct, 11:30 PM · Loyverse export</span>
+<span style="font-size: 14px; font-weight: 600; color: #374151">L. Astoriano · Manager</span>
+</div>
+</header>
+
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start">
+<nav aria-label="Main" style="flex: 1 1 240px; max-width: 100%; box-sizing: border-box; padding: 20px 16px; display: flex; flex-direction: column; gap: 4px">
+<a class="nav" href="Overview.dc.html">Overview</a>
+<a class="nav on" href="Forecast.dc.html">Demand forecasts</a>
+<a class="nav" href="Risk.dc.html">Risk alerts <span style="margin-left: auto; font-size: 12px; font-weight: 800; background: #FEE2E2; color: #991B1B; border-radius: 999px; padding: 2px 8px">5</span></a>
+<a class="nav" href="Purchasing.dc.html">Purchasing</a>
+<a class="nav" href="Tracking.dc.html">Tracking</a>
+<div style="height: 1px; background: #E7E5E0; margin: 12px 4px"></div>
+<a class="nav" href="Main.dc.html">Gap audit</a>
+</nav>
+
+<main style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 24px 64px; display: flex; flex-direction: column; gap: 24px">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 14px; font-weight: 700; color: #1E3A8A">Predictive analytics</div>
+<h1 style="margin: 0; font-size: 36px; font-weight: 800; letter-spacing: -0.02em">Demand forecasts</h1>
+<p style="margin: 0; font-size: 15px; color: #4B5563; max-width: 760px">Ingredient demand is derived from menu-item sales through the bill of materials. Each ingredient uses the model with the lowest WMAPE on the 2-month holdout, and only models with MASE below 1 (better than a naïve forecast) qualify.</p>
+</div>
+<button class="btn" type="button">Retrain models</button>
+</div>
+
+<div role="tablist" aria-label="Ingredient" style="display: flex; flex-wrap: wrap; gap: 8px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="7">
+<button role="tab" type="button" aria-selected="{{t.on}}" class="{{t.cls}}" onClick="{{t.pick}}">{{t.name}}</button>
+</sc-for>
+</div>
+
+<section class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px">
+<div>
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">{{cur.name}}: daily demand, {{cur.unit}}</h2>
+<p style="margin: 4px 0 0; font-size: 13px; color: #4B5563">21 days actual (BOM-derived) · 14-day forecast · model: <b style="color: #111827">{{cur.model}}</b></p>
+</div>
+<div style="display: flex; gap: 20px; flex-wrap: wrap">
+<div><div style="font-size: 12px; color: #4B5563; font-weight: 700">NEXT 7 DAYS</div><div class="mono" style="font-size: 22px; font-weight: 600">{{cur.week}} {{cur.unit}}</div><div style="font-size: 12px; color: #4B5563">80% interval {{cur.lo}}–{{cur.hi}}</div></div>
+<div><div style="font-size: 12px; color: #4B5563; font-weight: 700">WMAPE</div><div class="mono" style="font-size: 22px; font-weight: 600">{{cur.wmape}}</div></div>
+<div><div style="font-size: 12px; color: #4B5563; font-weight: 700">MASE</div><div class="mono" style="font-size: 22px; font-weight: 600">{{cur.mase}}</div></div>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 8px">
+<div class="mono" style="height: 280px; display: flex; flex-direction: column; justify-content: space-between; font-size: 12px; color: #4B5563; text-align: right"><span>{{cur.yMax}}</span><span>{{cur.yMid}}</span><span>0</span></div>
+<div style="position: relative; height: 280px; border-left: 1px solid #CBD5E1; border-bottom: 1px solid #CBD5E1">
+<svg viewBox="0 0 1000 280" preserveAspectRatio="none" role="img" aria-label="{{cur.aria}}" style="position: absolute; inset: 0; width: 100%; height: 100%">
+<line x1="0" y1="140" x2="1000" y2="140" stroke="#EDEBE6" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+<rect x="{{todayX}}" y="0" width="{{fcW}}" height="280" fill="#F5F7FF"></rect>
+<path d="{{cur.band95}}" fill="#E0E7FF"></path>
+<path d="{{cur.band80}}" fill="#C7D2FE"></path>
+<path d="{{cur.actualPath}}" fill="none" stroke="#111827" stroke-width="2" vector-effect="non-scaling-stroke"></path>
+<path d="{{cur.fcPath}}" fill="none" stroke="#1E3A8A" stroke-width="2.5" stroke-dasharray="6 4" vector-effect="non-scaling-stroke"></path>
+<line x1="{{todayX}}" y1="0" x2="{{todayX}}" y2="280" stroke="#1E3A8A" stroke-width="1" vector-effect="non-scaling-stroke"></line>
+<line x1="{{holX}}" y1="0" x2="{{holX}}" y2="280" stroke="#B45309" stroke-width="1" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"></line>
+</svg>
+<div style="position: absolute; top: 8px; left: 61%; font-size: 12px; font-weight: 700; color: #1E3A8A; background: #FFFFFF; padding: 2px 6px; border-radius: 4px">Today · Mon 19 Oct</div>
+<div style="position: absolute; top: 34px; right: 6px; font-size: 12px; font-weight: 700; color: #92400E; background: #FFFFFF; padding: 2px 6px; border-radius: 4px; text-align: right">Sun 1 Nov<br>is_holiday = 1</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 8px"><span></span><div style="display: flex; justify-content: space-between; font-size: 12px; color: #4B5563"><span>Mon 28 Sep</span><span>Mon 5 Oct</span><span>Mon 12 Oct</span><span>Mon 19 Oct</span><span>Mon 26 Oct</span><span>Sun 1 Nov</span></div></div>
+<div style="display: flex; gap: 18px; flex-wrap: wrap; font-size: 13px; color: #374151">
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 18px; height: 2px; background: #111827"></span>Actual</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 18px; height: 0; border-top: 2px dashed #1E3A8A"></span>Forecast</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 14px; height: 10px; background: #C7D2FE"></span>80% interval</span>
+<span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 14px; height: 10px; background: #E0E7FF"></span>95% interval</span>
+</div>
+</section>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start">
+<section class="card" style="flex: 1 1 420px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Model comparison: {{cur.name}}</h2>
+<p style="margin: 0; font-size: 13px; color: #4B5563">Holdout: 18 Aug – 18 Oct 2026. Lower is better on both metrics.</p>
+<sc-for list="{{cur.models}}" as="m" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 2fr) 64px; gap: 12px; align-items: center; padding: 8px 0; border-top: 1px solid #EDEBE6">
+<div style="font-size: 14px; font-weight: 700">{{m.name}}<sc-if value="{{m.sel}}" hint-placeholder-val="{{false}}"><span style="margin-left: 8px; font-size: 11px; font-weight: 800; background: #1E3A8A; color: #FFFFFF; padding: 2px 6px; border-radius: 4px">SELECTED</span></sc-if></div>
+<div style="height: 10px; background: #F1F5F9; border-radius: 999px; overflow: hidden"><div style="height: 100%; width: {{m.w}}%; background: {{m.color}}; border-radius: 999px"></div></div>
+<div class="mono" style="font-size: 13px; text-align: right">{{m.wmape}}</div>
+<div style="grid-column: 1 / -1; font-size: 12px; color: #4B5563">MASE {{m.mase}} · {{m.note}}</div>
+</div>
+</sc-for>
+</section>
+
+<section class="card" style="flex: 1 1 360px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">How this feeds the order</h2>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 16px; font-size: 14px">
+<span style="color: #374151">Forecast demand, next 7 days</span><span class="mono">{{cur.week}} {{cur.unit}}</span>
+<span style="color: #374151">− Usable on hand before expiry</span><span class="mono">{{cur.onhand}} {{cur.unit}}</span>
+<span style="color: #374151">+ Safety stock (from 80% interval)</span><span class="mono">{{cur.safety}} {{cur.unit}}</span>
+<span style="font-weight: 800; border-top: 1px solid #E7E5E0; padding-top: 8px">LP order input</span><span class="mono" style="font-weight: 600; border-top: 1px solid #E7E5E0; padding-top: 8px">{{cur.order}} {{cur.unit}}</span>
+</div>
+<p style="margin: 4px 0 0; font-size: 13px; color: #4B5563; line-height: 1.5">The LP then adjusts quantity and delivery split for budget, chiller capacity, and shelf life. See Purchasing.</p>
+<a href="Purchasing.dc.html" style="font-size: 14px; font-weight: 700">Open purchasing list →</a>
+</section>
+</div>
+
+<section class="card" style="padding: 0; overflow: hidden">
+<div style="padding: 20px 22px 12px"><h2 style="margin: 0; font-size: 18px; font-weight: 800">All perishable ingredients</h2></div>
+<div style="overflow-x: auto">
+<table style="width: 100%; border-collapse: collapse; min-width: 860px">
+<thead><tr><th class="th">Ingredient</th><th class="th">Selected model</th><th class="th">Next 7 days</th><th class="th">80% interval</th><th class="th">WMAPE</th><th class="th">MASE</th><th class="th">Last retrained</th></tr></thead>
+<tbody>
+<sc-for list="{{rows}}" as="r" hint-placeholder-count="7">
+<tr><td class="td" style="font-weight: 700">{{r.name}}</td><td class="td">{{r.model}}</td><td class="td mono">{{r.week}} {{r.unit}}</td><td class="td mono">{{r.lo}}–{{r.hi}}</td><td class="td mono">{{r.wmape}}</td><td class="td mono">{{r.mase}}</td><td class="td" style="color: #4B5563">Sun 18 Oct</td></tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+</main>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1640}}'>
+class Component extends DCLogic {
+  constructor(p) { super(p); this.state = { sel: "salmon" }; }
+  renderVals() {
+    const ING = [
+      { id: "salmon", name: "Fresh salmon", unit: "kg", mean: 3.0, dp: 1, model: "SARIMA(1,0,1)(1,1,1)7", onhand: "3.2", safety: "0.2", order: "18.0", scores: [21.4, 11.9, 13.1, 12.6], mases: [0.94, 0.57, 0.63, 0.60], sel: 1 },
+      { id: "tuna", name: "Tuna loin", unit: "kg", mean: 1.6, dp: 1, model: "Holt-Winters (additive)", onhand: "2.0", safety: "0.3", order: "9.5", scores: [24.8, 15.0, 14.2, 15.6], mases: [0.97, 0.66, 0.62, 0.69], sel: 2 },
+      { id: "rice", name: "Koshihikari rice", unit: "kg", mean: 5.5, dp: 1, model: "SES (α = 0.32)", onhand: "45.0", safety: "0.0", order: "0.0", scores: [6.3, 6.8, 6.6, 7.4], mases: [0.48, 0.52, 0.51, 0.57], sel: 0 },
+      { id: "avo", name: "Hass avocado", unit: "pcs", mean: 6, dp: 0, model: "ML regression (gradient boosting)", onhand: "18", safety: "0", order: "24", scores: [26.1, 19.4, 20.2, 17.5], mases: [1.02, 0.78, 0.81, 0.70], sel: 3 },
+      { id: "nori", name: "Nori sheets", unit: "packs", mean: 9 / 7, dp: 0, model: "SES (α = 0.21)", onhand: "6", safety: "2", order: "5", scores: [9.1, 9.8, 9.6, 10.9], mases: [0.55, 0.59, 0.58, 0.66], sel: 0 },
+      { id: "hama", name: "Hamachi", unit: "kg", mean: 0.6, dp: 1, model: "Holt-Winters (additive)", onhand: "2.4", safety: "0.2", order: "2.0", scores: [31.5, 21.0, 19.8, 22.4], mases: [1.08, 0.83, 0.79, 0.88], sel: 2 },
+      { id: "cuc", name: "Japanese cucumber", unit: "kg", mean: 0.8, dp: 1, model: "SES (α = 0.28)", onhand: "4.0", safety: "0.4", order: "2.0", scores: [12.4, 13.0, 12.9, 14.1], mases: [0.61, 0.64, 0.63, 0.70], sel: 0 }
+    ];
+    const NAMES = ["SES", "SARIMA", "Holt-Winters", "ML regression"];
+    const NOTES = ["no trend or seasonality", "weekly seasonality, s = 7", "trend + weekly seasonality", "adds weekday + holiday features"];
+    const SEAS = [0.8, 0.75, 0.85, 0.9, 1.3, 1.5, 1.2].map((v) => v / (7.3 / 7));
+    const N = 35, A = 21, W = 1000, H = 280;
+    const fx = (i) => (i / (N - 1)) * W;
+    const build = (g) => {
+      const vals = [];
+      for (let i = 0; i < N; i++) {
+        const dow = i % 7;
+        let v = g.mean * SEAS[dow] * (1 + (i < A ? 0.12 * Math.sin(i * 2.3 + g.mean) : 0));
+        if (i === 34) v *= 1.25;
+        vals.push(v);
+      }
+      const ymax = Math.max.apply(null, vals) * 1.45;
+      const fy = (v) => H - (v / ymax) * H;
+      const line = (from, to) => { let d = ""; for (let i = from; i <= to; i++) d += (i === from ? "M" : "L") + fx(i).toFixed(1) + " " + fy(vals[i]).toFixed(1) + " "; return d; };
+      const band = (z) => { let up = "", dn = ""; for (let i = A - 1; i < N; i++) { const h = i - A + 1; const w = vals[i] * (0.08 + 0.012 * h) * z; up += (i === A - 1 ? "M" : "L") + fx(i).toFixed(1) + " " + fy(vals[i] + w).toFixed(1) + " "; } for (let i = N - 1; i >= A - 1; i--) { const h = i - A + 1; const w = vals[i] * (0.08 + 0.012 * h) * z; dn += "L" + fx(i).toFixed(1) + " " + fy(Math.max(0, vals[i] - w)).toFixed(1) + " "; } return up + dn + "Z"; };
+      const fmt = (v) => g.dp ? v.toFixed(g.dp) : String(Math.round(v));
+      const week = g.mean * 7;
+      const best = Math.max.apply(null, g.scores);
+      return {
+        name: g.name, unit: g.unit, model: g.model, onhand: g.onhand, safety: g.safety, order: g.order,
+        week: fmt(week), lo: fmt(week * 0.88), hi: fmt(week * 1.12),
+        wmape: g.scores[g.sel].toFixed(1) + "%", mase: g.mases[g.sel].toFixed(2),
+        yMax: fmt(ymax), yMid: fmt(ymax / 2),
+        actualPath: line(0, A - 1), fcPath: line(A - 1, N - 1), band80: band(1), band95: band(1.55),
+        aria: g.name + " demand: 21 days actual and 14-day forecast, about " + fmt(week) + " " + g.unit + " over the next 7 days",
+        models: NAMES.map((n, k) => ({ name: n, sel: k === g.sel, wmape: g.scores[k].toFixed(1) + "%", mase: g.mases[k].toFixed(2), w: Math.round(g.scores[k] / (best * 1.1) * 100), color: k === g.sel ? "#1E3A8A" : "#94A3B8", note: NOTES[k] + (g.mases[k] >= 1 ? " · fails MASE < 1" : "") }))
+      };
+    };
+    const curG = ING.find((g) => g.id === this.state.sel) || ING[0];
+    return {
+      cur: build(curG),
+      todayX: fx(A).toFixed(1), fcW: (W - fx(A)).toFixed(1), holX: fx(34).toFixed(1),
+      tabs: ING.map((g) => ({ name: g.name, on: g.id === curG.id, cls: g.id === curG.id ? "tab on" : "tab", pick: () => this.setState({ sel: g.id }) })),
+      rows: ING.map((g) => { const b = build(g); return { name: g.name, model: g.model, week: b.week, unit: g.unit, lo: b.lo, hi: b.hi, wmape: b.wmape, mase: b.mase }; })
+    };
+  }
+}
+</script>
+</body>
+</html>

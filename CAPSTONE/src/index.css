@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #e2e8f0;
+  }
+  body {
+    background-color: #f8fafc;
+    color: #0f172a;
+    font-family: 'Poppins', 'Nunito Sans', sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+:root {
+  --brand-blue: #1e3a8a;
+  --brand-red: #dc2626;
+  --brand-white: #ffffff;
+}
+
+/* Custom scrollbars for clean dashboards */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Clean glass cards without tacky blur-overkill */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.data-table th {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #64748b;
+}

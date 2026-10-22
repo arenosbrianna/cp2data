@@ -1,0 +1,829 @@
+item_name,ingredient_code,qty_per_unit,item_id,ingredient_id
+[DB] Oyakudon (Set A),CF_060,2.0,262.0,5
+[DB] Oyakudon (Set A),EGG,2.0,262.0,12
+[DB] Oyakudon (Set A),TSS,130.0,262.0,46
+[DB] Oyakudon (Set B),CF_060,2.0,263.0,5
+[DB] Oyakudon (Set B),EGG,2.0,263.0,12
+[DB] Oyakudon (Set B),TSS,130.0,263.0,46
+[DB] Oyakudon (Set B),KNI,0.25,263.0,18
+[DB] Oyakudon (Set B),CAR,1.0,263.0,3
+[DB] Karaagedon (Set A),CT_120,1.0,246.0,7
+[DB] Karaagedon (Set B),CT_120,1.0,247.0,7
+[DB] Karaagedon (Set B),KNI,0.25,247.0,18
+[DB] Karaagedon (Set B),ICT,1.0,247.0,16
+[DB] Karaagedon (Set B),TSS,30.0,247.0,46
+[DB] Shoyu Miso Buttered Chicken (Set A),CF_060,2.0,267.0,5
+[DB] Shoyu Miso Buttered Chicken (Set A),SHO,10.0,267.0,35
+[DB] Torikatsu (Set A),CF_060,2.0,275.0,5
+[DB] Torikatsu (Set B),CF_060,2.0,276.0,5
+[DB] Torikatsu (Set B),ICT,1.0,276.0,16
+[DB] Torikatsudon (Set A),CF_060,2.0,282.0,5
+[DB] Torikatsudon (Set A),EGG,2.0,282.0,12
+[DB] Torikatsudon (Set B),CF_060,2.0,283.0,5
+[DB] Torikatsudon (Set B),TSS,130.0,283.0,46
+[DB] Torikatsudon (Set B),ICT,1.0,283.0,16
+[DB] Torikatsudon (Set B),EGG,2.0,283.0,12
+[DB] Chicken Terriyaki (Set B),CT_150,1.0,234.0,8
+[DB] Chicken Terriyaki (Set B),TER,1.0,234.0,45
+[DB] Chicken Terriyaki (Set B),KNI,0.25,234.0,18
+[DB] Chicken Terriyaki (Set B),ICT,1.0,234.0,16
+[DB] Chicken Terriyaki (Set B),VDB,1.0,234.0,49
+Chicken Misono Set A,CF_060,2.0,43.0,5
+[DB] Chicken Teppanyaki/Misono (Set A),CF_060,2.0,232.0,5
+[DB] Chicken Teppanyaki/Misono (Set A),TEP,1.0,232.0,44
+[DB] Chicken Teppanyaki/Misono (Set A),VDB,1.0,232.0,49
+[DB] Yakitori (Set A),CF_040,3.0,285.0,4
+[DB] Yakitori (Set B),CF_040,3.0,286.0,4
+[DB] Yakitori (Set B),ICT,1.0,286.0,16
+[DB] Torikatsu Curry (Set A),CF_060,2.0,277.0,5
+[DB] Torikatsu Curry (Set B),CF_060,2.0,278.0,5
+[DB] Torikatsu Curry (Set B),KNI,0.25,278.0,18
+[DB] Torikatsu Curry (Set B),ICT,1.0,278.0,16
+[DB] Torikatsu Omelette Curry (Set A),CF_060,2.0,280.0,5
+[DB] Torikatsu Omelette Curry (Set A),EGG,2.0,280.0,12
+[DB] Torikatsu Omelette Curry (Set B),CF_060,2.0,281.0,5
+[DB] Torikatsu Omelette Curry (Set B),EGG,2.0,281.0,12
+[DB] Torikatsu Omelette Curry (Set B),KNI,0.25,281.0,18
+[DB] Torikatsu Omelette Curry (Set B),ICT,1.0,281.0,16
+[DB] Shoyu Miso Buttered Chicken (Set B),CF_060,2.0,268.0,5
+[DB] Shoyu Miso Buttered Chicken (Set B),ICT,1.0,268.0,16
+[DB] Katsudon (Set A),PL_060,2.0,258.0,30
+[DB] Katsudon (Set A),TSS,130.0,258.0,46
+[DB] Katsudon (Set A),EGG,1.0,258.0,12
+[DB] Shoyu Miso Buttered Pork (Set A),PL_060,2.0,269.0,30
+[DB] Shoyu Miso Buttered Pork (Set A),KNI,0.25,269.0,18
+[DB] Shoyu Miso Buttered Pork (Set B),PL_060,2.0,270.0,30
+[DB] Shoyu Miso Buttered Pork (Set B),KNI,0.25,270.0,18
+[DB] Shoyu Miso Buttered Pork (Set B),ICT,1.0,270.0,16
+[DB] Mixed Seafood Teppanyaki (Set A),TUN,40.0,,48
+[DB] Mixed Seafood Teppanyaki (Set A),TEP,1.0,,44
+[DB] Mixed Seafood Teppanyaki (Set A),SQD,40.0,,37
+[DB] Mixed Seafood Teppanyaki (Set A),PDT,2.0,,28
+[DB] Mixed Seafood Teppanyaki (Set B),TUN,40.0,,48
+[DB] Mixed Seafood Teppanyaki (Set B),SQD,40.0,,37
+[DB] Mixed Seafood Teppanyaki (Set B),PDT,2.0,,28
+[DB] Mixed Seafood Teppanyaki (Set B),KNI,0.25,,18
+[DB] Mixed Seafood Teppanyaki (Set B),TEP,1.0,,44
+[DB] Mixed Seafood Teppanyaki (Set B),ICT,1.0,,16
+[DB] Crispy Chicken w/ Egg (Set B),CT_120,1.0,237.0,7
+[DB] Crispy Chicken w/ Egg (Set B),KNI,0.25,237.0,18
+[DB] Crispy Chicken w/ Egg (Set B),ICT,1.0,237.0,16
+[DB] Crispy Chicken w/ Egg (Set A),CT_120,1.0,235.0,7
+[DB] Crispy Chicken w/ Egg (Set A),EGG,1.0,235.0,12
+[DB] Grilled Chicken Terriyaki (Set A),CT_150,1.0,242.0,8
+[DB] Grilled Chicken Terriyaki (Set A),TER,1.0,242.0,45
+[DB] Mixed Seafood Misono (Set A),TUN,40.0,260.0,48
+[DB] Mixed Seafood Misono (Set A),SQD,40.0,260.0,37
+[DB] Mixed Seafood Misono (Set A),PDT,2.0,260.0,28
+[DB] Mixed Seafood Misono (Set A),KNI,0.25,260.0,18
+[DB] Mixed Seafood Misono (Set A),TEP,1.0,260.0,44
+[DB] Mixed Seafood Misono (Set B),TUN,40.0,261.0,48
+[DB] Mixed Seafood Misono (Set B),SQD,40.0,261.0,37
+[DB] Mixed Seafood Misono (Set B),PDT,2.0,261.0,28
+[DB] Mixed Seafood Misono (Set B),KNI,0.25,261.0,18
+[DB] Mixed Seafood Misono (Set B),TEP,1.0,261.0,44
+[DB] Mixed Seafood Misono (Set B),ICT,1.0,261.0,16
+[DB] Tonkatsu (Set A),PL_060,2.0,273.0,30
+Tonkatsu Set B,PL_060,2.0,,30
+[DB] Tonkatsu (Set B),PL_060,2.0,274.0,30
+[DB] Tonkatsu (Set B),ICT,0.0,274.0,16
+[DB] Katsudon (Set B),PL_060,2.0,259.0,30
+[DB] Katsudon (Set B),EGG,2.0,259.0,12
+[DB] Katsudon (Set B),TSS,130.0,259.0,46
+[DB] Katsudon (Set B),KNI,0.25,259.0,18
+[DB] Katsudon (Set B),ICT,1.0,259.0,16
+[DB] Pork Teppanyaki/Misono (Set A),PL_060,2.0,264.0,30
+[DB] Pork Teppanyaki/Misono (Set A),TEP,1.0,264.0,44
+[DB] Pork Teppanyaki/Misono (Set A),VDB,1.0,264.0,49
+Pork Teppanyaki Set B,PL_060,2.0,,30
+Pork Teppanyaki Set B,TEP,1.0,,44
+Katsu Curry Set A,PL_060,2.0,,30
+[DB] Katsu Curry (Regular) (Set A),PL_060,2.0,248.0,30
+Katsu Curry Set B,PL_060,2.0,,30
+[DB] Katsu Curry (Regular) (Set B),PL_060,2.0,249.0,30
+[DB] Katsu Curry (Regular) (Set B),KNI,0.25,249.0,18
+[DB] Katsu Curry (Regular) (Set B),ICT,1.0,249.0,16
+[DB] Katsu Omelette Curry (Set A),PL_060,2.0,253.0,30
+[DB] Katsu Omelette Curry (Set A),EGG,2.0,253.0,12
+[DB] Katsu Omelette Curry (Set B),PL_060,2.0,254.0,30
+[DB] Katsu Omelette Curry (Set B),ICT,1.0,254.0,16
+[DB] Katsu Omelette Curry (Set B),KNI,0.25,254.0,18
+[DB] Katsu Omelette Curry (Set B),ICT,1.0,254.0,16
+[DB] Grilled Pork Belly Terriyaki (Set A),PB_120,1.0,,27
+[DB] Grilled Pork Belly Terriyaki (Set B),PB_120,1.0,,27
+[DB] Grilled Pork Belly Terriyaki (Set B),KNI,0.25,,18
+[DB] Grilled Pork Belly Terriyaki (Set B),ICT,1.0,,16
+[DB] Grilled Pork Belly Terriyaki (Set B),TER,1.0,,45
+[DB) Grilled Pork Belly Terriyaki (Set B),PB_120,1.0,,27
+[DB) Grilled Pork Belly Terriyaki (Set B),KNI,0.25,,18
+[DB) Grilled Pork Belly Terriyaki (Set B),ICT,1.0,,16
+[DB) Grilled Pork Belly Terriyaki (Set B),TER,1.0,,45
+[DB] Ebi Toji Don (Set A),EBI,3.0,238.0,10
+[DB] Ebi Toji Don (Set A),EGG,2.0,238.0,12
+[DB] Ebi Toji Don (Set B),EBI,3.0,,10
+[DB] Ebi Toji Don (Set B),EGG,2.0,,12
+[DB] Ebi Toji Don (Set B),KNI,0.25,,18
+[DB] Ebi Toji Don (Set B),ICT,1.0,,16
+[DB] Ebi Toji Don (Set B),TEM,130.0,,43
+[DB] Sukiyakidon (Set A),SB_050,2.0,271.0,34
+[DB] Sukiyakidon (Set A),TSS,1.0,271.0,46
+[DB] Sukiyakidon (Set A),EGG,2.0,271.0,12
+[DB] Sukiyakidon (Set B),SB_050,2.0,272.0,34
+[DB] Sukiyakidon (Set B),EGG,1.0,272.0,12
+[DB] Sukiyakidon (Set B),ICT,1.0,272.0,16
+[DB] Sukiyakidon (Set B),TSS,130.0,272.0,46
+[DB] Gyudon (Set A),SB_050,2.0,243.0,34
+[DB] Gyudon (Set A),EGG,1.0,243.0,12
+[DB] Gyudon (Set A),TSS,130.0,243.0,46
+[DB] Gyudon (Set B),SB_050,2.0,244.0,34
+[DB] Gyudon (Set B),EGG,1.0,244.0,12
+[DB] Gyudon (Set B),KNI,1.0,244.0,18
+[DB] Gyudon (Set B),ICT,1.0,244.0,16
+[DB] Gyudon (Set B),TSS,130.0,244.0,46
+[DB] Beef Curry (Set A),SB_050,2.0,225.0,34
+[DB] Beef Terriyaki (Set A),SB_050,2.0,230.0,34
+[DB] Beef Terriyaki (Set A),TER,1.0,230.0,45
+[DB] Beef Terriyaki (Set A),VDB,1.0,230.0,49
+[DB] Beef Terriyaki (Set B),SB_050,2.0,231.0,34
+[DB] Beef Terriyaki (Set B),TER,1.0,231.0,45
+[DB] Beef Terriyaki (Set B),ICT,1.0,231.0,16
+[DB] Beef Terriyaki (Set B),VDB,1.0,231.0,49
+[DB] Beef Teppanyaki/Misono (Set A),SB_050,2.0,228.0,34
+[DB] Beef Teppanyaki/Misono (Set A),TEP,1.0,228.0,44
+[DB] Beef Teppanyaki/Misono (Set A),VDB,1.0,228.0,49
+[DB] Beef Teppanyaki/Misono (Set B),SB_050,2.0,229.0,34
+[DB] Beef Teppanyaki/Misono (Set B),TEP,1.0,229.0,44
+[DB] Beef Teppanyaki/Misono (Set B),ICT,1.0,229.0,16
+[DB] Beef Teppanyaki/Misono (Set B),VDB,1.0,229.0,49
+[DB] Beef Curry (Set B),SB_050,2.0,226.0,34
+[DB] Beef Curry (Set B),ICT,1.0,226.0,16
+California Maki platter (40pcs),KNI,5.0,,18
+Creamy Salmon Baked sushi,SAL,100.0,,31
+Creamy Salmon Baked sushi,KNI,2.0,,18
+[SM] Yakisoba W Ebi Tempura & California Maki,EBI,2.0,,10
+[SM] Yakisoba W Ebi Tempura & California Maki,KNI,0.5,,18
+[SM] Yakisoba W Ebi Tempura & California Maki,ENOD,1.0,,13
+Yakisoba (for sharing),PL_020,3.0,180.0,29
+Yakisoba (for sharing),ENOD,6.0,180.0,13
+Yakisoba (for sharing),SQD,45.0,180.0,37
+[RM] Torikatsu Ramen,CF_060,1.0,394.0,5
+[RM] Torikatsu Ramen,NOD,1.0,394.0,23
+[RM] Torikatsu Ramen,EGG,1.0,394.0,12
+[RM] Torikatsu Ramen,MZN,45.0,394.0,22
+[RM] Shoyu Mushroom Ramen,MUS,1.0,387.0,21
+[RM] Shoyu Mushroom Ramen,NOD,1.0,387.0,23
+[RM] Shoyu Mushroom Ramen,EGG,1.0,387.0,12
+[RM] Shoyu Mushroom Ramen,SHO,15.0,387.0,35
+[RM] Shoyu Seafood Ramen,TUN,30.0,388.0,48
+[RM] Shoyu Seafood Ramen,SQD,20.0,388.0,37
+[RM] Shoyu Seafood Ramen,NOD,1.0,388.0,23
+[RM] Shoyu Seafood Ramen,EGG,1.0,388.0,12
+[RM] Shoyu Seafood Ramen,PDT,2.0,388.0,28
+[RM] Shoyu Seafood Ramen,SHO,45.0,388.0,35
+[RM] Katsu Ramen,PL_060,1.0,385.0,30
+[RM] Katsu Ramen,MZN,45.0,385.0,22
+[RM] Katsu Ramen,NOD,1.0,385.0,23
+[RM] Katsu Ramen,EGG,1.0,385.0,12
+[RM] Tonkotsu Ramen,PB_060,1.0,393.0,26
+[RM] Tonkotsu Ramen,NOD,1.0,393.0,23
+[RM] Tonkotsu Ramen,MZN,45.0,393.0,22
+[RM] Tonkotsu Ramen,EGG,1.0,393.0,12
+[RM] Gyoza Ramen,GZA,1.0,384.0,15
+[RM] Gyoza Ramen,NOD,1.0,384.0,23
+[RM] Gyoza Ramen,EGG,1.0,384.0,12
+[RM] Spicy Roast Pork Tomato Ramen,PB_060,1.0,390.0,26
+[RM] Spicy Roast Pork Tomato Ramen,NOD,1.0,390.0,23
+[RM] Spicy Roast Pork Tomato Ramen,EGG,1.0,390.0,12
+[RM] Spicy Roast Pork Tomato Ramen,MZN,45.0,390.0,22
+[RM] Spicy Beef Tomato Ramen,SB_050,1.0,389.0,34
+[RM] Spicy Beef Tomato Ramen,NOD,1.0,389.0,23
+[RM] Spicy Beef Tomato Ramen,EGG,1.0,389.0,12
+[RM] Curry Beef Ramen,SB_050,1.0,383.0,34
+[RM] Curry Beef Ramen,NOD,1.0,383.0,23
+[RM] Curry Beef Ramen,EGG,1.0,383.0,12
+[RM] Tantanmen,GP_050,1.0,392.0,14
+[RM] Tantanmen,NOD,1.0,392.0,23
+[RM] Tantanmen,EGG,1.0,392.0,12
+[RM] Shoyu Beef Ramen,SB_050,1.0,386.0,34
+[RM] Shoyu Beef Ramen,NOD,1.0,386.0,23
+[RM] Shoyu Beef Ramen,EGG,1.0,386.0,12
+[RM] Shoyu Beef Ramen,SHO,45.0,386.0,35
+[RM] Katsu Ramen,PL_060,1.0,385.0,30
+[RM] Katsu Ramen,NOD,1.0,385.0,23
+[MR] California Maki,KNI,1.0,335.0,18
+[MR] California Maki,EBK,5.0,335.0,11
+[MR] California Maki,NOR,0.5,335.0,24
+[MR] California Maki,MAY,5.0,335.0,19
+[MR] California Maki,WAS,18.0,335.0,54
+[MR] California Maki,KAL,10.0,335.0,17
+[MR] California Maki,BAR,1.0,335.0,1
+[MR] California Maki,SUS,100.0,335.0,41
+[MR] California Maki,CUC,22.5,335.0,9
+[MR] California Maki,SUS,100.0,335.0,41
+[MR] Salmon Maki,SAL,30.0,351.0,31
+[MR] Salmon Maki,NOR,0.5,351.0,24
+[MR] Salmon Maki,WAS,18.0,351.0,54
+[MR] Salmon Maki,KAL,10.0,351.0,17
+[MR] Salmon Maki,BAR,1.0,351.0,1
+[MR] Salmon Maki,SUS,100.0,351.0,41
+[MR] Salmon Mango Roll,SAL,30.0,352.0,31
+[MR] Salmon Mango Roll,NOR,1.0,352.0,24
+[MR] Salmon Mango Roll,BAR,1.0,352.0,1
+[MR] Salmon Mango Roll,SUS,100.0,352.0,41
+[MR] Salmon Mango Roll,WAS,1.0,352.0,54
+[MR] Tuna Maki,TUN,30.0,358.0,48
+[MR] Tuna Maki,NOR,1.0,358.0,24
+[MR] Tuna Maki,WAS,18.0,358.0,54
+[MR] Tuna Maki,KAL,10.0,358.0,17
+[MR] Tuna Maki,BAR,1.0,358.0,1
+[MR] Tuna Maki,SUS,100.0,358.0,41
+[MR] Futo Maki,SUS,1.0,346.0,41
+[MR] Phila Salmon,SAL,30.0,349.0,31
+[MR] Phila Salmon,SUS,100.0,349.0,41
+[MR] Philadelphia,SAL,30.0,350.0,31
+[MR] Philadelphia,KNI,1.0,350.0,18
+[MR] Philadelphia,SUS,100.0,350.0,41
+[MR] Crunchy California Maki,KNI,1.0,338.0,18
+[MR] Crunchy California Maki,SUS,100.0,338.0,41
+[MR] Salmon Spicy,SAL,50.0,354.0,31
+[MR] Salmon Spicy,SUS,100.0,354.0,41
+[MR] Salmon Skin Roll,SAL,30.0,353.0,31
+[MR] Salmon Skin Roll,SUS,100.0,353.0,41
+[MR] Crunchy Salmon Aburi,SAL,50.0,342.0,31
+[MR] Crunchy Salmon Aburi,EGG,1.0,342.0,12
+[MR] Crunchy Salmon Aburi,SUS,100.0,342.0,41
+[MR] Crunchy Ebi,EBI,2.0,339.0,10
+[MR] Crunchy Ebi,SUS,100.0,339.0,41
+[MR] Crazy Kani Roll,KNI,3.0,337.0,18
+[MR] Crazy Kani Roll,SUS,100.0,337.0,41
+[MR] Tonkatsu Roll,PL_060,1.0,357.0,30
+[MR] Tonkatsu Roll,SUS,100.0,357.0,41
+[ MR] Tonkatsu Roll,PL_060,1.0,185.0,30
+[ MR] Tonkatsu Roll,SUS,100.0,185.0,41
+[MR] Katsu Tuna Roll,TUN,30.0,347.0,48
+[MR] Katsu Tuna Roll,SUS,100.0,347.0,41
+Yellow Kimono,KNI,1.0,,18
+[MR] Yellow Kimono,KNI,1.0,361.0,18
+[MR] Yellow Kimono,SUS,100.0,361.0,41
+[MR] Tuna Spicy Toro,TUN,30.0,360.0,48
+[MR] Tuna Spicy Toro,SUS,100.0,360.0,41
+[MR] Dynamite,SAL,30.0,345.0,31
+[MR] Dynamite,SUS,100.0,345.0,41
+Cheesy Beef teriyaki Sushi Burger,SB_050,1.0,,34
+Kani/Torikatsu Sushi Rice Burger,CF_060,1.0,,5
+Kani/Torikatsu Sushi Rice Burger,KNI,1.0,,18
+Kani veggie sushi burger,KNI,1.0,,18
+Cheesy Beef Terriyaki Burrito,SB_050,1.0,,34
+[SB] Cheesy Beef Terriyaki Burrito,SB_050,1.0,396.0,34
+[SB] Crazy Kani Burrito,KNI,2.0,398.0,18
+[SB] Sweet Spicy Salmon Burrito,SAL,50.0,401.0,31
+[SB] Cheesy Torikatsu Burrito,SUS,100.0,397.0,41
+CALIFORNIA MAKI,KNI,1.0,31.0,18
+CALIFORNIA MAKI,EBK,5.0,31.0,11
+CALIFORNIA MAKI,NOR,0.5,31.0,24
+CALIFORNIA MAKI,MAY,5.0,31.0,19
+CALIFORNIA MAKI,WAS,18.0,31.0,54
+CALIFORNIA MAKI,KAL,10.0,31.0,17
+CALIFORNIA MAKI,BAR,1.0,31.0,1
+CALIFORNIA MAKI,SUS,100.0,31.0,41
+CALIFORNIA MAKI,CUC,22.5,31.0,9
+CALIFORNIA MAKI,SUS,100.0,31.0,41
+[BS] California Baked,KNI,2.0,210.0,18
+Cheesy Beef,SB_050,2.0,,34
+[BS] Cheesy Beef,SB_050,2.0,211.0,34
+Creamy Salmon,SAL,100.0,,31
+Creamy Salmon,KNI,2.0,,18
+[BS] Creamy Salmon,SAL,100.0,214.0,31
+[BS] Creamy Salmon,KNI,2.0,214.0,18
+Mixed Seafood Baked Sushi,KNI,2.0,,18
+Mixed Seafood Baked Sushi,SAL,30.0,,31
+Mixed Seafood Baked Sushi,SQD,30.0,,37
+Mixed Seafood Baked Sushi,PDT,2.0,,28
+4 in 1 Baked Sushi,SB_050,1.0,,34
+4 in 1 Baked Sushi,SAL,50.0,,31
+4 in 1 Baked Sushi,CF_060,1.0,,5
+4 in 1 Baked Sushi,KNI,1.0,,18
+[BS] 4in1 Baked Sushi,SB_050,1.0,209.0,34
+[BS] 4in1 Baked Sushi,SAL,50.0,209.0,31
+[BS] 4in1 Baked Sushi,CF_060,1.0,209.0,5
+[BS] 4in1 Baked Sushi,KNI,1.0,209.0,18
+(BSP) California,SUS,100.0,1.0,41
+(BSP) California,KNI,1.0,1.0,18
+(BSP)Creamy chicken,SUS,100.0,3.0,41
+(BSP)mixed seafood,SUS,100.0,4.0,41
+"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",CF_060,6.0,442.0,5
+"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",EBI,9.0,442.0,10
+"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",KNI,1.5,442.0,18
+"[VM] Good For 3: Chicken Misono, Ebi Tempura, Cali Maki,",TSS,90.0,442.0,46
+"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",CF_060,2.0,443.0,5
+"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",EBI,3.0,443.0,10
+"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",KNI,0.5,443.0,18
+"[VM] Good For 3: Pork Misono, Ebi Tempura, Cali Maki",TSS,30.0,443.0,46
+[VM] Good for 3: Crispy chicken,CF_060,2.0,445.0,5
+[VM] Good for 3: Crispy chicken,SB_030,2.0,445.0,33
+[VM] Good for 3: Crispy chicken,VMO,1.0,445.0,51
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",SB_050,2.0,444.0,34
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",CT_120,2.0,444.0,7
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",EBI,6.0,444.0,10
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",KNI,2.0,444.0,18
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",TSS,60.0,444.0,46
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",CF_060,1.0,444.0,5
+"[VM] Good For 6: Beef Misono, Ebi Tempura, Crispy Chicken",OKO,20.0,444.0,25
+[TM] Seafood Fried Rice w/ Kani Tempura,KNI,3.0,437.0,18
+[TM] Seafood Fried Rice w/ Kani Tempura,EGG,1.0,437.0,12
+[TM] Seafood Fried Rice w/ Kani Tempura,TSS,30.0,437.0,46
+[TM] Seafood Fried Rice w/ Ebi Tempura,EBI,3.0,436.0,10
+[TM] Seafood Fried Rice w/ Ebi Tempura,EGG,1.0,436.0,12
+[TM] Seafood Fried Rice w/ Ebi Tempura,TSS,30.0,436.0,46
+[TM] Seafood Fried Rice w/ Ebi Tempura,SQD_10,1.0,436.0,38
+[TM] Seafood Fried Rice w/ Mixed Tempura,KNI,1.0,438.0,18
+[TM] Seafood Fried Rice w/ Mixed Tempura,EBI,1.0,438.0,10
+[TM] Seafood Fried Rice w/ Mixed Tempura,EGG,1.0,438.0,12
+[TM] Seafood Fried Rice w/ Mixed Tempura,TSS,30.0,438.0,46
+[SM] Sukiyaki w/ California Maki,SB_050,1.0,410.0,34
+[SM] Sukiyaki w/ California Maki,KNI,0.5,410.0,18
+[SM] Sukiyaki w/ California Maki,ENOD,1.0,410.0,13
+[SM] Yakisoba w/ Torikatsu & Cali Maki,CF_060,1.0,414.0,5
+[SM] Yakisoba w/ Torikatsu & Cali Maki,KNI,0.5,414.0,18
+[SM] Yakisoba w/ Torikatsu & Cali Maki,ENOD,1.0,414.0,13
+[SM] Yakisoba w/ Torikatsu & Cali Maki,SQD_15,1.0,414.0,39
+[SM] Yakisoba w/ Gyoza & Cali Maki,GZA,2.0,412.0,15
+[SM] Yakisoba w/ Gyoza & Cali Maki,KNI,0.5,412.0,18
+[SM] Yakisoba w/ Gyoza & Cali Maki,ENOD,1.0,412.0,13
+[SM] Yakisoba w/ Gyoza & Cali Maki,SQD_20,1.0,412.0,40
+[SM] Yakisoba w/ 2PCS Ebi Tempura & Cali Maki,EBI,2.0,411.0,10
+[SM] Yakisoba w/ 2PCS Ebi Tempura & Cali Maki,KNI,0.5,411.0,18
+[SM] Yakisoba w/ 2PCS Ebi Tempura & Cali Maki,ENOD,1.0,411.0,13
+[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,CF_060,2.0,415.0,5
+[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,KNI,0.5,415.0,18
+[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,ENOD,1.0,415.0,13
+[SM] Yakisoba w/ Yakitori (Chicekn BBQ) & Cali Maki,SQD_15,1.0,415.0,39
+Yakisoba w/ yakitori & Cali maki,CF_060,2.0,,5
+Yakisoba w/ yakitori & Cali maki,KNI,0.5,,18
+Yakisoba w/ yakitori & Cali maki,ENOD,1.0,,13
+Yakisoba w/ yakitori & Cali maki,SQD_15,1.0,,39
+"[SM] Yakisoba w/ Cali Maki, Tuna Salmon Sashimi",CF_060,2.0,,5
+"[SM] Yakisoba w/ Cali Maki, Tuna Salmon Sashimi",TUN,1.0,,48
+"[SM] Yakisoba w/ Cali Maki, Tuna Salmon Sashimi",SAL,1.0,,31
+"[SM] Yakisoba w/ Cali Maki, Tuna Salmon Sashimi",KNI,0.5,,18
+"[SM] Yakisoba w/ Cali Maki, Tuna Salmon Sashimi",ENOD,1.0,,13
+"[SM] Yakisoba w/ Cali Maki, Tuna Salmon Sashimi",SQD_15,1.0,,39
+Torikatsu Chicken,CF_060,2.0,,5
+Torikatsudon,CF_060,1.0,170.0,5
+Torikatsudon,EGG,1.0,170.0,12
+Torikatsudon,TSS,65.0,170.0,46
+Yakisoba w/ torikatsu & Cali maki,CF_060,1.0,,5
+Yakisoba w/ torikatsu & Cali maki,PL_020,1.0,,29
+Yakisoba w/ torikatsu & Cali maki,KNI,0.5,,18
+Yakisoba w/ torikatsu & Cali maki,ENOD,1.0,,13
+Yakisoba w/ torikatsu & Cali maki,SQD_15,1.0,,39
+Yakisoba w/ gyoza and Cali maki,GZA,3.0,,15
+Yakisoba w/ gyoza and Cali maki,PL_020,1.0,,29
+Yakisoba w/ gyoza and Cali maki,KNI,0.5,,18
+Yakisoba w/ gyoza and Cali maki,ENOD,1.0,,13
+Yakisoba w/ gyoza and Cali maki,GZA,1.0,,15
+Katsu Tuna,TUN,120.0,83.0,48
+Kakiage 4pcs,TUF,4.0,,47
+[ST] Agedashi (4pcs),TUF,4.0,416.0,47
+[ST] Agedashi (8pcs),TUF,8.0,417.0,47
+[ST] Kakiage (8pcs),TUF,8.0,422.0,47
+Agedashi 4pcs,TUF,4.0,,47
+Agedashi 8pcs,TUF,8.0,,47
+Gyoza 4pcs,GZA,4.0,,15
+[ST] Gyoza (4pcs),GZA,4.0,420.0,15
+Gyoza 8pcs,GZA,8.0,,15
+[ST] Gyoza (8pcs),GZA,8.0,419.0,15
+Squid Rings,SQD,150.0,,37
+Squid Ring - for sharing,SQD,400.0,,37
+Okonomiyaki (Cheesy Mushroom),MUO,30.0,120.0,20
+Okonomiyaki (Cheesy Beef),SB_050,1.0,,34
+Okonomiyaki (Cheesy Beef),OKO,20.0,,25
+Okonomiyaki (Cheesy Beef),CHE,1.0,,6
+[ST] Okonomiyaki (Cheesy Beef) (Regular),SB_050,1.0,432.0,34
+[ST] Okonomiyaki (Cheesy Beef) (Regular),OKO,20.0,432.0,25
+[ST] Okonomiyaki (Cheesy Beef) (Regular),CHE,1.0,432.0,6
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),OKO,1.0,435.0,25
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),CHE,1.0,435.0,6
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),VOK,1.0,435.0,52
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),EGG,2.0,435.0,12
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),PDT,2.0,435.0,28
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),SQD,40.0,435.0,37
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),OKO,20.0,435.0,25
+[ST] Okonomiyaki (Mixed Seafood) (Sharing),CHE,1.0,435.0,6
+[ST] Okonomiyaki (Mixed Seafood) (Regular),VOK,1.0,434.0,52
+[ST] Okonomiyaki (Mixed Seafood) (Regular),EGG,1.0,434.0,12
+[ST] Okonomiyaki (Mixed Seafood) (Regular),PDT,2.0,434.0,28
+[ST] Okonomiyaki (Mixed Seafood) (Regular),SQD,40.0,434.0,37
+[ST] Okonomiyaki (Mixed Seafood) (Regular),OKO,20.0,434.0,25
+[ST] Okonomiyaki (Mixed Seafood) (Regular),CHE,1.0,434.0,6
+[ST] Okonomiyaki (Buttered Chicken) (Regular),CF_060,1.0,430.0,5
+[ST] Okonomiyaki (Buttered Chicken) (Regular),OKO,20.0,430.0,25
+[ST] Okonomiyaki (Buttered Chicken) (Sharing),CF_060,2.0,431.0,5
+[ST] Okonomiyaki (Buttered Chicken) (Sharing),OKO,20.0,431.0,25
+[ST] Okonomiyaki (Buttered Chicken) (Sharing),CHE,1.0,431.0,6
+[ST] Okonomiyaki (Buttered Chicken) (Sharing),VOK,1.5,431.0,52
+Ebi Tempura 3pcs,EBI,3.0,,10
+Ebi Tempura 3pcs,TSS,30.0,,46
+[ATF] Ebi Tempura (3pcs ),EBI,3.0,190.0,10
+[ATF] Ebi Tempura (3pcs ),TSS,30.0,190.0,46
+Ebi Tempura 6pcs,EBI,6.0,,10
+Ebi Tempura 6pcs,TSS,60.0,,46
+[ATF] Ebi Tempura (6pcs),EBI,6.0,191.0,10
+[ATF] Ebi Tempura (6pcs),TSS,60.0,191.0,46
+Ebi Tempura 12pcs,EBI,12.0,,10
+Ebi Tempura 12pcs,TSS,90.0,,46
+[ATF] Ebi Tempura (12pcs ),EBI,12.0,189.0,10
+[ATF] Ebi Tempura (12pcs ),TSS,90.0,189.0,46
+Kani Tempura 3pcs,KNI,3.0,,18
+[ATF] Kani Tempura (3pcs),KNI,3.0,193.0,18
+Kani Tempura 12pcs,KNI,12.0,,18
+Mixed Tempura Regular,EBI,2.0,,10
+Mixed Tempura Regular,KNI,2.0,,18
+Mixed Tempura Regular,CF_060,1.0,,5
+Mixed Tempura Regular,TSS,60.0,,46
+Mixed Tempura Regular,TSS,30.0,,46
+[ATF] Mixed Tempura (Regular),EBI,2.0,197.0,10
+[ATF] Mixed Tempura (Regular),KNI,2.0,197.0,18
+[ATF] Mixed Tempura (Regular),CF_060,1.0,197.0,5
+[ATF] Mixed Tempura (Regular),TSS,60.0,197.0,46
+Beef Teriyaki Noodles Regular,SB_050,1.0,,34
+Beef Teriyaki Noodles Regular,ENOD,3.0,,13
+[ATF]  Beef Teriyaki Noodles (Regular),SB_050,1.0,187.0,34
+[ATF]  Beef Teriyaki Noodles (Regular),ENOD,3.0,187.0,13
+Beef Teriyaki Noodles For Sharing,SB_050,2.0,,34
+Beef Teriyaki Noodles For Sharing,ENOD,3.0,,13
+[ATF] Beef Teriyaki Noodles (Sharing),SB_050,0.0,188.0,34
+[ATF] Beef Teriyaki Noodles (Sharing),ENOD,3.0,188.0,13
+Sukiyaki Soup Regular,SB_050,1.0,,34
+Sukiyaki Soup For Sharing,SB_050,2.0,,34
+Sukiyaki Soup For Sharing,SOT,1.0,,36
+Sukiyaki Soup For Sharing,TSS,1.0,,46
+[ATF] Sukiyaki Soup (Sharing),SB_050,2.0,203.0,34
+[ATF] Sukiyaki Soup (Sharing),SOT,1.0,203.0,36
+[ATF] Sukiyaki Soup (Sharing),TSS,1.0,203.0,46
+[ATF] Yakisoba (Regular),PL_020,2.0,205.0,29
+[ATF] Yakisoba (Regular),ENOD,3.0,205.0,13
+[ATF] Yakisoba (Regular),SQD_15,2.0,205.0,39
+Yakisoba For Sharing,PL_020,3.0,180.0,29
+Yakisoba For Sharing,ENOD,6.0,180.0,13
+Yakisoba For Sharing,SQD,45.0,180.0,37
+[ATF] Yakisoba (Sharing),PL_020,3.0,206.0,29
+[ATF] Yakisoba (Sharing),ENOD,6.0,206.0,13
+[ATF] Yakisoba (Sharing),SQD,45.0,206.0,37
+Torikatsu Platter,CF_060,4.0,,5
+Tonkatsu Platter,PL_060,4.0,,30
+Mixed Seafood with Mushroom,SAL,30.0,,31
+Mixed Seafood with Mushroom,SQD,15.0,,37
+Mixed Seafood with Mushroom,PDT,2.0,,28
+Mixed Seafood with Mushroom,MUS,1.0,,21
+Mixed Seafood with Mushroom,TUN,30.0,,48
+Salmon Teppanyaki,SAL,150.0,,31
+[ATF] Salmon Teppanyaki/Teriyaki,SAL,150.0,199.0,31
+Tuna Teppanyaki,TUN,150.0,,48
+Tuna Teppanyaki,TEP,1.0,,44
+[ATF] Tuna Teppanyaki/Teriyaki,TUN,150.0,204.0,48
+[ATF] Tuna Teppanyaki/Teriyaki,TEP,1.0,204.0,44
+Kani Tempura 6pcs,KNI,6.0,,18
+[ATF] Kani Tempura (6pcs),KNI,6.0,194.0,18
+[ATF] Sukiyaki Soup (Regular),SB_050,1.0,202.0,34
+[ATF] Sukiyaki Soup (Regular),SOT,1.0,202.0,36
+[ATF] Sukiyaki Soup (Regular),TSS,260.0,202.0,46
+[HS] Mixed Maki Rolls,KNI,0.25,315.0,18
+[HS] Mixed Maki Rolls,TUN,30.0,315.0,48
+[HS] Mixed Maki Rolls,KNI,0.5,315.0,18
+Mixed Sushi & Sashimi,SAL,30.0,,31
+Mixed Sushi & Sashimi,TUN,30.0,,48
+Mixed Sushi & Sashimi,KNI,1.0,,18
+Mixed Sushi & Sashimi,TAM,1.0,,42
+Mixed Sushi & Sashimi,KNI,0.5,,18
+[HS] Mixed Sushi & Sashimi,SAL,30.0,317.0,31
+[HS] Mixed Sushi & Sashimi,TUN,30.0,317.0,48
+[HS] Mixed Sushi & Sashimi,KNI,1.0,317.0,18
+[HS] Mixed Sushi & Sashimi,TAM,1.0,317.0,42
+[HS] Mixed Sushi & Sashimi,KNI,0.5,317.0,18
+[HS] Mixed Sashimi,PDT,3.0,316.0,28
+[HS] Mixed Sashimi,SQD,50.0,316.0,37
+[HS] Mixed Sashimi,KNI,2.0,316.0,18
+[HS] Mixed Sashimi,TAM,1.0,316.0,42
+[HS] Mixed Sashimi,SAL,60.0,316.0,31
+[HS] Mixed Sashimi,TUN,60.0,316.0,48
+[HS] Chirashi Don,TUN,30.0,314.0,48
+[HS] Chirashi Don,SAL,30.0,314.0,31
+[HS] Chirashi Don,KNI,2.0,314.0,18
+[HS] Chirashi Don,TAM,1.0,314.0,42
+[PL] Small Party Tray,EBI,2.0,371.0,10
+[PL] Small Party Tray,TAM,40.0,371.0,42
+[PL] Small Party Tray,KNI,4.0,371.0,18
+[PL] Small Party Tray,TUN,30.0,371.0,48
+[PL] Small Party Tray,KNI,1.0,371.0,18
+[PL] Medium Party Tray,EBI,4.0,367.0,10
+[PL] Medium Party Tray,TAM,1.0,367.0,42
+[PL] Medium Party Tray,KNI,2.0,367.0,18
+[PL] Medium Party Tray,KNI,2.0,367.0,18
+[PL] Medium Party Tray,SAL,30.0,367.0,31
+[PL] Medium Party Tray,KNI,1.0,367.0,18
+[PL] Super Supreme Mixed Maki,KNI,2.0,373.0,18
+[PL] Super Supreme Mixed Maki,SAL,30.0,373.0,31
+[PL] Super Supreme Mixed Maki,KNI,1.0,373.0,18
+[PL] Super Supreme Mixed Maki,SAS,50.0,373.0,32
+64pcs California Maki Platter,KNI,8.0,,18
+96pcs California Maki Platter,KNI,12.0,,18
+40pcs California Maki Platter,KNI,5.0,,18
+[PL] 40pcs California Maki Platter,KNI,5.0,362.0,18
+48pcs California Maki Platter,KNI,6.0,,18
+Salmon & Tuna Sashimi Platter,SAL,100.0,,31
+Salmon & Tuna Sashimi Platter,TUN,100.0,,48
+[PL] Salmon & Tuna Sashimi Platter,SAL,100.0,,31
+[PL] Salmon & Tuna Sashimi Platter,TUN,100.0,,48
+Okonomiyaki (Buttered Chicken),CF_060,1.0,119.0,5
+Okonomiyaki (Buttered Chicken),OKO,20.0,119.0,25
+Yakitori (4pcs),CF_040,4.0,183.0,4
+Katsu tuna Set A,TUN,100.0,84.0,48
+[DB] Katsu Tuna (Set A),TUN,100.0,255.0,48
+Burrito Platter,SB_050,1.0,,34
+[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,KNI,6.0,372.0,18
+[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,EBI,4.0,372.0,10
+[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,SAL,120.0,372.0,31
+[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,TUN,120.0,372.0,48
+[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,TAM,100.0,372.0,42
+[PL] Special Mixed Sushi Maki Salmon & Tuna Sashimi,KNI,3.0,372.0,18
+[PL] Seafood Platter Maki Rolls,SAL,50.0,370.0,31
+[PL] Seafood Platter Maki Rolls,EGG,1.0,370.0,12
+[PL] Seafood Platter Maki Rolls,KNI,3.0,370.0,18
+[PL] Seafood Platter Maki Rolls,TUN,30.0,370.0,48
+[PL] Seafood Platter Maki Rolls,SAL,30.0,370.0,31
+[PL] Seafood Platter Maki Rolls,EBI,2.0,370.0,10
+[PL] 48pcs California Maki Platter,KNI,6.0,363.0,18
+[PL] 48pcs California Maki Platter,EBK,30.0,363.0,11
+[PL] 48pcs California Maki Platter,NOR,3.0,363.0,24
+[PL] 48pcs California Maki Platter,MAY,30.0,363.0,19
+[PL] 48pcs California Maki Platter,WAS,108.0,363.0,54
+[PL] 48pcs California Maki Platter,KAL,60.0,363.0,17
+[PL] 48pcs California Maki Platter,BAR,6.0,363.0,1
+[PL] 48pcs California Maki Platter,SUS,600.0,363.0,41
+[PL] 48pcs California Maki Platter,CUC,135.0,363.0,9
+[PL] 48pcs California Maki Platter,SUS,600.0,363.0,41
+Salmon (sake),SAL,100.0,,31
+[SH] Salmon (Sake),SAL,100.0,404.0,31
+Tuna (maguro),TUN,100.0,,48
+[SH] Tuna (Maguro),TUN,100.0,406.0,48
+Kani(crabstick),KNI,6.0,,18
+Ebi tempura 110 pcs,EBI,110.0,,10
+Special Kani Salad Regular,KNI,2.0,,18
+[SL] Special Kani Salad (Regular),KNI,2.0,408.0,18
+Special Kani Salad For Sharing,KNI,4.0,,18
+[SL] Special Kani Salad (Sharing),KNI,4.0,409.0,18
+Seafood Fried Rice,SQD_10,1.0,140.0,38
+Seafood Fried Rice,EGG,1.0,140.0,12
+Egg,EGG,1.0,65.0,12
+Extra ramen noodles,NOD,1.0,,23
+1pc Ebi Tempura,EBI,1.0,7.0,10
+Cucumber Shake,CUC,250.0,,9
+[MM] JR w/ Beef Misono & Kani Tempura,SB_050,60.0,320.0,34
+[MM] JR w/ Beef Misono & Kani Tempura,KNI,60.0,320.0,18
+[MM] JR w/ Beef Misono & Kani Tempura,TEP,0.5,320.0,44
+[MM] JR w/ Beef Misono & Kani Tempura,TSS,30.0,320.0,46
+[MM] JR w/ Beef Misono & Kani Tempura,BSG,1.0,320.0,2
+[MM] JR w/ Beef Misono & Ebi Tempura,SB_050,1.0,319.0,34
+[MM] JR w/ Beef Misono & Ebi Tempura,EBI,2.0,319.0,10
+[MM] JR w/ Beef Misono & Ebi Tempura,TEP,0.5,319.0,44
+[MM] JR w/ Beef Misono & Ebi Tempura,TSS,30.0,319.0,46
+[MM] JR w/ Beef Misono & Ebi Tempura,BSG,1.0,319.0,2
+[MM] JR w/ Beef Misono & Ebi Tempura,VMM,1.0,319.0,50
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,SAL,30.0,327.0,31
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,TUN,30.0,327.0,48
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,EBI,2.0,327.0,10
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,EGG,1.0,327.0,12
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,SQD_10,1.0,327.0,38
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,TSS,30.0,327.0,46
+[MM] SF w/ Tuna & Salmon Sashimi & Ebi Tempura,BSG,1.0,327.0,2
+[MM] SF w/ Yakitori & Ebi Tempura,CF_040,2.0,329.0,4
+[MM] SF w/ Yakitori & Ebi Tempura,EBI,2.0,329.0,10
+[MM] SF w/ Yakitori & Ebi Tempura,EGG,1.0,329.0,12
+[MM] SF w/ Yakitori & Ebi Tempura,SQD_10,1.0,329.0,38
+[MM] SF w/ Yakitori & Ebi Tempura,TSS,30.0,329.0,46
+[MM] SF w/ Yakitori & Ebi Tempura,EGG,1.0,329.0,12
+[MM] SF w/ Yakitori & Ebi Tempura,BSG,1.0,329.0,2
+[MM] SF w/ Tonkatsu & Ebi Tempura,PL_060,1.0,323.0,30
+[MM] SF w/ Tonkatsu & Ebi Tempura,EBI,2.0,323.0,10
+[MM] SF w/ Tonkatsu & Ebi Tempura,SQD_10,1.0,323.0,38
+[MM] SF w/ Tonkatsu & Ebi Tempura,TSS,30.0,323.0,46
+[MM] SF w/ Tonkatsu & Ebi Tempura,BSG,1.0,323.0,2
+[MM] SF w/ Tonkatsu & Ebi Tempura,EGG,1.0,323.0,12
+[MM] JR w/ Tuna Misono & Ebi Tempura,TUN,40.0,321.0,48
+[MM] JR w/ Tuna Misono & Ebi Tempura,EBI,2.0,321.0,10
+[MM] JR w/ Tuna Misono & Ebi Tempura,TEP,0.5,321.0,44
+[MM] JR w/ Tuna Misono & Ebi Tempura,TSS,30.0,321.0,46
+[MM] JR w/ Tuna Misono & Ebi Tempura,BSG,1.0,321.0,2
+[MM] JR w/ Tuna Misono & Ebi Tempura,VMM,1.0,321.0,50
+[MM] SF w/ Torikatsu & Ebi Tempura,CF_060,1.0,325.0,5
+[MM] SF w/ Torikatsu & Ebi Tempura,EBI,2.0,325.0,10
+[MM] SF w/ Torikatsu & Ebi Tempura,SQD_10,1.0,325.0,38
+[MM] SF w/ Torikatsu & Ebi Tempura,TSS,30.0,325.0,46
+[MM] SF w/ Torikatsu & Ebi Tempura,BSG,1.0,325.0,2
+[MM] SF w/ Torikatsu & Ebi Tempura,EGG,1.0,325.0,12
+[MM] SF w/ Torikatsu &Kani Tempura,CF_040,2.0,326.0,4
+[MM] SF w/ Torikatsu &Kani Tempura,KNI,2.0,326.0,18
+[MM] SF w/ Torikatsu &Kani Tempura,BSG,1.0,326.0,2
+[MM] SF w/ Torikatsu &Kani Tempura,EGG,1.0,326.0,12
+[MM] SF w/ Tonkatsu & Kani Tempura,PL_060,1.0,324.0,30
+[MM] SF w/ Tonkatsu & Kani Tempura,KNI,2.0,324.0,18
+[MM] SF w/ Tonkatsu & Kani Tempura,BSG,1.0,324.0,2
+[MM] SF w/ Tonkatsu & Kani Tempura,EGG,1.0,324.0,12
+[MM] JR w/ Tuna Misono & Kani Tempura,TUN,40.0,322.0,48
+[MM] JR w/ Tuna Misono & Kani Tempura,TEP,0.5,322.0,44
+[MM] JR w/ Tuna Misono & Kani Tempura,TSS,30.0,322.0,46
+[MM] JR w/ Tuna Misono & Kani Tempura,KNI,2.0,322.0,18
+[MM] JR w/ Tuna Misono & Kani Tempura,VMM,1.0,322.0,50
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,SAL,30.0,328.0,31
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,TUN,30.0,328.0,48
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,EGG,1.0,328.0,12
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,SQD_10,1.0,328.0,38
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,TSS,30.0,328.0,46
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,EGG,1.0,328.0,12
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,BSG,1.0,328.0,2
+[MM] SF w/ Tuna & Salmon Sashimi & Kani Tempura,KNI,2.0,328.0,18
+Shoyu Mushroom Ramen,MUS,1.0,,21
+Shoyu Mushroom Ramen,NOD,1.0,,23
+Shoyu Mushroom Ramen,EGG,1.0,,12
+Shoyu Mushroom Ramen,SHO,15.0,,35
+2 orders Crunchy California,KNI,1.0,,18
+2 orders Crunchy California,SUS,100.0,,41
+Katsudon,PL_060,1.0,85.0,30
+Katsudon,EGG,1.0,85.0,12
+Katsudon,TSS,65.0,85.0,46
+Torikatsudon,CF_060,2.0,170.0,5
+Torikatsudon,EGG,1.0,170.0,12
+Torikatsudon,TSS,65.0,170.0,46
+[PR] Torikatsudon,CF_060,2.0,381.0,5
+[PR] Torikatsudon,EGG,1.0,381.0,12
+[PR] Torikatsudon,TSS,65.0,381.0,46
+[PR] Pork Misono,TUN,120.0,380.0,48
+[PR] Pork Misono,VRG,1.0,380.0,53
+Shoyu Seafood Ramen,TUN,30.0,146.0,48
+Shoyu Seafood Ramen,SQD,20.0,146.0,37
+Shoyu Seafood Ramen,NOD,1.0,146.0,23
+Shoyu Seafood Ramen,EGG,1.0,146.0,12
+Shoyu Seafood Ramen,PDT,2.0,146.0,28
+Shoyu Seafood Ramen,SHO,45.0,146.0,35
+[PR] Chicken Misono,CF_060,2.0,376.0,5
+[PR] Chicken Misono,VRG,1.0,376.0,53
+California Baked Sushi,KNI,2.0,35.0,18
+Burrito w/ Nachos coffee and water,KNI,2.0,,18
+M&M Chicken Teppan+ Kani Tempura,CF_060,1.0,,5
+M&M Chicken Teppan+ Kani Tempura,TEP,1.0,,44
+M&M Chicken Teppan+ Kani Tempura,KNI,2.0,,18
+M&M pork teppan + Kani tempura/ water,PL_060,1.0,,30
+M&M pork teppan + Kani tempura/ water,TEP,1.0,,44
+M&M pork teppan + Kani tempura/ water,KNI,2.0,,18
+M&M Tuna Teppan + Kani Tempura,TUN,30.0,,48
+M&M Tuna Teppan + Kani Tempura,TEP,1.0,,44
+M&M Tuna Teppan + Kani Tempura,KNI,2.0,,18
+Shoyu chicken ramen,CF_060,2.0,,5
+Shoyu chicken ramen,NOD,1.0,,23
+Shoyu chicken ramen,EGG,1.0,,12
+Shoyu chicken ramen,SHO,45.0,,35
+Chicken Misono,CF_060,2.0,42.0,5
+Chicken Misono,VRG,1.0,42.0,53
+Chicken teriyaki,CT_150,1.0,50.0,8
+Chicken teriyaki,VRG,1.0,50.0,53
+Miso braised pork belly,PB_120,1.0,,27
+Cali maki,KNI,1.0,34.0,18
+Cali maki,CUC,22.5,34.0,9
+Cheesy cowboy roll,SB_030,1.0,39.0,33
+Chicken teppanyaki,CT_120,1.0,,7
+Chicken teppanyaki,TEP,1.0,,44
+Katsudon,PL_060,2.0,85.0,30
+TONKATSU,PL_060,2.0,,30
+Torikatsu/ebi tempura (m&m),CF_060,1.0,,5
+Torikatsu/ebi tempura (m&m),EBI,2.0,,10
+Torikatsu/ebi tempura (m&m),SQD_10,2.0,,38
+Torikatsu/ebi tempura (m&m),EGG,1.0,,12
+Torikatsu/ebi tempura (m&m),TSS,30.0,,46
+Torikatsu/ebi tempura (m&m),BSG,1.0,,2
+Mix&Match Beef misono & Ebi Tempura,SB_050,1.0,,34
+Mix&Match Beef misono & Ebi Tempura,EBI,2.0,,10
+Mix&Match Beef misono & Ebi Tempura,TSS,30.0,,46
+Mix&Match Beef misono & Ebi Tempura,BSG,1.0,,2
+Mix&Match Beef misono & Ebi Tempura,VMM,1.0,,50
+Salmon misono,SAL,120.0,,31
+Salmon misono,VRG,1.0,,53
+Super supreme,SB_030,1.0,155.0,33
+Super supreme,SB_030,1.0,155.0,33
+Super supreme,KNI,2.0,155.0,18
+Super supreme,SAL,30.0,155.0,31
+Super supreme,KNI,1.0,155.0,18
+Super supreme,SAS,50.0,155.0,32
+Chicken misono 120g,CF_060,2.0,47.0,5
+Chicken misono 120g,VRG,1.0,47.0,53
+M&M Yakitori & Kani tempura,CF_040,2.0,90.0,4
+M&M Yakitori & Kani tempura,KNI,2.0,90.0,18
+M&M Yakitori & Kani tempura,SQD_10,1.0,90.0,38
+M&M Yakitori & Kani tempura,TSS,30.0,90.0,46
+M&M Yakitori & Kani tempura,BSG,1.0,90.0,2
+[MM] SF w/ Yakitori & Kani Tempura,CF_040,2.0,330.0,4
+[MM] SF w/ Yakitori & Kani Tempura,KNI,2.0,330.0,18
+[MM] SF w/ Yakitori & Kani Tempura,SQD_10,1.0,330.0,38
+[MM] SF w/ Yakitori & Kani Tempura,TSS,30.0,330.0,46
+[MM] SF w/ Yakitori & Kani Tempura,BSG,1.0,330.0,2
+Torikatsu curry,CF_060,2.0,168.0,5
+4pcs Gyoza,GZA,4.0,22.0,15
+Spicy beef ramen,SB_050,1.0,,34
+Spicy beef ramen,NOD,1.0,,23
+Spicy beef ramen,EGG,1.0,,12
+Spicy beef ramen,MZN,45.0,,22
+Yakisoba,PL_020,2.0,,29
+Yakisoba,ENOD,3.0,,13
+Yakisoba,SQD_15,2.0,,39
+Torikatsu,CF_060,2.0,163.0,5
+M&M torikatsu &Kani tempura,CF_040,2.0,,4
+M&M torikatsu &Kani tempura,KNI,2.0,,18
+M&M torikatsu &Kani tempura,BSG,1.0,,2
+M&M torikatsu &Kani tempura,EGG,1.0,,12
+Torikatsudon 50 grams,CF_060,1.0,,5
+Torikatsudon 50 grams,EGG,1.0,,12
+Torikatsudon 50 grams,TSS,30.0,,46
+Tuna misono 80 grams,TUN,80.0,,48
+Tuna misono 80 grams,VRG,1.0,,53
+M&M salmon/tuna sashimi w/ Kani tempura,SAL,30.0,93.0,31
+M&M salmon/tuna sashimi w/ Kani tempura,TUN,30.0,93.0,48
+M&M salmon/tuna sashimi w/ Kani tempura,EGG,1.0,93.0,12
+M&M salmon/tuna sashimi w/ Kani tempura,SQD_10,1.0,93.0,38
+M&M salmon/tuna sashimi w/ Kani tempura,TSS,30.0,93.0,46
+M&M salmon/tuna sashimi w/ Kani tempura,EGG,1.0,93.0,12
+M&M salmon/tuna sashimi w/ Kani tempura,BSG,1.0,93.0,2
+M&M salmon/tuna sashimi w/ Kani tempura,KNI,2.0,93.0,18
+Tuna misono,TUN,120.0,,48
+Karaagedon,CT_120,1.0,81.0,7
+Shoyu mushrooms miso ramen,MUS,1.0,148.0,21
+Shoyu mushrooms miso ramen,NOD,1.0,148.0,23
+Shoyu mushrooms miso ramen,EGG,1.0,148.0,12
+Shoyu mushrooms miso ramen,SHO,15.0,148.0,35
+3pcs ebi tempura,EBI,2.0,16.0,10
+Tuna misono 60 grams,TUN,60.0,177.0,48
+Tuna misono 60 grams,VRG,1.0,177.0,53
+Kani Burrito,KNI,2.0,78.0,18
+Tuna 140 grams,TUN,140.0,,48
+Crispy chicken w egg,CT_120,1.0,,7
+Crispy chicken w egg,EGG,1.0,,12
+Seafood fried rice & ebi tempura,EBI,3.0,141.0,10
+Shoyo seafood ramen,TUN,30.0,144.0,48
+Shoyo seafood ramen,SQD,20.0,144.0,37
+Shoyo seafood ramen,NOD,1.0,144.0,23
+Shoyo seafood ramen,EGG,1.0,144.0,12
+Shoyo seafood ramen,PDT,2.0,144.0,28
+Shoyo seafood ramen,SHO,45.0,144.0,35
+Tuna Sushi 30 grams,TUN,30.0,,48
+Tempura Ramen,EBI,2.0,,10
+Tempura Ramen,NOD,1.0,,23
+Tempura Ramen,EGG,1.0,,12
+Tuna Misono 70 grams,TUN,70.0,,48
+Tuna Misono 70 grams,VRG,1.0,,53
+California Baked Sushi,KNI,2.0,35.0,18
+Tuna Misono 100 grams,TUN,100.0,174.0,48
+Tuna Misono 100 grams,VRG,1.0,174.0,53
+Pork misono,TUN,120.0,128.0,48
+Pork misono,VRG,1.0,128.0,53
+Chicken Misono 60 grams,CF_060,1.0,44.0,5
+3pcs Gyoza,GZA,3.0,12.0,15
+Pork Terriyaki,PL_060,2.0,,30
+Pork Terriyaki,TER,1.0,,45
+Mix&Match TONKATSU w Kani Tempura,PL_060,2.0,,30
+Mix&Match TONKATSU w Kani Tempura,KNI,2.0,,18
+Mix&Match TONKATSU w Kani Tempura,TEM,30.0,,43
+3 pcs Yakitori,CF_040,3.0,,4
+[Baked Sushi] California Baked,KNI,0.0,218.0,18
+[Baked Sushi] Cheesy Beef,SB_030,1.0,220.0,33
+[Baked Sushi] Kani 30 grams,KNI,0.0,,18
+Baked Sushi] Beef 30 grams,SB_030,1.0,,33
+Baked Sushi] Chicken 30 grams,CF_060,0.5,,5
+Baked Sushi] Salmon 30 grams,SAL,30.0,,31
+Kani 6pcs,KNI,6.0,77.0,18
+Onigiri beef 30 grams,SB_030,1.0,,33
+Onigiri mango / 1pc kani,KNI,1.0,,18
+Onigiri salmon 30 grams/1pc kani,SAL,30.0,,31
+Onigiri salmon 30 grams/1pc kani,KNI,1.0,,18
+Onigiri tuna 30 grams / 1pc kani,TUN,30.0,,48
+Onigiri tuna 30 grams / 1pc kani,KNI,1.0,,18
+Tuna Sashimi,TUN,120.0,175.0,48
+Seafood Platter,SAL,50.0,,31
+Seafood Platter,EGG,1.0,,12
+Seafood Platter,KNI,3.0,,18
+Seafood Platter,TUN,30.0,,48
+Seafood Platter,SAL,30.0,,31
+Seafood Platter,EBI,2.0,,10
+Seafood fried rice & Kani Tempura,KNI,2.0,,18
+Torikatsudon 60 grams,CF_060,1.0,171.0,5
+Torikatsudon 60 grams,EGG,1.0,171.0,12
+Torikatsudon 60 grams,TSS,65.0,171.0,46
+Dynamite,SAL,30.0,62.0,31
+Tuna Misono 100 grams,TUN,100.0,174.0,48
+TONKATSU set A,PL_060,2.0,157.0,30
+Chicken Teppan (A),CF_060,2.0,46.0,5
+Chicken Teppan (A),TEP,1.0,46.0,44
+Chicken Teppan (A),VDB,1.0,46.0,49
+Chicken Misono,CF_060,2.0,42.0,5
+Chicken Misono,VRG,1.0,42.0,53
+Torikatsudon Set A,CF_060,2.0,172.0,5
+Torikatsudon Set A,EGG,2.0,172.0,12
+Torikatsudon Set A,TSS,130.0,172.0,46

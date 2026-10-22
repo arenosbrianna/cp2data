@@ -1,0 +1,89 @@
+﻿table,column,key,dtype,units,source,description,non_null_pct,distinct,range_or_values,example
+sales,sale_id,PK,int64,,D,"Surrogate key, one row per item per day.",100.0,50989,"1 to 50,989",1
+sales,date_id,FK,int64,yyyymmdd,D,Trading day; joins to calendar.date_id.,100.0,2073,20210101 to 20260908,20210101
+sales,item_id,FK,int64,,F,Menu item sold; joins to menu_items.item_id.,100.0,446,1 to 446,56
+sales,sku,,int64,,F,"Point-of-sale SKU as printed on the owner's export. Not a key — use item_id. 99% are clean 5-digit codes, but 13 items carry malformed repeated-digit values (e.g. 1064144444) and 6 are 0. Kept as-is: the owner's file is ground truth.",100.0,423,"0 to 10,641,111,111,111",10250
+sales,category,,str,,F,"Menu section, e.g. MAKI ROLLS. Spelling varies by row — inconsistent labelling is reproduced, not scrubbed.",100.0,34,34 distinct,MANAGEMENT
+sales,quantity_sold,,int64,units,K/G,"Units of this item sold that day. Mean 1.41, 75% are exactly 1, max 16; drawn from a Negative-Binomial so the count is overdispersed.",100.0,24,1 to 30,1
+sales,unit_price,,float64,PHP,F,Menu price per unit at time of sale.,100.0,157,"0.00 to 4,535.00",0.0
+sales,gross_sales,,float64,PHP,K/G,"unit_price x quantity_sold, before discount.",100.0,397,"0 to 10,320",0.0
+sales,discount,,float64,PHP,K/G,Peso value discounted. Applied on ~26% of lines at a median ~7% of gross (Bernoulli x Beta).,100.0,5924,0.00 to 656.25,0.0
+sales,net_sales,,float64,PHP,K/G,gross_sales minus discount. Zero or negative on management comps.,100.0,11273,"0.00 to 10,320.00",0.0
+sales,cost_of_goods,,float64,PHP,K,"EMPTY ON EVERY ROW. The owner's POS never populated it, so gross profit cannot be derived from this table. Kept empty deliberately.",0.0,0,always empty,
+sales,taxes,,float64,PHP,K/G,Tax charged; zero on all but ~0.4% of lines.,99.9,111,0.00 to 482.10,0.0
+sales,channel,,str,,S,dine-in or GrabFood. Delivery share was high in 2021 and decays toward a tenth of trade by 2026.,100.0,2,2 distinct,GrabFood
+sales,is_comp,,bool,bool,K/G,"True where the line was comped (MANAGEMENT category, net <= 0). About 5% of rows.",100.0,2,5.1% true,True
+inventory,inventory_id,PK,int64,,D,"Surrogate key, one row per ingredient per day.",100.0,112158,"1 to 112,158",1
+inventory,date_id,FK,int64,yyyymmdd,D,Stock day; joins to calendar.date_id.,100.0,2077,20210101 to 20260908,20210101
+inventory,ingredient_id,FK,int64,,F,Joins to ingredients.ingredient_id.,100.0,54,1 to 54,1
+inventory,supplier_id,FK,int64,,S,Supplier this line is normally bought from; joins to suppliers.supplier_id.,100.0,8,1 to 9,4
+inventory,opening_stock,,float64,uom,S,On hand at the start of the day.,100.0,14296,"0.00 to 13,730.04",100.0
+inventory,qty_received,,float64,uom,S,"Delivered that day, after the supplier's lead time; short-shipped when the fill rate misses.",100.0,856,"0.00 to 13,000.00",0.0
+inventory,qty_consumed,,float64,uom,S,Drawn by the dishes actually sold: the sum over dishes of units sold x recipe quantity. Equals recipe-implied demand exactly unless stock ran out.,100.0,2611,"0.00 to 3,170.00",4.0
+inventory,qty_wasted,,float64,uom,S,Total discarded that day; itemised in waste.csv.,100.0,3198,"0.00 to 1,374.75",0.1866
+inventory,closing_stock,,float64,uom,S,On hand at end of day. The ledger balances: closing = opening + received - consumed - wasted.,100.0,14300,"0.00 to 13,730.04",95.8134
+inventory,reorder_level,,float64,uom,S,"Reorder point s = mean lead-time demand + z x sd, with z = 1.41 (~92% service level).",100.0,27068,"0.00 to 7,630.74",19.332
+inventory,order_qty,,float64,uom,S,"Placed that day, rounded up to a whole pack and inflated by the manager's ordering bias. Zero on days with no review or no trigger.",100.0,87,"0 to 13,000",0.0
+inventory,on_order_qty,,float64,uom,S,Ordered but not yet delivered.,100.0,89,"0 to 13,000",0.0
+inventory,stockout_flag,,bool,bool,S,True where demand could not be met in full from stock — the shortfall is a lost sale.,100.0,2,10.4% true,False
+waste,waste_id,PK,int64,,D,"Surrogate key, one row per disposal event.",100.0,50818,"1 to 50,818",1
+waste,date_id,FK,int64,yyyymmdd,D,Day of disposal; joins to calendar.,100.0,2077,20210101 to 20260908,20210101
+waste,ingredient_id,FK,int64,,F,Joins to ingredients.ingredient_id.,100.0,53,1 to 54,1
+waste,supplier_id,FK,int64,,S,Who delivered the spoiled batch — spoilage attributes back to a supplier and its lead time.,100.0,8,1 to 9,4
+waste,batch_id,,int64,,S,"Internal FEFO batch that spoiled. 0 for prep-trim, which is not tied to a single batch.",100.0,6838,"0 to 22,254",0
+waste,waste_quantity,,float64,uom,S,"Quantity discarded, in the ingredient's uom.",100.0,2453,"0.00 to 1,356.71",0.1866
+waste,uom,,str,,F,"Unit of measure: g, ml or pc.",100.0,2,2 distinct,g
+waste,waste_reason,,str,,S,"expiry (aged past its effective shelf life), overstock (expired while holding well above normal usage), or prep-trim (unavoidable kitchen loss, 4-6% of throughput).",100.0,3,3 distinct,prep-trim
+waste,unit_cost,,float64,PHP/uom,F,"Cost of that batch, from the supplier's real unit rate plus its fluctuation band.",100.0,2195,0.05 to 16.17,0.15
+waste,waste_value_php,,float64,PHP,D,waste_quantity x unit_cost — the capital thrown away.,100.0,2941,0.00 to 941.32,0.03
+waste,received_date,,str,date,S,When the spoiled batch was delivered.,100.0,2077,"2,077 distinct",2021-01-01
+waste,expiry_date,,str,date,S,"When it expired. Effective shelf life varies with batch quality and weather, so it is not simply received_date + shelf_life_days.",100.0,2077,"2,077 distinct",2021-01-01
+waste,days_held,,int64,days,D,Days between receipt and disposal.,100.0,84,0 to 205,0
+suppliers,supplier_id,PK,int64,,D,Surrogate key.,100.0,9,1 to 9,1
+suppliers,supplier_name,,str,,F,Real supplier name from the owner's SUPPLY-UR sheet.,100.0,9,9 distinct,SHOKURYOHIN
+suppliers,category_served,,str,,F,"What they supply, e.g. seafood/frozen.",100.0,8,8 distinct,seafood/frozen
+suppliers,lead_time_mean,,int64,days,S,"Average days from order to delivery. Inflated by bad weather; capped below a perishable's shelf life, since it cannot outlive the trip.",100.0,5,1 to 5,2
+suppliers,lead_time_sd,,float64,days,S,Day-to-day variability in that lead time.,100.0,5,0.70 to 1.90,1.0
+suppliers,fill_rate,,float64,0-1,S,Share of orders delivered in full; the rest arrive short.,100.0,9,0.91 to 0.98,0.962
+suppliers,min_order_qty,,int64,packs,S,Minimum order the supplier accepts.,100.0,4,1 to 10,5
+suppliers,delivery_cadence_days,,int64,days,S,How often they run a delivery route.,100.0,4,2 to 14,3
+menu_items,item_id,PK,int64,,D,Surrogate key.,100.0,446,1 to 446,1
+menu_items,sku,,int64,,F,Point-of-sale SKU. Not unique and not a key — 13 values are malformed and 6 items have 0. Join on item_id.,100.0,395,"0 to 10,641,111,111,111",10613
+menu_items,item_name,,str,,F,Dish name as printed on the menu. A few carry encoding corruption from the source export (e.g. 'Lemonadeuecea') and some near-duplicates differ only by spelling.,100.0,446,446 distinct,(BSP) California
+menu_items,category,,str,,F,Menu section.,100.0,29,29 distinct,BAKED SUSHI PIE
+menu_items,price,,float64,PHP,F,"Menu price, taken from the owner's sales export.",100.0,131,"0 to 4,535",235.0
+menu_items,is_promo,,bool,bool,F,Promotional item; year-stamped promos only sell in their own year.,100.0,2,20.0% true,False
+menu_items,is_comp,,bool,bool,F,Item used for management comps.,100.0,2,21.7% true,False
+menu_items,is_active,,bool,bool,F,Currently on the menu.,100.0,1,100.0% true,True
+menu_items,date_introduced,,str,date,F,First day it could be sold. Delivery-only items phase in during 2022.,100.0,3,3 distinct,2021-01-01
+menu_items,date_retired,,float64,date,F,Last day it could be sold. EMPTY ON EVERY ROW — nothing has been withdrawn from the menu yet.,0.0,0,always empty,
+ingredients,ingredient_id,PK,int64,,D,Surrogate key.,100.0,54,1 to 54,1
+ingredients,ingredient_code,,str,,F,"The owner's recipe code, e.g. TUN, CF_060.",100.0,54,54 distinct,BAR
+ingredients,ingredient_name,,str,,F,Product name cross-referenced from the purchasing catalogue.,100.0,54,54 distinct,unknown:BAR*
+ingredients,category,,str,,F,"Ingredient family: seafood, pork, veg, sauce, ...",100.0,17,17 distinct,other
+ingredients,storage_type,,str,,F,"ambient, chilled or frozen.",100.0,3,3 distinct,ambient
+ingredients,uom,,str,,F,"Unit of measure: g, ml or pc.",100.0,2,2 distinct,g
+ingredients,portion_g,,float64,g,F,"Grams in one portion, for portion-coded lines such as CF_060 (60 g chicken fillet). Empty for bulk lines.",25.9,9,10 to 150,40.0
+ingredients,pack_size,,float64,uom,D,"Purchase pack, used to round orders up. Capped so a short-life line is not bought in quantities it cannot use.",100.0,8,"1 to 1,000",100.0
+ingredients,shelf_life_days,,int64,days,F,"Nominal shelf life (USDA FoodKeeper). Fish 1-2 d, leafy veg 3-7 d, frozen 60-180 d.",100.0,11,1 to 180,30
+ingredients,is_perishable,,bool,bool,F,Subject to spoilage.,100.0,2,66.7% true,False
+ingredients,unit_cost,,float64,PHP/uom,F,"Cost per unit, from the owner's supplier rate sheet.",100.0,13,0.05 to 15.00,0.15
+ingredients,name_inferred,,bool,bool,F,"True where the code could not be matched to the catalogue and the name is a best guess — BAR, KAL and SAS only. Ask the owner before relying on these.",100.0,2,24.1% true,True
+recipes,item_id,FK,int64,,F,Dish; joins to menu_items.item_id.,100.0,199,1 to 445,262
+recipes,ingredient_id,FK,int64,,F,Joins to ingredients.ingredient_id.,100.0,52,1 to 54,5
+recipes,ingredient_code,,str,,F,"The owner's recipe code, for readability.",100.0,52,52 distinct,CF_060
+recipes,qty_per_unit,,float64,mixed,F,"The owner's own recipe number, AS WRITTEN. Units are inconsistent in the source: portion-coded lines state portions, bulk lines state grams, though both are labelled g. Use qty_base for arithmetic.",100.0,33,0.00 to 600.00,2.0
+recipes,qty_base,,float64,uom,D,qty_per_unit normalised to the ingredient's base unit (portions multiplied out by portion_g). This is what consumption is computed from.,100.0,38,"0.00 to 3,000.00",120.0
+recipes,uom,,str,,F,Base unit the normalised quantity is expressed in.,100.0,2,2 distinct,g
+calendar,date,,str,date,D,"Calendar date, 2021-01-01 to 2026-09-08.",100.0,2077,"2,077 distinct",2021-01-01
+calendar,date_id,PK,int64,yyyymmdd,D,Integer date key used by every fact table.,100.0,2077,20210101 to 20260908,20210101
+calendar,day_of_week,,str,,D,"Day name, Monday to Sunday.",100.0,7,7 distinct,Friday
+calendar,dow,,int64,0-6,D,"Day index, 0 = Monday. Wednesday (2) is the sales peak.",100.0,7,0 to 6,4
+calendar,week,,int64,1-53,D,ISO week number.,100.0,53,1 to 53,53
+calendar,month,,int64,1-12,D,Calendar month.,100.0,12,1 to 12,1
+calendar,quarter,,int64,1-4,D,Calendar quarter.,100.0,4,1 to 4,1
+calendar,year,,int64,,D,Calendar year.,100.0,6,"2,021 to 2,026",2021
+calendar,is_weekend,,bool,bool,D,"Saturday or Sunday. Note the trade peak is midweek, not at the weekend — this is an office district.",100.0,2,28.6% true,False
+calendar,is_holiday,,bool,bool,D,Philippine public holiday.,100.0,2,5.5% true,True
+calendar,is_payday,,bool,bool,D,"15th or month end, when spending lifts 8-15%.",100.0,2,6.5% true,False
+calendar,is_ber_month,,bool,bool,D,"September to December, the Philippine peak retail season.",100.0,2,29.8% true,False

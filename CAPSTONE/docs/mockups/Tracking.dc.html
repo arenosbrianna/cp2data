@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tracking and baseline comparison</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F6F3}
+a{color:#1E3A8A}a:hover{color:#172554}
+.nav{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:10px;font-size:15px;font-weight:600;color:#374151;text-decoration:none}
+.nav:hover{background:#EEF2FF;color:#1E3A8A}
+.nav.on{background:#E0E7FF;color:#1E3A8A}
+.card{background:#FFFFFF;border:1px solid #E7E5E0;border-radius:14px}
+.mono{font-family:'JetBrains Mono',monospace}
+.btn{font:inherit;font-size:14px;font-weight:700;border-radius:10px;padding:10px 16px;min-height:44px;cursor:pointer;border:1px solid #CBD5E1;background:#FFFFFF;color:#1E3A8A}
+.th{font-size:12px;font-weight:700;color:#4B5563;letter-spacing:.04em;text-align:left;padding:12px 12px;background:#FAFAF8;border-bottom:1px solid #E7E5E0;white-space:nowrap}
+.td{font-size:14px;padding:12px 12px;border-bottom:1px solid #EDEBE6;vertical-align:top}
+</style>
+</helmet>
+<div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #111827; background: #F6F6F3; min-height: 100vh">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #E7E5E0; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 36px; height: 36px; border-radius: 50%; background: #B91C1C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 15px">M</div>
+<div style="display: flex; flex-direction: column"><span style="font-weight: 800; font-size: 18px; color: #1E3A8A">makisushi</span><span style="font-size: 11px; color: #4B5563; font-weight: 600">Inventory decision support</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+<span style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #374151; background: #F1F5F9; border-radius: 999px; padding: 8px 14px"><span style="width: 8px; height: 8px; border-radius: 50%; background: #2563EB"></span>Data as of Sun 18 Oct, 11:30 PM · Loyverse export</span>
+<span style="font-size: 14px; font-weight: 600; color: #374151">L. Astoriano · Manager</span>
+</div>
+</header>
+
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start">
+<nav aria-label="Main" style="flex: 1 1 240px; max-width: 100%; box-sizing: border-box; padding: 20px 16px; display: flex; flex-direction: column; gap: 4px">
+<a class="nav" href="Overview.dc.html">Overview</a>
+<a class="nav" href="Forecast.dc.html">Demand forecasts</a>
+<a class="nav" href="Risk.dc.html">Risk alerts <span style="margin-left: auto; font-size: 12px; font-weight: 800; background: #FEE2E2; color: #991B1B; border-radius: 999px; padding: 2px 8px">5</span></a>
+<a class="nav" href="Purchasing.dc.html">Purchasing</a>
+<a class="nav on" href="Tracking.dc.html">Tracking</a>
+<div style="height: 1px; background: #E7E5E0; margin: 12px 4px"></div>
+<a class="nav" href="Main.dc.html">Gap audit</a>
+</nav>
+
+<main style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 24px 64px; display: flex; flex-direction: column; gap: 24px">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 14px; font-weight: 700; color: #1E3A8A">Feedback loop · §1.3 and §3.3.6</div>
+<h1 style="margin: 0; font-size: 36px; font-weight: 800; letter-spacing: -0.02em">Tracking and baseline comparison</h1>
+<p style="margin: 0; font-size: 15px; color: #4B5563; max-width: 820px">Did the recommendations get followed, and did they work? Baseline is the pre-DSS average (Jun–Aug 2026). Post-DSS is the 4 weeks since go-live on Mon 21 Sep.</p>
+</div>
+<button class="btn" type="button">Export comparison (PDF)</button>
+</div>
+
+<section style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px">
+<sc-for list="{{kpis}}" as="k" hint-placeholder-count="4">
+<div class="card" style="padding: 18px 20px; display: flex; flex-direction: column; gap: 10px">
+<div style="font-size: 12px; font-weight: 700; color: #4B5563; letter-spacing: .05em">{{k.label}}</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px">
+<div><div style="font-size: 11px; color: #4B5563; font-weight: 700">BASELINE</div><div class="mono" style="font-size: 20px; color: #4B5563">{{k.base}}</div></div>
+<div><div style="font-size: 11px; color: #1E3A8A; font-weight: 700">POST-DSS</div><div class="mono" style="font-size: 20px; font-weight: 600">{{k.post}}</div></div>
+</div>
+<div style="font-size: 13px; font-weight: 700; color: #047857">{{k.delta}}</div>
+</div>
+</sc-for>
+</section>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: stretch">
+<section class="card" style="flex: 999 1 520px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<div><h2 style="margin: 0; font-size: 18px; font-weight: 800">Weekly food waste, kg</h2><p style="margin: 4px 0 0; font-size: 13px; color: #4B5563">Sum of waste_quantity per week · dashed line = baseline 24.5 kg</p></div>
+<div style="overflow-x: auto">
+<div style="min-width: 560px; display: grid; grid-template-columns: 36px minmax(0, 1fr); gap: 8px">
+<div class="mono" style="height: 200px; display: flex; flex-direction: column; justify-content: space-between; font-size: 12px; color: #4B5563; text-align: right"><span>30</span><span>15</span><span>0</span></div>
+<div style="position: relative; height: 200px; border-bottom: 1px solid #CBD5E1">
+<div style="position: absolute; left: 0; right: 0; bottom: 163px; border-top: 1.5px dashed #4B5563"></div>
+<div style="position: absolute; left: 66.6%; top: 0; bottom: 0; border-left: 2px solid #1E3A8A"></div>
+<div style="position: absolute; left: calc(66.6% + 6px); top: 0; font-size: 12px; font-weight: 700; color: #1E3A8A">Go-live 21 Sep</div>
+<div style="position: absolute; inset: 0; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 10px; align-items: end">
+<sc-for list="{{waste}}" as="w" hint-placeholder-count="12">
+<div title="{{w.title}}" style="height: {{w.h}}px; border-radius: 4px 4px 0 0; background: {{w.bg}}"></div>
+</sc-for>
+</div>
+</div>
+<span></span>
+<div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 10px; font-size: 11px; color: #4B5563; text-align: center"><sc-for list="{{waste}}" as="w" hint-placeholder-count="12"><span>{{w.wk}}</span></sc-for></div>
+</div>
+</div>
+</section>
+
+<section class="card" style="flex: 1 1 300px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Recommendation adoption · 4 weeks</h2>
+<div style="display: flex; height: 14px; border-radius: 999px; overflow: hidden">
+<div style="width: 61%; background: #1E3A8A"></div><div style="width: 14%; background: #60A5FA"></div><div style="width: 25%; background: #F59E0B"></div>
+</div>
+<div style="display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; font-size: 14px">
+<span style="display: inline-flex; gap: 8px; align-items: center"><span style="width: 10px; height: 10px; background: #1E3A8A; border-radius: 2px"></span>Applied</span><span class="mono">22 (61%)</span>
+<span style="display: inline-flex; gap: 8px; align-items: center"><span style="width: 10px; height: 10px; background: #60A5FA; border-radius: 2px"></span>Modified</span><span class="mono">5 (14%)</span>
+<span style="display: inline-flex; gap: 8px; align-items: center"><span style="width: 10px; height: 10px; background: #F59E0B; border-radius: 2px"></span>Dismissed</span><span class="mono">9 (25%)</span>
+</div>
+<div style="border-top: 1px solid #EDEBE6; padding-top: 10px; font-size: 13px; font-weight: 700; color: #374151">Top dismissal reasons</div>
+<div style="font-size: 13px; color: #374151; line-height: 1.6">Supplier out of stock (4) · Bulk discount offered (3) · Event booking not in data (2)</div>
+<div style="font-size: 12px; color: #4B5563; line-height: 1.5">"Event booking not in data" means private bookings should become an ML regression feature.</div>
+</section>
+</div>
+
+<section class="card" style="padding: 0; overflow: hidden">
+<div style="padding: 20px 22px 12px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px">
+<div><h2 style="margin: 0; font-size: 20px; font-weight: 800">Recommendation log</h2><p style="margin: 4px 0 0; font-size: 13px; color: #4B5563">fact_recommendation · outcome measured on the next ETL cycle</p></div>
+</div>
+<div style="overflow-x: auto">
+<table style="width: 100%; border-collapse: collapse; min-width: 1000px">
+<thead><tr><th class="th">Date</th><th class="th">Type</th><th class="th">Recommendation</th><th class="th">Decision</th><th class="th">By</th><th class="th">Measured outcome</th></tr></thead>
+<tbody>
+<sc-for list="{{log}}" as="r" hint-placeholder-count="6">
+<tr>
+<td class="td" style="white-space: nowrap">{{r.date}}</td>
+<td class="td" style="white-space: nowrap; color: #374151">{{r.type}}</td>
+<td class="td" style="font-weight: 600">{{r.rec}}</td>
+<td class="td" style="white-space: nowrap">
+<sc-if value="{{r.applied}}" hint-placeholder-val="{{true}}"><span style="font-size: 12px; font-weight: 800; padding: 4px 8px; border-radius: 6px; background: #DBEAFE; color: #1E3A8A">✓ Applied</span></sc-if>
+<sc-if value="{{r.modified}}" hint-placeholder-val="{{false}}"><span style="font-size: 12px; font-weight: 800; padding: 4px 8px; border-radius: 6px; background: #E0F2FE; color: #075985">✎ Modified</span></sc-if>
+<sc-if value="{{r.dismissed}}" hint-placeholder-val="{{false}}"><span style="font-size: 12px; font-weight: 800; padding: 4px 8px; border-radius: 6px; background: #FEF3C7; color: #92400E">✕ Dismissed</span></sc-if>
+<div style="font-size: 12px; color: #4B5563; margin-top: 6px; white-space: normal">{{r.reason}}</div>
+</td>
+<td class="td" style="white-space: nowrap">{{r.by}}</td>
+<td class="td">{{r.outcome}}</td>
+</tr>
+</sc-for>
+</tbody>
+</table>
+</div>
+</section>
+
+<section class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 12px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Forecast accuracy since go-live</h2>
+<p style="margin: 0; font-size: 13px; color: #4B5563">Volume-weighted WMAPE across all perishable ingredients, using actuals from each new ETL cycle. Models retrain weekly.</p>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px">
+<sc-for list="{{acc}}" as="a" hint-placeholder-count="4">
+<div style="background: #F8FAFC; border-radius: 10px; padding: 12px 14px"><div style="font-size: 12px; color: #4B5563; font-weight: 700">{{a.wk}}</div><div class="mono" style="font-size: 22px; font-weight: 600">{{a.v}}</div></div>
+</sc-for>
+</div>
+</section>
+</main>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1560}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const W = [["27 Jul", 25.1], ["3 Aug", 23.8], ["10 Aug", 24.9], ["17 Aug", 24.2], ["24 Aug", 25.6], ["31 Aug", 23.9], ["7 Sep", 24.4], ["14 Sep", 24.0], ["21 Sep", 21.8], ["28 Sep", 19.6], ["5 Oct", 18.4], ["12 Oct", 17.9]];
+    const waste = W.map((w, i) => ({ wk: w[0], h: Math.round(w[1] / 30 * 200), bg: i >= 8 ? "#1E3A8A" : "#94A3B8", title: "Week of " + w[0] + ": " + w[1] + " kg" }));
+    const L = [
+      { date: "Sun 18 Oct", type: "Excess capital", rec: "Freeze cream cheese reorder (3.2 kg over forecast)", d: "applied", by: "L. Astoriano", outcome: "Pending: measured after Mon 19 Oct ETL" },
+      { date: "Sat 17 Oct", type: "Spoilage", rec: "15% salmon lunch promo, 2.1 kg at risk", d: "applied", by: "L. Astoriano", outcome: "1.9 kg used, 0.2 kg wasted · ≈ ₱2,185 saved" },
+      { date: "Fri 16 Oct", type: "Weekly order", rec: "Balanced LP plan, ₱39,880", d: "modified", reason: "+1.0 kg salmon for a weekend booking", by: "L. Astoriano", outcome: "Waste 4.8 kg vs 5.0 kg projected" },
+      { date: "Thu 15 Oct", type: "Stockout", rec: "Order 3.0 kg hamachi from SUP-01", d: "dismissed", reason: "Supplier out of stock", by: "Kitchen lead", outcome: "1 stockout event Fri dinner (hamachi items 86'd)" },
+      { date: "Wed 14 Oct", type: "Spoilage", rec: "Use 8 ripe avocados in dinner prep", d: "applied", by: "Kitchen lead", outcome: "0 pcs wasted" },
+      { date: "Tue 13 Oct", type: "Excess capital", rec: "Skip ebi order (5.5 kg over forecast)", d: "dismissed", reason: "Bulk discount offered", by: "L. Astoriano", outcome: "Excess persists: 5.5 kg · ₱3,410 tied up" }
+    ];
+    return {
+      waste,
+      log: L.map((r) => Object.assign({}, r, { applied: r.d === "applied", modified: r.d === "modified", dismissed: r.d === "dismissed", reason: r.reason || "" })),
+      kpis: [
+        { label: "AVG WEEKLY FOOD WASTE", base: "24.5 kg", post: "19.4 kg", delta: "↓ 21% (5.1 kg/week less)" },
+        { label: "SPOILAGE RATE (WASTE ÷ RECEIVED)", base: "8.2%", post: "6.6%", delta: "↓ 1.6 pts" },
+        { label: "STOCKOUT FREQUENCY", base: "3.1 / wk", post: "1.5 / wk", delta: "↓ 52%" },
+        { label: "INVENTORY TURNOVER", base: "4.2× / mo", post: "4.9× / mo", delta: "↑ 0.7× (stock moves faster)" }
+      ],
+      acc: [{ wk: "Wk 1 · 21 Sep", v: "15.8%" }, { wk: "Wk 2 · 28 Sep", v: "14.9%" }, { wk: "Wk 3 · 5 Oct", v: "14.1%" }, { wk: "Wk 4 · 12 Oct", v: "13.6%" }]
+    };
+  }
+}
+</script>
+</body>
+</html>

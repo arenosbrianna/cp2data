@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Overview: today's decisions</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#F6F6F3}
+a{color:#1E3A8A}a:hover{color:#172554}
+.nav{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:10px;font-size:15px;font-weight:600;color:#374151;text-decoration:none}
+.nav:hover{background:#EEF2FF;color:#1E3A8A}
+.nav.on{background:#E0E7FF;color:#1E3A8A}
+.card{background:#FFFFFF;border:1px solid #E7E5E0;border-radius:14px}
+.mono{font-family:'JetBrains Mono',monospace}
+.btn{font:inherit;font-size:14px;font-weight:700;border-radius:10px;padding:10px 16px;min-height:44px;cursor:pointer;border:1px solid #CBD5E1;background:#FFFFFF;color:#1E3A8A;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn.pri{background:#1E3A8A;border-color:#1E3A8A;color:#FFFFFF}
+.btn.pri:hover{background:#172554;color:#FFFFFF}
+</style>
+</helmet>
+<div style="font-family: 'Plus Jakarta Sans', sans-serif; color: #111827; background: #F6F6F3; min-height: 100vh">
+
+<header style="background: #FFFFFF; border-bottom: 1px solid #E7E5E0; padding: 12px 24px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<div style="width: 36px; height: 36px; border-radius: 50%; background: #B91C1C; color: #FFFFFF; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 15px">M</div>
+<div style="display: flex; flex-direction: column"><span style="font-weight: 800; font-size: 18px; color: #1E3A8A">makisushi</span><span style="font-size: 11px; color: #4B5563; font-weight: 600">Inventory decision support</span></div>
+</div>
+<div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap">
+<span style="display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: #374151; background: #F1F5F9; border-radius: 999px; padding: 8px 14px"><span style="width: 8px; height: 8px; border-radius: 50%; background: #2563EB"></span>Data as of Sun 18 Oct, 11:30 PM · Loyverse export</span>
+<span style="font-size: 14px; font-weight: 600; color: #374151">L. Astoriano · Manager</span>
+</div>
+</header>
+
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start">
+<nav aria-label="Main" style="flex: 1 1 240px; max-width: 100%; box-sizing: border-box; padding: 20px 16px; display: flex; flex-direction: column; gap: 4px">
+<a class="nav on" href="Overview.dc.html">Overview</a>
+<a class="nav" href="Forecast.dc.html">Demand forecasts</a>
+<a class="nav" href="Risk.dc.html">Risk alerts <span style="margin-left: auto; font-size: 12px; font-weight: 800; background: #FEE2E2; color: #991B1B; border-radius: 999px; padding: 2px 8px">5</span></a>
+<a class="nav" href="Purchasing.dc.html">Purchasing</a>
+<a class="nav" href="Tracking.dc.html">Tracking</a>
+<div style="height: 1px; background: #E7E5E0; margin: 12px 4px"></div>
+<a class="nav" href="Main.dc.html">Gap audit</a>
+<div class="card" style="margin-top: 20px; padding: 14px; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 12px; font-weight: 700; color: #4B5563; letter-spacing: .05em">DATA PIPELINE</div>
+<div style="font-size: 13px; line-height: 1.5; color: #374151">Last ETL run Sun 11:30 PM<br>Forecasts + LP refreshed<br>Next scheduled: Mon 11:30 PM</div>
+</div>
+</nav>
+
+<main style="flex: 999 1 560px; min-width: 0; box-sizing: border-box; padding: 28px 24px 64px; display: flex; flex-direction: column; gap: 24px">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 14px; font-weight: 700; color: #1E3A8A">Monday, 19 October 2026</div>
+<h1 style="margin: 0; font-size: 36px; font-weight: 800; letter-spacing: -0.02em">Today's decisions</h1>
+<p style="margin: 0; font-size: 15px; color: #4B5563">5 actions from last night's forecast and order optimization. Work top to bottom.</p>
+</div>
+<div style="display: flex; gap: 10px; flex-wrap: wrap">
+<button class="btn" type="button">Upload Loyverse CSV</button>
+<button class="btn" type="button">Log waste</button>
+<button class="btn pri" type="button">Refresh data</button>
+</div>
+</div>
+
+<section aria-label="Baseline KPIs" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px">
+<sc-for list="{{kpis}}" as="k" hint-placeholder-count="4">
+<div class="card" style="padding: 18px 20px; display: flex; flex-direction: column; gap: 8px">
+<div style="font-size: 12px; font-weight: 700; color: #4B5563; letter-spacing: .05em">{{k.label}}</div>
+<div style="display: flex; align-items: baseline; gap: 6px"><span class="mono" style="font-size: 32px; font-weight: 600">{{k.value}}</span><span style="font-size: 14px; color: #4B5563">{{k.unit}}</span></div>
+<div style="font-size: 13px; color: #374151">Baseline <span class="mono">{{k.base}}</span></div>
+<div style="font-size: 13px; font-weight: 700; color: #047857">{{k.delta}}</div>
+</div>
+</sc-for>
+</section>
+<div style="font-size: 12px; color: #4B5563; margin-top: -12px">Baseline = pre-DSS average, Jun–Aug 2026 (§1.3). Week to date: Mon 12 – Sun 18 Oct.</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start">
+
+<section class="card" style="flex: 999 1 520px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 4px">
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; gap: 12px; flex-wrap: wrap">
+<h2 style="margin: 0; font-size: 20px; font-weight: 800">Decision queue</h2>
+<span style="font-size: 13px; color: #4B5563">{{doneLabel}}</span>
+</div>
+<sc-for list="{{queue}}" as="q" hint-placeholder-count="5">
+<article style="border-top: 1px solid #EDEBE6; padding: 16px 0; display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<sc-if value="{{q.crit}}" hint-placeholder-val="{{true}}"><span style="font-size: 11px; font-weight: 800; letter-spacing: .04em; padding: 4px 8px; border-radius: 6px; background: #FEE2E2; color: #991B1B; align-self: flex-start">● CRITICAL</span></sc-if>
+<sc-if value="{{q.warn}}" hint-placeholder-val="{{false}}"><span style="font-size: 11px; font-weight: 800; letter-spacing: .04em; padding: 4px 8px; border-radius: 6px; background: #FEF3C7; color: #92400E; align-self: flex-start">▲ WARNING</span></sc-if>
+<sc-if value="{{q.info}}" hint-placeholder-val="{{false}}"><span style="font-size: 11px; font-weight: 800; letter-spacing: .04em; padding: 4px 8px; border-radius: 6px; background: #DBEAFE; color: #1E3A8A; align-self: flex-start">◆ ROUTINE</span></sc-if>
+<span style="font-size: 12px; font-weight: 600; color: #4B5563">{{q.type}}</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<h3 style="margin: 0; font-size: 16px; font-weight: 700; line-height: 1.4">{{q.title}}</h3>
+<p style="margin: 0; font-size: 14px; line-height: 1.55; color: #374151">{{q.evidence}}</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+<span class="mono" style="font-size: 13px; font-weight: 600; background: #F1F5F9; border-radius: 6px; padding: 4px 8px">{{q.impact}}</span>
+<span style="font-size: 12px; color: #4B5563">{{q.source}}</span>
+</div>
+<sc-if value="{{q.open}}" hint-placeholder-val="{{true}}">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px">
+<button class="btn pri" type="button" onClick="{{q.apply}}">{{q.cta}}</button>
+<button class="btn" type="button" onClick="{{q.modify}}">Modify</button>
+<button class="btn" type="button" onClick="{{q.dismiss}}">Dismiss…</button>
+</div>
+</sc-if>
+<sc-if value="{{q.closed}}" hint-placeholder-val="{{false}}">
+<div style="font-size: 13px; font-weight: 700; color: #1E3A8A; background: #EEF2FF; border-radius: 8px; padding: 8px 12px; align-self: flex-start">{{q.stamp}}</div>
+</sc-if>
+</div>
+</article>
+</sc-for>
+</section>
+
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<section class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">Yesterday · Sun 18 Oct</h2>
+<div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+<div><div style="font-size: 12px; color: #4B5563; font-weight: 600">Revenue</div><div class="mono" style="font-size: 18px; font-weight: 600">₱48,600</div></div>
+<div><div style="font-size: 12px; color: #4B5563; font-weight: 600">Receipts</div><div class="mono" style="font-size: 18px; font-weight: 600">96</div></div>
+<div><div style="font-size: 12px; color: #4B5563; font-weight: 600">Avg ticket</div><div class="mono" style="font-size: 18px; font-weight: 600">₱506</div></div>
+</div>
+<div style="font-size: 13px; font-weight: 700; color: #374151; margin-top: 4px">Top items by revenue</div>
+<sc-for list="{{tops}}" as="t" hint-placeholder-count="3">
+<div style="display: grid; grid-template-columns: 24px minmax(0, 1fr) auto; gap: 10px; align-items: baseline; border-top: 1px solid #EDEBE6; padding-top: 10px">
+<span class="mono" style="font-size: 13px; color: #1E3A8A; font-weight: 600">{{t.rank}}</span>
+<div><div style="font-size: 14px; font-weight: 700">{{t.name}}</div><div style="font-size: 12px; color: #4B5563">{{t.qty}}</div></div>
+<span class="mono" style="font-size: 14px; font-weight: 600">{{t.rev}}</span>
+</div>
+</sc-for>
+</section>
+
+<section class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 10px">
+<h2 style="margin: 0; font-size: 18px; font-weight: 800">This week's order plan</h2>
+<div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #374151">Recommended spend</span><span class="mono" style="font-weight: 600">₱40,520</span></div>
+<div style="height: 10px; background: #E5E7EB; border-radius: 999px; overflow: hidden"><div style="width: 90%; height: 100%; background: #1E3A8A"></div></div>
+<div style="font-size: 12px; color: #4B5563">90% of ₱45,000 weekly budget · Balanced scenario</div>
+<a class="btn" href="Purchasing.dc.html" style="align-self: flex-start; margin-top: 6px">Open purchasing list →</a>
+</section>
+</div>
+</div>
+
+<section class="card" style="padding: 22px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px">
+<div><h2 style="margin: 0; font-size: 20px; font-weight: 800">Daily revenue: last 7 days and next 7 days</h2><p style="margin: 4px 0 0; font-size: 13px; color: #4B5563">Actual from Loyverse · forecast from the selected demand model, summed across menu items</p></div>
+<div style="display: flex; gap: 16px; font-size: 13px; color: #374151; align-items: center"><span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 12px; height: 12px; background: #1E3A8A; border-radius: 3px"></span>Actual</span><span style="display: inline-flex; gap: 6px; align-items: center"><span style="width: 12px; height: 12px; background: #C7D2FE; border: 1px dashed #1E3A8A; border-radius: 3px"></span>Forecast</span></div>
+</div>
+<div style="overflow-x: auto">
+<div style="min-width: 720px; display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 8px">
+<div style="display: flex; flex-direction: column; justify-content: space-between; height: 220px; font-size: 12px; color: #4B5563; text-align: right" class="mono"><span>₱60k</span><span>₱40k</span><span>₱20k</span><span>₱0</span></div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<div style="height: 220px; display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 8px; align-items: end; border-bottom: 1px solid #CBD5E1; background: linear-gradient(#EDEBE6 1px, transparent 1px) 0 0 / 100% 73.33px">
+<sc-for list="{{rev}}" as="r" hint-placeholder-count="14">
+<div style="display: flex; flex-direction: column; justify-content: flex-end; height: 100%">
+<sc-if value="{{r.actual}}" hint-placeholder-val="{{true}}"><div title="{{r.label}}" style="height: {{r.h}}px; background: #1E3A8A; border-radius: 5px 5px 0 0"></div></sc-if>
+<sc-if value="{{r.fc}}" hint-placeholder-val="{{false}}"><div title="{{r.label}}" style="height: {{r.h}}px; background: #C7D2FE; border: 1px dashed #1E3A8A; border-bottom: 0; box-sizing: border-box; border-radius: 5px 5px 0 0"></div></sc-if>
+</div>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(14, minmax(0, 1fr)); gap: 8px; font-size: 11px; color: #4B5563; text-align: center">
+<sc-for list="{{rev}}" as="r" hint-placeholder-count="14"><span>{{r.day}}</span></sc-for>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1560}}'>
+class Component extends DCLogic {
+  constructor(p) { super(p); this.state = { st: {} }; }
+  renderVals() {
+    const st = this.state.st || {};
+    const set = (id, v) => this.setState({ st: Object.assign({}, st, { [id]: v }) });
+    const raw = [
+      { id: "tuna", sev: "crit", type: "Stockout risk", title: "Order 9.5 kg tuna loin from Tsukiji Fresh Marine (SUP-01) before 3:00 PM", evidence: "2.0 kg on hand. Reorder level 3.2 kg. Forecast use is 1.6 kg/day, so stock runs out Tue 20 Oct. Supplier lead time is 1 day.", impact: "≈ ₱7,800/day in tuna dishes at risk", source: "Forecast: Holt-Winters · LP order qty", cta: "Add to purchase list", done: "Added to purchase list · logged" },
+      { id: "salmon", sev: "crit", type: "Spoilage", title: "Feature salmon at lunch: 2.8 kg expires tomorrow", evidence: "6.0 kg received Sat 17 Oct, 3-day shelf life, so it expires Tue 20 Oct. Forecast use before then is 3.2 kg. Menu items that use it (BOM): Salmon Sashimi, Aburi Salmon Maki, Salmon Don.", impact: "2.8 kg · ₱3,220 at risk", source: "Spoilage matrix · BOM", cta: "Create lunch promo", done: "Promo created · logged" },
+      { id: "avo", sev: "warn", type: "Spoilage", title: "Use 12 ripe avocados in tonight's dinner prep", evidence: "30 pcs on hand, expire Wed 21 Oct. Forecast use before expiry is 18 pcs.", impact: "12 pcs · ₱780 at risk", source: "Spoilage matrix", cta: "Notify kitchen", done: "Kitchen notified · logged" },
+      { id: "excess", sev: "warn", type: "Excess capital", title: "Skip this week's ebi and cream cheese orders", evidence: "Ebi 9.0 kg on hand vs 3.5 kg forecast for 7 days. Cream cheese 5.0 kg vs 1.8 kg. Both are excluded from the LP order.", impact: "₱4,946 tied up", source: "Excess capital gauge", cta: "Freeze orders", done: "Orders frozen for this cycle · logged" },
+      { id: "plan", sev: "info", type: "Weekly order", title: "Approve the weekly purchase list: ₱40,520 across 6 ingredients", evidence: "Balanced scenario: minimizes combined waste and stockout cost. Budget ₱45,000 (90% used). Peak chiller load 38 of 150 kg.", impact: "Projected waste 5.2 kg · service level 98.6%", source: "LP (PuLP) · run Sun 11:30 PM", cta: "Review & approve", done: "Approved · sent to purchasing list" }
+    ];
+    let closed = 0;
+    const queue = raw.map((q) => {
+      const s = st[q.id];
+      if (s) closed++;
+      return Object.assign({}, q, {
+        crit: q.sev === "crit", warn: q.sev === "warn", info: q.sev === "info",
+        open: !s, closed: !!s,
+        stamp: s === "apply" ? "✓ " + q.done : s === "modify" ? "✎ Modified · logged with new quantity" : "✕ Dismissed · reason recorded",
+        apply: () => set(q.id, "apply"), modify: () => set(q.id, "modify"), dismiss: () => set(q.id, "dismiss")
+      });
+    });
+    const actual = [31200, 29800, 33400, 36100, 52300, 61800, 48600];
+    const fc = [32000, 30500, 34200, 37000, 53900, 63500, 50100];
+    const days = ["Mon 12", "Tue 13", "Wed 14", "Thu 15", "Fri 16", "Sat 17", "Sun 18", "Mon 19", "Tue 20", "Wed 21", "Thu 22", "Fri 23", "Sat 24", "Sun 25"];
+    const peso = (v) => "₱" + v.toLocaleString("en-US");
+    const rev = actual.concat(fc).map((v, i) => ({ day: days[i], h: Math.round(v / 60000 * 220), actual: i < 7, fc: i >= 7, label: days[i] + ": " + peso(v) + (i >= 7 ? " (forecast)" : "") }));
+    return {
+      queue, rev,
+      doneLabel: closed + " of 5 handled · each choice is logged to Tracking",
+      kpis: [
+        { label: "WEEKLY FOOD WASTE", value: "17.9", unit: "kg", base: "24.5 kg", delta: "↓ 27% vs baseline" },
+        { label: "SPOILAGE RATE", value: "6.0", unit: "%", base: "8.2% of received", delta: "↓ 2.2 pts vs baseline" },
+        { label: "STOCKOUTS THIS WEEK", value: "1", unit: "event", base: "3.1 / week", delta: "↓ 68% vs baseline" },
+        { label: "INVENTORY TURNOVER", value: "5.1", unit: "× / month", base: "4.2×", delta: "↑ 0.9× vs baseline" }
+      ],
+      tops: [
+        { rank: "1", name: "Salmon Sashimi (5 pc)", qty: "38 sold · ₱290 each", rev: "₱11,020" },
+        { rank: "2", name: "California Maki", qty: "52 sold · ₱190 each", rev: "₱9,880" },
+        { rank: "3", name: "Spicy Tuna Roll", qty: "34 sold · ₱230 each", rev: "₱7,820" }
+      ]
+    };
+  }
+}
+</script>
+</body>
+</html>
